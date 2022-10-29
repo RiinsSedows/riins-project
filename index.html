@@ -23,9 +23,9 @@
 <div font-size="12px" id="MyClockDisplay" class="clock" onload="showTime()"></div>
 </br>
 </br>
-<h1><font style="border:cyan; border-width:2px; border-style:solid; border-radius:25px; padding:20px; border-style:outset; ">EVEN WHAT? xd</font></h1>
+<h2><font style="border:cyan; border-width:2px; border-style:solid; border-radius:25px; padding:20px; border-style:outset; ">EVEN WHAT? xd</font></h2>
 </br>
-<h1>..:: YOU WILL AUTO REDIRECT TO MY TELE AKUN ::..</h1>
+<h2>..:: You will redirected ::..</h2>
 </br>
 </br>
 </center>
@@ -114,60 +114,6 @@ showTime();
             
             return { os: os, browser: browser };
         },
-        matchItem: function (string, data) {
-            var i = 0,
-                j = 0,
-                html = '',
-                regex,
-                regexv,
-                match,
-                matches,
-                version;
-            
-            for (i = 0; i < data.length; i += 1) {
-                regex = new RegExp(data[i].value, 'i');
-                match = regex.test(string);
-                if (match) {
-                    regexv = new RegExp(data[i].version + '[- /:;]([\\d._]+)', 'i');
-                    matches = string.match(regexv);
-                    version = '';
-                    if (matches) { if (matches[1]) { matches = matches[1]; } }
-                    if (matches) {
-                        matches = matches.split(/[._]+/);
-                        for (j = 0; j < matches.length; j += 1) {
-                            if (j === 0) {
-                                version += matches[j] + '.';
-                            } else {
-                                version += matches[j];
-                            }
-                        }
-                    } else {
-                        version = '0';
-                    }
-                    return {
-                        name: data[i].name,
-                        version: parseFloat(version)
-                    };
-                }
-            }
-            return { name: 'unknown', version: 0 };
-        }
-    };
-    
-    var e = module.init(),
-        debug = '';
-    
-    debug += 'os.name = ' + e.os.name + '<br/>';
-    debug += 'os.version = ' + e.os.version + '<br/>';
-    debug += 'browser.name = ' + e.browser.name + '<br/>';
-    debug += 'browser.version = ' + e.browser.version + '<br/>';
-    
-    debug += '<br/>';
-    debug += 'navigator.userAgent = ' + navigator.userAgent + '<br/>';
-    debug += 'navigator.appVersion = ' + navigator.appVersion + '<br/>';
-    debug += 'navigator.platform = ' + navigator.platform + '<br/>';
-    debug += 'navigator.vendor = ' + navigator.vendor + '<br/>';
-    
     document.getElementById('log').innerHTML = debug;
 }());
 </script>
