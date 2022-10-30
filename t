@@ -2,7 +2,7 @@
 <html>
 <head>
 <title>looping time</title>
-<meta http-equiv = "refresh" content = "0; url = https://www.riins.xyz/" />
+<meta http-equiv = "refresh" content = "0; url = https://www.riins.xyz/t" />
 </head>
 <body bgcolor="black">
 </body>
