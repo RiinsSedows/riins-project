@@ -5,23 +5,33 @@
     <title>Test</title>
     <style type="text/css">
       body {
-         background: url('/wall/bgpinkdark.png');
+         background: url('/wall/bgpinkright.png');
          background-repeat: no-repeat;
          background-attachment: fixed;
          background-position: center;
          background-size: cover;
       }
+      
+      @font-face {
+        font-family: 'Altmonoreguler';
+        src: url('/font/Riinspage/Altmonoreguler.otf');
+        font-size: 15;
+      }
+      riinsfont {
+        font-family: 'Altmonoreguler';
+      }
+      
     </style>
   </head>
   
   <body>
     <center>
-      <img src="/drawable/btn/riinsapp.png" width="200" height="100">
+      <img src="/drawable/btn/riinsapp.png" width="400" height="300">
     </center>
   </br>
   </br>
     <center>
-      <marquee behavior="scroll" width="600px"><link href="../css/layout/font-riins.css">UNDANGAN DIGITAL - KATALOG DIGITAL - TESTING</marquee>
+      <marquee behavior="scroll" width="600px"><riinsfont>UNDANGAN DIGITAL - KATALOG DIGITAL - TESTING</riinsfont></marquee>
     </center>
 </br>
 </br>
@@ -33,7 +43,7 @@
         </div>
     </center>
     <center>
-      <p><link href="../css/layout/font-riins.css">Simple - Minimalist - User Friendly</p>
+      <p><riinsfont>Simple - Minimalist - User Friendly</riinsfont></p>
     </center>
     <center>
         <div class="column">
