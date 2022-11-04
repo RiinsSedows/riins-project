@@ -37,7 +37,7 @@ Altmono {
   width: 100%;
   border-style: solid;
   border: #ffffff;
-  border-radius: 30px; 
+  border-radius: 50px; 
 }
 
 .navbar a {
@@ -61,6 +61,5 @@ Altmono {
 }
 
 .main {
-  padding: 16px;
   margin-bottom: 30px;
 }
