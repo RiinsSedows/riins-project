@@ -5,6 +5,7 @@ body {
   background-repeat: no repeat;
   max-width: 600px;
   width: 600px;
+  background-size: cover;
 }
 
 h1.darkblue {
