@@ -3,7 +3,7 @@ body {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no repeat;
-  background-size: 720 1800;
+  background-size: 720px 1800px;
   background-origin: border-box;
 }
 
@@ -30,21 +30,29 @@ Altmono {
   color: #13116F;
 }
 
+#bgatas {
+  background-color: #13116F;
+  max-width: 720px;
+  box-sizing: content-box;
+}
+
 .navbar {
   overflow: hidden;
   background-color: #ffffff;
   position: fixed;
   bottom: 0;
-  width: 99%;
-  max-width: 600px;
+  width: 90%;
+  max-width: 720px;
   border-style: solid;
   border: #ffffff;
   border-radius: 50px; 
   margin-bottom: 20px;
+  box-sizing: content-box;
 }
 
 .navbar a {
   float: center;
+  position: center;
   display: block;
   color: #f2f2f2;
   text-align: center;
@@ -65,5 +73,5 @@ Altmono {
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 10;
 }
