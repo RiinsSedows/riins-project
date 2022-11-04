@@ -36,12 +36,13 @@ Altmono {
   box-sizing: content-box;
 }
 
-.navbar {
+#navbar {
   overflow: hidden;
   background-color: #ffffff;
   bottom: 0;
   max-width: 720px;
   box-sizing: content-box;
+  border-radius: 50px;
 
 }
 
