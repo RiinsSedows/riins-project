@@ -34,10 +34,11 @@ Altmono {
   background-color: #ffffff;
   position: fixed;
   bottom: 0;
-  width: 100%;
+  width: 99%;
   border-style: solid;
   border: #ffffff;
   border-radius: 50px; 
+  margin-bottom: 20px;
 }
 
 .navbar a {
@@ -57,8 +58,4 @@ Altmono {
 .navbar a.active {
   background-color: #13116F;
   color: white;
-}
-
-.main {
-  margin-bottom: 30px;
 }
