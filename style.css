@@ -50,26 +50,6 @@ Altmono {
   box-sizing: content-box;
 }
 
-.navbar a {
-  float: center;
-  position: center;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.navbar a:hover {
-  background: #13116F;
-  color: black;
-}
-
-.navbar a.active {
-  background-color: #13116F;
-  color: white;
-}
-
 ul {
   list-style-type: none;
   margin: 0;
