@@ -1,8 +1,9 @@
 body {
   background-color: Linen;
   min-height: 100vh;
-  width: 720px;
-  
+  width: 100%;
+  max-width: 720px;
+  height: 1600px;
 }
 
 h1.darkblue {
@@ -30,15 +31,15 @@ Altmono {
 
 .bgatas {
   background-color: #13116F;
+  width: 100%;
   max-width: 720px;
   box-sizing: content-box;
 }
 
 .navbar {
-  overflow: auto;
   background-color: mediumspringgren;
   bottom: 0;
-  max-width: 720px;
+  width: 100%;
   box-sizing: content-box;
   border-radius: 50px;
 
