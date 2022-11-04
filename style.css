@@ -2,6 +2,7 @@ body {
   background-color: Linen;
   background-size: cover;
   min-height: 100vh;
+  min-width: 100vh;
   
 }
 
@@ -28,15 +29,15 @@ Altmono {
   color: magenta;
 }
 
-#bgatas {
+.bgatas {
   background-color: #13116F;
   max-width: 720px;
   box-sizing: content-box;
 }
 
-#navbar {
-  overflow: hidden;
-  background-color: #ffffff;
+.navbar {
+  overflow: auto;
+  background-color: mediumspringgren;
   bottom: 0;
   max-width: 720px;
   box-sizing: content-box;
