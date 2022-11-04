@@ -1,5 +1,5 @@
 body.brightblue {
-  background-image: src('/wall/bgbluebright.png');
+  background-image: url('/wall/bgbluebright.png');
   background-attachment: fixed;
   background-position: center;
   background-repeat: no repeat;
@@ -8,13 +8,13 @@ body.brightblue {
 
 h1.darkblue {
   font-family: Altmono;
-  font-size: 40vw;
+  font-size: 40px;
   color: #0D0C34;
 }
 
 p.subs {
   font-family: Altmono;
-  font-size: 20vw;
+  font-size: 20px;
   color: #13116F;
 }
 
