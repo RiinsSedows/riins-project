@@ -35,6 +35,7 @@ Altmono {
   position: fixed;
   bottom: 0;
   width: 99%;
+  max-width: 600px;
   border-style: solid;
   border: #ffffff;
   border-radius: 50px; 
