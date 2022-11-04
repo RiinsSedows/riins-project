@@ -1,5 +1,5 @@
 body.brightblue {
-  background: src('/wall/bgbluebright.png');
+  background: src('../wall/bgbluebright.png');
   background-attachment: fixed;
   background-position: center;
   background-repeat: no repeat;
@@ -18,7 +18,7 @@ p.subs {
 
 @font-face {
   font-family: Altmono;
-  src: url('/font/Riinspage/Altmonoregular.otf');
+  src: url('../font/Riinspage/Altmonoregular.otf');
 }
 
 p.altmono {
@@ -28,6 +28,8 @@ p.altmono {
 }
 
 div.navbottom {
+  width: auto;
+  margin: auto;
   background-color: white;
   border: blue;
   border-style: solid;
@@ -37,6 +39,8 @@ div.navbottom {
 }
 
 div.navbtn {
+  width: auto;
+  margin: auto;
   background-color: blue;
   border: blue;
   border-style: solid;
