@@ -1,5 +1,5 @@
 body.brightblue {
-  background: src('../wall/bgbluebright.png');
+  background: src('/super/wall/bgbluebright.png');
   background-attachment: fixed;
   background-position: center;
   background-repeat: no repeat;
@@ -18,7 +18,7 @@ p.subs {
 
 @font-face {
   font-family: Altmono;
-  src: url('../font/Riinspage/Altmonoregular.otf');
+  src: url('/super/font/Riinspage/Altmonoregular.otf');
 }
 
 p.altmono {
