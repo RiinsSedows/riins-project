@@ -39,15 +39,10 @@ Altmono {
 .navbar {
   overflow: hidden;
   background-color: #ffffff;
-  position: fixed;
   bottom: 0;
-  width: 90%;
   max-width: 720px;
-  border-style: solid;
-  border: #ffffff;
-  border-radius: 50px; 
-  margin-bottom: 20px;
   box-sizing: content-box;
+
 }
 
 ul {
