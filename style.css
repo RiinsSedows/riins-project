@@ -1,6 +1,8 @@
 body {
   background-color: Linen;
-  background-size: 720px 1800px;
+  background-size: cover;
+  min-height: 100vh;
+  
 }
 
 h1.darkblue {
