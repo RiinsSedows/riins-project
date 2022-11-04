@@ -59,3 +59,9 @@ Altmono {
   background-color: #13116F;
   color: white;
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
