@@ -26,34 +26,37 @@ p.subs {
 Altmono {
   font-family: Altmono;
   font-size: 20px;
-  color: #FF13116F;
+  color: #13116F;
 }
 
 .navbar {
   overflow: hidden;
-  background-color: #333;
+  background-color: #ffffff;
   position: fixed;
   bottom: 0;
   width: 100%;
+  border-style: solid;
+  border: #ffffff;
+  border-radius: 30px; 
 }
 
 .navbar a {
-  float: left;
+  float: center;
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 16px 16px;
   text-decoration: none;
   font-size: 17px;
 }
 
 .navbar a:hover {
-  background: #f1f1f1;
+  background: #13116F;
   color: black;
 }
 
 .navbar a.active {
-  background-color: #4CAF50;
+  background-color: #13116F;
   color: white;
 }
 
