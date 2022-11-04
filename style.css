@@ -1,22 +1,18 @@
 body {
-  background-image: url('/wall/bgbluebright.png');
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no repeat;
+  background-color: Linen;
   background-size: 720px 1800px;
-  background-origin: border-box;
 }
 
 h1.darkblue {
   font-family: Altmono;
   font-size: 40px;
-  color: #0D0C34;
+  color: magenta;
 }
 
 p.subs {
   font-family: Altmono;
   font-size: 20px;
-  color: #13116F;
+  color: magenta;
 }
 
 @font-face {
@@ -27,7 +23,7 @@ p.subs {
 Altmono {
   font-family: Altmono;
   font-size: 20px;
-  color: #13116F;
+  color: magenta;
 }
 
 #bgatas {
