@@ -8,6 +8,7 @@ h1.darkblue {
   font-family: Altmono;
   font-size: 25px;
   color: saddlebrown;
+  position: sticky;
 }
 
 p.subs {
