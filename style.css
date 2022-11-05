@@ -29,7 +29,7 @@ Altmono {
 
 .bgatas {
   background-color: navajowhite;
-  width: 40%;
+  width: 60%;
   border-radius: 30px;
   max-width: auto;
   box-sizing: content-box;
@@ -48,7 +48,7 @@ li {
 
 .navbar {
   background-color: navajowhite;
-  width: 100%;
+  width: 80%;
   max-width: auto;
   box-sizing: content-box;
   margin-bottom: 10px;
