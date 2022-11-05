@@ -81,3 +81,16 @@ img.riins {
   position: relative;
   z-index: 2;
 }
+
+@keyframes tob {
+  from {width: 20px; height: 30px;}
+  to {width:50px; height: 60px;}
+}
+
+img.tobig {
+  width: 50px;
+  height: 60px;
+  position: relative;
+  animation-name: tob;
+  animation-duration: 1s;
+}
