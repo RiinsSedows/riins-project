@@ -28,10 +28,6 @@ Altmono {
   color: saddlebrown;
 }
 
-div {
-  padding: 15px;
-}
-
 .bgatas {
   background-color: navajowhite;
   width: 60%;
@@ -103,14 +99,14 @@ img.tobig {
 
 .slide {display:none;}
 
-.ser {
-  position: relative;
-  animation: animateright 0.4s;
-}
-
 @keyframes animateright {
   from { right:-300px;opacity:0}
   to {left:0;opacity:1}
+}
+
+.ser {
+  position: relative;
+  animation: animateright 0.4s;
 }
 
 .tengah, .tengahh {
