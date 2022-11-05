@@ -49,7 +49,7 @@ li {
 .navbar {
   background-color: navajowhite;
   height: 120px;
-  width: 80%;
+  width: 30%;
   max-width: auto;
   position: sticky;
 }
@@ -89,6 +89,7 @@ img.tobig {
   height: 60px;
   position: relative;
   animation-name: tob 2s;
+  padding: 30px;
 }
 
 .slide {
