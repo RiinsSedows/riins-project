@@ -97,7 +97,7 @@ img.tobig {
   animation-duration: 1s;
 }
 
-img.slide {
+.slide {
   display: none;
 }
 
