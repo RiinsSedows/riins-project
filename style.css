@@ -1,7 +1,7 @@
 body {
   background-color: Linen;
   background-size: cover;
-  width: 900px;
+  max-width: auto;
 }
 
 h1.darkblue {
