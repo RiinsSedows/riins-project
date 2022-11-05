@@ -53,7 +53,6 @@ li {
   background-color: navajowhite;
   width: 80%;
   max-width: auto;
-  box-sizing: content-box;
   margin-bottom: 10px;
   padding: 25px;
 
@@ -93,4 +92,15 @@ img.tobig {
   position: relative;
   animation-name: tob;
   animation-duration: 1s;
+}
+
+img.hov {
+  width: 200px;
+  height: 400px;
+  transition: width 1s, height 1s;
+}
+
+img:hover {
+  width: 220px;
+  height: 420px;
 }
