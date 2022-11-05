@@ -28,6 +28,10 @@ Altmono {
   color: saddlebrown;
 }
 
+div {
+  padding: 15px;
+}
+
 .bgatas {
   background-color: navajowhite;
   width: 60%;
@@ -55,13 +59,14 @@ li {
   max-width: auto;
   margin-bottom: 10px;
   padding: 25px;
+  position: sticky;
 
 }
 
 img.left {
   position: relative;
   float: left;
-  margin-top: 50px;
+  margin-top: 10px;
   width: 200px;
   height: 200px;
   z-index: 3;
@@ -70,7 +75,7 @@ img.left {
 img.right {
   position: relative;
   float: right;
-  margin-top: 50px;
+  margin-top: 10px;
   width: 200px;
   height: 200px;
   z-index: 3;
@@ -78,6 +83,8 @@ img.right {
 
 img.riins { 
   position: relative;
+  width: 30%;
+  height: 40%;
   z-index: 2;
 }
 
