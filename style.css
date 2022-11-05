@@ -90,7 +90,7 @@ img.tobig {
   height: 60px;
   position: relative;
   animation-name: tob 2s;
-  padding: 25px;
+  padding: 30px;
 }
 
 .slide {
@@ -156,9 +156,9 @@ div.a {
 }
 
 img.ngiridikit {
-  margin-left: -5;
+  margin-left: -20;
 }
 
 img.nganandikit {
-  margin-right: 5;
+  margin-right: 20;
 }
