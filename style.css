@@ -48,8 +48,9 @@ li {
 
 .navbar {
   background-color: navajowhite;
+  border-radius: 30px;
   height: 120px;
-  width: 30%;
+  width: 50%;
   max-width: auto;
   position: sticky;
 }
@@ -89,7 +90,7 @@ img.tobig {
   height: 60px;
   position: relative;
   animation-name: tob 2s;
-  padding: 30px;
+  padding: 25px;
 }
 
 .slide {
@@ -116,6 +117,7 @@ div.tengah {
 #geserum {
   width: 900px;
   height: 500px;
+  border-radius: 30px;
   object-fit: cover;
   object-position: 0% 0%;
   animation: geserbang 15s infinite;
