@@ -101,8 +101,19 @@ img.tobig {
   animation-duration: 1s;
 }
 
-.slide {
-  width: 200px;
-  height: 400px;
+.slide {display:none;}
+
+.ser {
   position: relative;
+  animation: animateright 0.4s;
+}
+
+@keyframes animateright {
+  from { right:-300px;opacity:0}
+  to {left:0;opacity:1}
+}
+
+.tengah, .tengahh {
+  margin-left: auto;
+  margin-right: auto;
 }
