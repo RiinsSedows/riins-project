@@ -94,13 +94,4 @@ img.tobig {
   animation-duration: 1s;
 }
 
-bgs.hov {
-  width: 200px;
-  height: 400px;
-  transition: width 1s, height 1s;
-}
-
-bgs:hover {
-  width: 220px;
-  height: 420px;
-}
+.slide {display:none;}
