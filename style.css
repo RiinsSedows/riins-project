@@ -154,3 +154,11 @@ div.a {
   z-index: 3;
   margin: 5px;
 }
+
+.ngiridikit {
+  margin-left: -5;
+}
+
+.nganandikit {
+  margin-right: 5;
+}
