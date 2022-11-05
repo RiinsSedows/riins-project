@@ -117,3 +117,26 @@ div.tengah {
   max-width: 900px;
   position: relative;
 }
+
+#geserum {
+  width: 900px;
+  height: 400px;
+  object-fit: cover;
+  object-position: 0% 0%;
+  animation: geserbang 15s infinite;
+}  
+
+@keyframes geserbang {
+  0% {
+    object-position: 0% 0%;
+  }
+  30% {
+    object-position: 33% 0%;
+  }
+  70% {
+    object-position: 66% 0%;
+  }
+  100% {
+    object-position: 100% 0%;
+  }
+}
