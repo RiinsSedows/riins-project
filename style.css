@@ -35,6 +35,8 @@ Altmono {
   max-width: auto;
   box-sizing: content-box;
   margin-top: 10px;
+  position: relative;
+  z-index: 1;
 }
 
 ul {
@@ -63,7 +65,7 @@ img.left {
   margin-top: 200px;
   width: 200px;
   height: 200px;
-  z-index: 1;
+  z-index: 3;
 }
 
 img.right {
@@ -72,5 +74,10 @@ img.right {
   margin-top: 200px;
   width: 200px;
   height: 200px;
-  z-index: 1;
+  z-index: 3;
+}
+
+img.riins { 
+  position: relative;
+  z-index: 2;
 }
