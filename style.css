@@ -75,8 +75,8 @@ img.kanan {
 
 img.riin {
     position: relative;
-    width: 30%;
-    height: 40%;
+    width: 20%;
+    height: 30%;
     z-index: 1;
 }
 
@@ -146,8 +146,8 @@ div.a {
 }
 
 .sig {
-  background-color: saddlebrown;
-  color: navajowhite;
+  background-color: navajowhite;
+  color: saddlebrown;
   border-radius: 20px;
   padding: 15px;
   text-align: center;
@@ -155,10 +155,10 @@ div.a {
   margin: 5px;
 }
 
-.ngiridikit {
+img.ngiridikit {
   margin-left: -5;
 }
 
-.nganandikit {
+img.nganandikit {
   margin-right: 5;
 }
