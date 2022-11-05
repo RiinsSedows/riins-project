@@ -43,7 +43,7 @@ ul {
 }
 
 li {
-  padding: 25px;
+  padding: 20px;
 }
 
 .navbar {
@@ -52,36 +52,31 @@ li {
   width: 80%;
   max-width: auto;
   position: sticky;
-  
-.footer-icon {
-  width: 80px;
-  height: 100px;
-  padding: 5px;
 }
 
-img.left {
+img.kiri {
     position: relative;
     float: left;
-    margin-top: 10px;
+    margin-top: -100px;
     width: 200px;
     height: 200px;
-    z-index: 3;
+    z-index: 2;
 }
 
-img.right {
+img.kanan {
     position: relative;
     float: right;
-    margin-top: 10px;
+    margin-top: -100px;
     width: 200px;
     height: 200px;
-    z-index: 3;
+    z-index: 2;
 }
 
-img.riins {
+img.riin {
     position: relative;
     width: 30%;
     height: 40%;
-    z-index: 2;
+    z-index: 1;
 }
 
 @keyframes tob {
@@ -140,13 +135,3 @@ div.tengah {
   }
 }
 
-.riins-container {
-  margin-top: 15px;
-  margin-bottom: 15px;
-  margin-left: 10px;
-  margin-right: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
