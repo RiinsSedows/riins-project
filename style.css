@@ -102,13 +102,13 @@ img.tobig {
 }
 
 @keyframes animateright {
-  from { right:-300px;opacity:0}
+  from { right:-300px;opacity:0.5}
   to {right:0;opacity:1}
 }
 
 img.ser {
   position: relative;
-  animation: animateright 0.4s;
+  animation: animateright 2s;
 }
 
 div.tengah {
