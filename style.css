@@ -63,28 +63,28 @@ li {
 }
 
 img.left {
-  position: relative;
-  float: left;
-  margin-top: 10px;
-  width: 300px;
-  height: 300px;
-  z-index: 3;
+    position: relative;
+    float: left;
+    margin-top: 10px;
+    width: 200px;
+    height: 200px;
+    z-index: 3;
 }
 
 img.right {
-  position: relative;
-  float: right;
-  margin-top: 10px;
-  width: 300px;
-  height: 300px;
-  z-index: 3;
+    position: relative;
+    float: right;
+    margin-top: 10px;
+    width: 200px;
+    height: 200px;
+    z-index: 3;
 }
 
-img.riins { 
-  position: relative;
-  width: 200px;
-  height: 150px;
-  z-index: 2;
+img.riins {
+    position: relative;
+    width: 30%;
+    height: 40%;
+    z-index: 2;
 }
 
 @keyframes tob {
