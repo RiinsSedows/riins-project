@@ -94,4 +94,8 @@ img.tobig {
   animation-duration: 1s;
 }
 
-.slide {display:none;}
+.slide {
+  width: 200px;
+  height: 400px;
+  position: relative;
+}
