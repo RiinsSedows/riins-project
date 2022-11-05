@@ -57,17 +57,19 @@ li {
 }
 
 img.left {
+  position: relative;
   float: left;
   margin-top: 200px;
   width: 200px;
   height: 200px;
-  z-index: 10;
+  z-index: 1;
 }
 
 img.right {
+  position: relative;
   float: right;
   margin-top: 200px;
   width: 200px;
   height: 200px;
-  z-index: 10;
+  z-index: 1;
 }
