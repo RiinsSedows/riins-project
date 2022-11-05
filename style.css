@@ -157,8 +157,12 @@ div.a {
 
 img.ngiridikit {
   margin-left: -20;
+  position: relative;
+  z-index: 2;
 }
 
 img.nganandikit {
   margin-right: 20;
+  position: relative;
+  z-index: 3;
 }
