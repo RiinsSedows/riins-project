@@ -97,11 +97,15 @@ img.tobig {
   animation-duration: 1s;
 }
 
-.slide {display:none;}
+.slide {
+  display: block;
+  width: 400px;
+  height: 800px;
+}
 
 @keyframes animateright {
   from { right:-300px;opacity:0}
-  to {left:0;opacity:1}
+  to {right:0;opacity:1}
 }
 
 .ser {
