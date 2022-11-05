@@ -1,7 +1,7 @@
 body {
   background-color: Linen;
   background-size: cover;
-  max-width: auto;
+  max-width: 900px;
 }
 
 h1.darkblue {
@@ -34,7 +34,6 @@ Altmono {
   border-radius: 30px;
   max-width: auto;
   box-sizing: content-box;
-  margin-top: 10px;
   position: relative;
   z-index: 1;
 }
@@ -51,20 +50,24 @@ li {
 
 .navbar {
   background-color: navajowhite;
+  height: 120px;
   width: 80%;
   max-width: auto;
-  margin-bottom: 10px;
-  padding: 25px;
+  box-sizing: content-box;
   position: sticky;
-
+  
+.footer-icon {
+  width: 80px;
+  height: 100px;
+  padding: 5px;
 }
 
 img.left {
   position: relative;
   float: left;
   margin-top: 10px;
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   z-index: 3;
 }
 
@@ -72,15 +75,15 @@ img.right {
   position: relative;
   float: right;
   margin-top: 10px;
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   z-index: 3;
 }
 
 img.riins { 
   position: relative;
-  width: 30%;
-  height: 40%;
+  width: 200px;
+  height: 150px;
   z-index: 2;
 }
 
@@ -93,8 +96,7 @@ img.tobig {
   width: 50px;
   height: 60px;
   position: relative;
-  animation-name: tob;
-  animation-duration: 1s;
+  animation-name: tob 2s;
 }
 
 .slide {
@@ -139,4 +141,15 @@ div.tengah {
   100% {
     object-position: 100% 0%;
   }
+}
+
+.riins-container {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
