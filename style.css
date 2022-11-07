@@ -120,8 +120,7 @@ div.tengah {
   border-radius: 30px;
   object-fit: cover;
   object-position: 0% 0%;
-  animation: geserbang 15s infinite;
-  z-index: -1;
+  animation: geserbang 20s infinite;
 }  
 
 @keyframes geserbang {
