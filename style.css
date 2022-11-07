@@ -166,3 +166,23 @@ img.nganandikit {
   position: relative;
   z-index: 3;
 }
+
+h10 {
+  background-color: chocolate;
+  padding: 2px 45px 2px 45px;
+  border-radius: 30px;
+  font-size: 150px;
+  color: white;
+  font-style: bold;
+}
+
+h9 {
+  color: chocolate;
+  font-size: 25px;
+}
+
+h8 {
+  font-size: 15px;
+  color: chocolate;
+  font-style: bold;
+}
