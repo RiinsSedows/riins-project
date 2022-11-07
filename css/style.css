@@ -1,11 +1,13 @@
 html {
   scroll-behavior: smooth;
+  position: relative;
+  min-width: 550px;
+  min-height: 1100px;
+  height: 100%;
 }
 
 body.homepg {
   background-color: #333333;
-  background-size: cover;
-  max-width: auto;
 }
 
 h1.darkblue {
@@ -114,10 +116,23 @@ div.tengah {
   position: relative;
 }
 
+div.gletch {
+  margin: auto;
+}
+
+div.visen {
+  position: relative;
+  margin: auto;
+  max-width: auto;
+}
+
 #slidingngelitch {
-  width: 900px;
-  height: 500px;
-  border-radius: 30px;
+  width: 270px;
+  height: 150px;
+  border-radius: 20px;
+  border-width: 2px;
+  border-color: #666666;
+  border-style: solid;
   object-fit: cover;
   object-position: 0% 0%;
   animation: gaweglitch 20s infinite;
@@ -209,4 +224,151 @@ h8 {
 .fakeimg {
   height: 100px;
   background: #aaa;
+}
+
+div.container-1 {
+  padding: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+div.container-2 {
+  padding: 10px;
+  position: relative;
+  height: 100px;
+  z-index: 2;
+}
+
+div.container-2a {
+  position: relative;
+  margin: auto;
+  height: 100px;
+  z-index: 5;
+  background-color: #666666;
+}
+
+div.container-blok {
+  position: relative;
+  max-width: auto;
+  margin: auto;
+  z-index: 3;
+}
+div.container-riins {
+  position: relative;
+  max-width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -70px;
+  z-index: 4;
+}
+
+div.container-left {
+  position: relative;
+  max-width: auto;
+  margin-top: -110;
+  float: left;
+  z-index: 5;
+}
+
+div.container-right {
+  position: relative;
+  max-width: auto;
+  margin-top: -110;
+  float: right;
+  z-index: 5;
+}
+
+div.slide {
+  padding: 10px;
+  max-width: auto;
+}
+
+div.slide-text {
+  width: 90%;
+}
+
+div.fp {
+  padding: 10px;
+}
+
+div.f {
+  padding: 10px;
+  width: 250px;
+  position: relative;
+  min-height: 1px;
+  float: left;
+  background-color: #aaa;
+  color: #333333;
+  border-radius: 10px;
+  border-color: #666666;
+  border-width: 2px;
+  border-style: solid;
+}
+
+div.p {
+  padding: 10px;
+  width: 250px;
+  position: relative;
+  min-height: 1px;
+  float: right;
+  background-color: #aaa;
+  color: #333333;
+  border-radius: 10px;
+  border-color: #666666;
+  border-width: 2px;
+  border-style: solid;
+}
+
+div.link {
+  position: relative;
+  background-color: #666666;
+  border-style: solid;
+  border-color: #aaa;
+  border-width: 2px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+div.link-order {
+  position: relative;
+  max-width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+div.link-uk {
+  position: relative;
+  max-width: auto;
+  margin: auto;
+}
+
+div.navas {
+  padding: 10px;
+  position: relative;
+  max-width: auto;
+  margin: auto;
+  z-index: 1;
+  background-color: #666666;
+  margin-bottom: 0px;
+}
+
+div.navasT {
+  position: relative;
+  max-width: auto;
+  margin: auto;
+}
+
+div.navas-wingL {
+  position: relative;
+  max-width: auto;
+  float: left;
+  z-index: 2;
+}
+
+div.navas-wingR {
+  position: relative;
+  max-width: auto;
+  float: right;
+  z-index: 3;
 }
