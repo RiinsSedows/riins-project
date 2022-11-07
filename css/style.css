@@ -1,6 +1,7 @@
 html {
   scroll-behavior: smooth;
-  background-size: cover;
+  height: 1100px;
+  width: 550px;
   height: 100%;
 }
 
