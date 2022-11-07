@@ -1,7 +1,6 @@
 html {
   scroll-behavior: smooth;
-  min-width: 550px;
-  min-height: 1100px;
+  background-size: cover;
   height: 100%;
 }
 
@@ -13,6 +12,10 @@ h1.darkblue {
   font-family: Altmono;
   font-size: 25px;
   color: #aaa;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 100%;
 }
 
 p.subs {
@@ -127,8 +130,8 @@ div.visen {
 }
 
 #slidingngelitch {
-  width: 270px;
-  height: 150px;
+  width: 64.2857%;
+  height: 35.7142%;
   border-radius: 20px;
   border-width: 2px;
   border-color: #666666;
@@ -228,12 +231,14 @@ h8 {
 
 div.container-1 {
   padding: 0px;
+  width: 100%;
   position: relative;
   z-index: 1;
 }
 
 div.container-2 {
   padding: 0px;
+  width: 100%;
   position: relative;
   height: 100px;
   z-index: 2;
@@ -241,20 +246,32 @@ div.container-2 {
 
 div.container-2a {
   position: relative;
-  width: 80%;
-  margin: auto;
-  height: 100px;
+  width: 100%;
   z-index: 5;
   background-color: #666666;
 }
 
+img.super {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 div.container-blok {
   position: relative;
+  width: 100%;
   z-index: 3;
 }
+
 div.container-riins {
   position: relative;
-  margin: auto;
+  width: 100%;
+  z-index: 5;
+}
+
+div.container-riins-blok {
+  position: relative;
+  width: 100%;
   z-index: 4;
 }
 
@@ -275,22 +292,20 @@ div.container-right {
 }
 
 div.slide {
-  padding: 10px;
-  max-width: auto;
-  margin: auto;
+  width: 100%;
 }
 
 div.slide-text {
-  width: 90%;
+  width: 100%;
 }
 
 div.fp {
-  padding: 10px;
+  padding: 5px;
 }
 
 div.f {
-  padding: 10px;
-  width: 250px;
+  padding: 5px;
+  width: 45%;
   position: relative;
   min-height: 1px;
   float: left;
@@ -304,7 +319,7 @@ div.f {
 
 div.p {
   padding: 10px;
-  width: 250px;
+  width: 45%px;
   position: relative;
   min-height: 1px;
   float: right;
@@ -333,30 +348,38 @@ div.link-order {
 
 div.link-uk {
   position: relative;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 div.navas {
   position: relative;
   z-index: 1;
   background-color: #666666;
-  margin-bottom: 0px;
 }
 
 div.navasT {
   position: relative;
-  margin: auto;
-  z-index: 4;
-}
-
-div.navas-wingL {
-  position: relative;
-  float: left;
   z-index: 2;
 }
 
-div.navas-wingR {
+img.tengah {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  z-index: 3
+}
+
+img.navas-wingL {
+  position: relative;
+  float: left;
+  z-index: 5;
+}
+
+img.navas-wingR {
   position: relative;
   float: right;
-  z-index: 3;
+  z-index: 6;
 }
