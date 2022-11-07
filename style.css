@@ -191,9 +191,9 @@ h8 {
 }
 
 .loader {
-  border: 16px solid chocolate;
+  border: 16px solid #f3f3f3;
   border-radius: 50%;
-  border-top: 16px solid navajowhite;
+  border-top: 16px solid chocolate;
   width: 120px;
   height: 120px;
   -webkit-animation: spin 2s linear infinite;
