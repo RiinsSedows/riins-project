@@ -2,7 +2,7 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
+body.homepg {
   background-color: Linen;
   background-size: cover;
   max-width: auto;
