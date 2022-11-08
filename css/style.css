@@ -165,7 +165,7 @@ div.a {
   margin-right: auto;
   display: block;
   max-width: 550px;
-  width: 50%;
+  width: 100%;
 }
 
 .sig {
@@ -175,6 +175,7 @@ div.a {
   text-align: center;
   z-index: 3;
   margin: 5px;
+  padding: 10px;
 }
 
 img.leftw {
@@ -269,7 +270,7 @@ img.superR {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 0px;
+  margin-top: 20px;
   max-width: 550px;
 }
 
@@ -346,6 +347,7 @@ div.fp {
 
 div.f {
   width: 48%;
+  height: 270px;
   float: left;
   display: block;
   background-color: #aaa;
@@ -354,10 +356,12 @@ div.f {
   border-color: #666666;
   border-width: 2px;
   border-style: solid;
+  text-align: center;
 }
 
 div.p {
-width: 48%;
+  width: 48%;
+  height: 270px;
   float: right;
   display: block;
   background-color: #aaa;
@@ -366,6 +370,7 @@ width: 48%;
   border-color: #666666;
   border-width: 2px;
   border-style: solid;
+  text-align: center;
 }
 
 div.link {
@@ -453,7 +458,10 @@ div.rounded {
   height: 300px;
   margin: 0px;
   background-color: #666666;
-  border-color:#aaa;
+  border-top-color:#aaa;
+  border-left-color:#aaa;
+  border-right-color:#aaa;
+  border-bottom-color:#666666;
   border-style: solid;
   border-width: 2px;
   border-top-left-radius: 50px;
@@ -480,8 +488,13 @@ div.hijau {
   max-width: 100%;
 }
 
+img.rggg {
+  margin: 10px;
+}
+
 div.inner {
   background-color: #333333;
+  height: 170px;
   border-style: solid;
   border-width: 2px;
   border-color: #666666;
@@ -519,14 +532,12 @@ img.wl {
   position: relative;
   display: block;
   float: left;
-  margin-top: 42px;
 }
 
 img.wr {
   position: relative;
   display: block;
   float: right;
-  margin-top: 42px;
 }
 
 div.w {
