@@ -335,9 +335,9 @@ div.fp {
 div.f {
   padding: 5px;
   width: 48%;
-  position: relative;
   min-height: 1px;
   float: left;
+  display: block;
   background-color: #aaa;
   color: #333333;
   border-radius: 10px;
@@ -349,9 +349,9 @@ div.f {
 div.p {
   padding: 10px;
   width: 48%px;
-  position: relative;
   min-height: 1px;
   float: right;
+  display: block;
   background-color: #aaa;
   color: #333333;
   border-radius: 10px;
@@ -454,16 +454,12 @@ img.order {
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
   display: block;
-  max-width: 550px;
 }
 
 div.hijau {
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
   display: block;
-  max-width: 550px;
 }
