@@ -269,9 +269,9 @@ img.superw {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 0%;
+  width: 70%;
   padding-top: 20px;
-  z-index: 6;
+  z-index: 2;
 }
 
 img.superb {
