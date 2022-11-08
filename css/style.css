@@ -487,7 +487,6 @@ div.hijau {
   margin-bottom: 15px;
   display: flex;
   justify-content: center;
-  max-width: 100%;
 }
 
 img.rggg {
@@ -517,8 +516,6 @@ div.nds {
   margin-left: auto;
   margin-right: auto;
   display: block;
-  width: 0%;
-  max-width: 100%;
 }
 
 img.jtk {
