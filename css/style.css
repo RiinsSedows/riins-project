@@ -1,6 +1,7 @@
 html {
   scroll-behavior: smooth;
   width: 550px;
+  height: 100%;
 }
 
 body.homepg {
@@ -449,13 +450,10 @@ div.neck {
 }
 
 div.bigcontainer {
-  margin: 0px;
-  max-width: 550px;
-  position: relative;
+
 }
 
 div.rounded {
-  max-width: 550px;
   height: 400px;
   margin: 40px 0px 0px 0px;
   background-color: #666666;
@@ -467,7 +465,6 @@ div.rounded {
   border-width: 2px;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
-  position: relative;
 }
 
 img.order {
@@ -480,8 +477,6 @@ img.order {
 }
 
 div.hijau {
-  margin-left: auto;
-  margin-right: auto;
   margin-top: 15px;
   margin-bottom: 15px;
   display: flex;
