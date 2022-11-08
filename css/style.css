@@ -238,7 +238,7 @@ h8 {
 div.container-1 {
   width: 100%;
   position: relative;
-  z-index: 1;
+  z-index: 4;
   margin-top: 0px;
 }
 
@@ -284,19 +284,19 @@ img.superb {
 div.container-blok {
   position: relative;
   width: 100%;
-  z-index: 3;
+  z-index: 1;
 }
 
 div.container-riins {
   position: relative;
   width: 100%;
-  z-index: 4;
+  z-index: 3;
 }
 
 div.container-riins-blok {
   position: relative;
   width: 100%;
-  z-index: 4;
+  z-index: 2;
 }
 
 div.container-left {
