@@ -436,13 +436,11 @@ div.neck {
 
 div.bigcontainer {
   margin: 0px;
-  position: relative;
   max-width: 550px;
-  height: 200px;
 }
 
 div.rounded {
-  position: absolute;
+  max-width: 550px;
   margin: 0px;
   background-color: #666666;
   border-color:#aaa;
