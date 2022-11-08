@@ -166,6 +166,7 @@ div.a {
   margin-right: auto;
   display: block;
   max-width: 550px;
+  width: 50%;
 }
 
 .sig {
@@ -240,6 +241,7 @@ div.container-1 {
   width: 100%;
   position: relative;
   z-index: 1;
+  margin-top: 0px;
 }
 
 div.container-2 {
@@ -248,6 +250,7 @@ div.container-2 {
   position: relative;
   height: 100px;
   z-index: 2;
+  margin-top: 0px;
 }
 
 div.container-2a {
@@ -255,6 +258,7 @@ div.container-2a {
   width: 100%;
   z-index: 5;
   background-color: #666666;
+  margin-top: 0px;
 }
 
 img.super {
@@ -275,7 +279,7 @@ img.superb {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: -120px;
+  margin-top: -110px;
 }
 
 div.container-blok {
@@ -319,8 +323,9 @@ div.slide {
 }
 
 div.slide-text {
+  margin: auto;
   max-width: 550px;
-  width: 50%;
+  width: 100%;
 }
 
 div.fp {
@@ -408,11 +413,24 @@ img.tengah {
 img.navas-wingL {
   position: relative;
   float: left;
-  z-index: 5;
+  z-index: 3;
 }
 
 img.navas-wingR {
   position: relative;
   float: right;
-  z-index: 6;
+  z-index: 3;
+}
+
+div.head {
+  margin: 1px;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 50%;
+}
+
+div.neck {
+  margin: 1px;
 }
