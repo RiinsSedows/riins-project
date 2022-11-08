@@ -12,19 +12,3 @@ function carousel() {
   x[myIndex-1].style.display = "block";  
   setTimeout(carousel, 2500);    
 }
-
-
-
-$(document).ready(function(){
-  $("a").on('click', function(event) {
-    if (this.hash !== "800") {
-      event.preventDefault();
-      var hash = this.hash;
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
-        window.location.hash = hash;
-      });
-    }
-  });
-});
