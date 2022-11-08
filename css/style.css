@@ -236,7 +236,6 @@ h8 {
 }
 
 div.container-1 {
-  padding: 0px;
   width: 100%;
   position: relative;
   z-index: 1;
@@ -244,7 +243,6 @@ div.container-1 {
 }
 
 div.container-2 {
-  padding: 0px;
   width: 100%;
   position: relative;
   height: 100px;
@@ -271,14 +269,15 @@ img.superw {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 10px;
+  width: 0%;
+  padding-top: 20px;
 }
 
 img.superb {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: -110px;
+  margin-top: -100px;
 }
 
 div.container-blok {
@@ -328,15 +327,17 @@ div.slide-text {
 }
 
 div.fp {
-  margin: 50px 0px 10px 0px;
-  height: 400 px;
-  border-style: solid;
-  border-width: 5px;
+  padding: 10px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  margin-top: 0px;
   border-color: red;
+  border-style: solid;
+  border-width: 2px;
 }
 
 div.f {
-  padding: 5px;
   width: 48%;
   float: left;
   display: block;
@@ -349,8 +350,7 @@ div.f {
 }
 
 div.p {
-  padding: 10px;
-  width: 48%px;
+width: 48%;
   float: right;
   display: block;
   background-color: #aaa;
@@ -438,10 +438,12 @@ div.neck {
 div.bigcontainer {
   margin: 0px;
   max-width: 550px;
+  position: relative;
 }
 
 div.rounded {
   max-width: 550px;
+  height: 300px;
   margin: 0px;
   background-color: #666666;
   border-color:#aaa;
@@ -449,9 +451,11 @@ div.rounded {
   border-width: 2px;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
+  position: relative;
 }
 
 img.order {
+  margin-top: 15px;
   position: relative;
   margin-left: auto;
   margin-right: auto;
@@ -459,8 +463,69 @@ img.order {
 }
 
 div.hijau {
-  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+}
+
+div.inner {
+  background-color: #333333;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #666666;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  max-width: 90%;
+  color: #aaa;
+  font-style: bold;
+  outline: 1px solid #666666;
+}
+
+div.nds {
+  margin: 0px;
+  padding: 0px;
   margin-left: auto;
   margin-right: auto;
   display: block;
+  width: 0%;
+  max-width: 100%;
+}
+
+img.jtk {
+  margin-top: 39px;
+}
+
+div.nck {
+  display: flex;
+  justify-content: center;
+  border: 2px solid green;
+}
+
+img.wl {
+  position: relative;
+  display: block;
+  float: left;
+  margin-top: 84px;
+}
+
+img.wr {
+  position: relative;
+  display: block;
+  float: right;
+  margin-top: 84px;
+}
+
+div.w {
+  display: block;
+}
+
+div.navbare {
+  position: relative;
+  background-color: #666666;
+  height: 100px;
 }
