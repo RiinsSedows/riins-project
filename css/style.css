@@ -436,11 +436,18 @@ div.neck {
 
 div.bigcontainer {
   margin: 0px;
+  position: relative;
 }
 
 div.rounded {
   position: absolute;
   margin: 0px;
+  background-color: #666666;
+  border-color:#aaa;
+  border-style: solid;
+  border-width: 2px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
 }
 
 img.order {
@@ -449,6 +456,7 @@ img.order {
   margin-right: auto;
   width: 50%;
   display: block;
+  max-width: 550px;
 }
 
 div.hijau {
@@ -457,4 +465,5 @@ div.hijau {
   margin-right: auto;
   width: 50%;
   display: block;
+  max-width: 550px;
 }
