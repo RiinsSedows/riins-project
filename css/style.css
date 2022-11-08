@@ -328,14 +328,16 @@ div.slide-text {
 }
 
 div.fp {
-  padding: 5px;
-  margin-top: 50px;
+  margin: 50px 0px 10px 0px;
+  height: 400 px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: red;
 }
 
 div.f {
   padding: 5px;
   width: 48%;
-  min-height: 1px;
   float: left;
   display: block;
   background-color: #aaa;
@@ -349,7 +351,6 @@ div.f {
 div.p {
   padding: 10px;
   width: 48%px;
-  min-height: 1px;
   float: right;
   display: block;
   background-color: #aaa;
