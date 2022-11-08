@@ -458,7 +458,7 @@ div.bigcontainer {
 div.rounded {
   max-width: 550px;
   height: 400px;
-  margin: 0px;
+  margin: 40px 0px 0px 0px;
   background-color: #666666;
   border-top-color:#aaa;
   border-left-color:#aaa;
@@ -500,7 +500,7 @@ div.inner {
   border-style: solid;
   border-width: 2px;
   border-color: #666666;
-  border-radius: 10px;
+  border-radius: 30px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
