@@ -505,8 +505,6 @@ div.inner {
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
-  display: flex;
-  justify-content: center;
   max-width: 90%;
   color: #e3f2e3;
   font-style: bold;
@@ -622,6 +620,6 @@ div.mid {
   color: white;
 }
 
-div.13 {
+div.ddd {
   font-size: 13px;
 }
