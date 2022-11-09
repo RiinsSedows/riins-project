@@ -287,7 +287,7 @@ img.superb {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: -100px;
+  margin-top: 1px;
 }
 
 div.container-blok {
@@ -323,7 +323,7 @@ div.container-right {
 }
 
 img.supert {
-  margin-top: -100px;
+  margin-top: -60px;
 }
 
 div.slide {
@@ -367,7 +367,7 @@ div.p {
   float: right;
   display: block;
   background-color: #74c694;
-  color: #3fb760;
+  color: #077d35;
   border-radius: 10px;
   border-color: #8bcc94;
   border-width: 2px;
@@ -450,6 +450,7 @@ div.neck {
 }
 
 div.bigcontainer {
+  display: block;
 
 }
 
@@ -488,18 +489,18 @@ img.rggg {
 }
 
 div.inner {
-  background-color: #74c694;
+  background-color: #077d35;
   height: 230px;
   border-style: solid;
   border-width: 2px;
-  border-color: #8bcc94;
+  border-color: #3fb760;
   border-radius: 30px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
   justify-content: center;
   max-width: 90%;
-  color: #3fb760;
+  color: #e3f2e3;
   font-style: bold;
 }
 
@@ -539,5 +540,5 @@ div.w {
 div.navbare {
   position: relative;
   background-color: #74c694;
-  height: 100px;
+  height: 80px;
 }
