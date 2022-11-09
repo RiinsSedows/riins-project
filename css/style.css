@@ -5,20 +5,20 @@ html {
 }
 
 body.homepg {
-  background-color: #333333;
+  background-color: #e3f2e7;
 }
 
 h1.darkblue {
   font-family: Altmono;
   font-size: 25px;
-  color: #aaa;
+  color: #3fb760;
   text-align: center;
 }
 
 p.subs {
   font-family: Altmono;
   font-size: 20px;
-  color: #aaa;
+  color: #3fb760;
 }
 
 @font-face {
@@ -29,7 +29,7 @@ p.subs {
 Altmono {
   font-family: Altmono;
   font-size: 20px;
-  color: #aaa;
+  color: #3fb760;
 }
 
 .hed {
@@ -135,7 +135,7 @@ div.visen {
   height: 250px;
   border-radius: 20px;
   border-width: 2px;
-  border-color: #666666;
+  border-color: #8bcc94;
   border-style: solid;
   object-fit: cover;
   object-position: 0% 0%;
@@ -169,8 +169,8 @@ div.a {
 }
 
 .sig {
-  background-color: #aaa;
-  color: #333333;
+  background-color: #9bd3ae;
+  color: #3fb760;
   border-radius: 10px;
   text-align: center;
   z-index: 3;
@@ -191,29 +191,29 @@ img.rightw {
 }
 
 h10 {
-  background-color: chocolate;
+  background-color: #077d35;
   padding: 2px 45px 2px 45px;
   border-radius: 30px;
   font-size: 60px;
-  color: white;
+  color: #e3f2e7;
   font-style: bold;
 }
 
 h9 {
-  color: chocolate;
+  color: #077d35;
   font-size: 25px;
 }
 
 h8 {
   font-size: 15px;
-  color: chocolate;
+  color: #077d35;
   font-style: bold;
 }
 
 .loader {
   border: 16px solid #f3f3f3;
   border-radius: 50%;
-  border-top: 16px solid chocolate;
+  border-top: 16px solid #077d35;
   width: 120px;
   height: 120px;
   -webkit-animation: spin 2s linear infinite;
@@ -232,7 +232,7 @@ h8 {
 
 .fakeimg {
   height: 100px;
-  background: #aaa;
+  background: #3fb760;
 }
 
 div.container-1 {
@@ -351,10 +351,10 @@ div.f {
   margin-top: 40px;
   float: left;
   display: block;
-  background-color: #aaa;
-  color: #333333;
+  background-color: #74c694;
+  color: #3fb760;
   border-radius: 10px;
-  border-color: #666666;
+  border-color: #8bcc94;
   border-width: 2px;
   border-style: solid;
   text-align: center;
@@ -366,10 +366,10 @@ div.p {
   margin-top: 40px;
   float: right;
   display: block;
-  background-color: #aaa;
-  color: #333333;
+  background-color: #74c694;
+  color: #3fb760;
   border-radius: 10px;
-  border-color: #666666;
+  border-color: #8bcc94;
   border-width: 2px;
   border-style: solid;
   text-align: center;
@@ -377,9 +377,9 @@ div.p {
 
 div.link {
   position: fixed;
-  background-color: #666666;
+  background-color: #74c694;
   border-style: solid;
-  border-color: #aaa;
+  border-color: #8bcc94;
   border-width: 2px;
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
@@ -456,11 +456,11 @@ div.bigcontainer {
 div.rounded {
   height: 400px;
   margin: 40px 0px 0px 0px;
-  background-color: #666666;
-  border-top-color:#aaa;
-  border-left-color:#aaa;
-  border-right-color:#aaa;
-  border-bottom-color:#666666;
+  background-color: #74c694;
+  border-top-color:#8bcc94;
+  border-left-color:#8bcc94;
+  border-right-color:#8bcc94;
+  border-bottom-color:#74c694;
   border-style: solid;
   border-width: 2px;
   border-top-left-radius: 50px;
@@ -488,20 +488,19 @@ img.rggg {
 }
 
 div.inner {
-  background-color: #333333;
+  background-color: #74c694;
   height: 230px;
   border-style: solid;
   border-width: 2px;
-  border-color: #666666;
+  border-color: #8bcc94;
   border-radius: 30px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
   justify-content: center;
   max-width: 90%;
-  color: #aaa;
+  color: #3fb760;
   font-style: bold;
-  outline: 1px solid #666666;
 }
 
 div.nds {
@@ -539,6 +538,6 @@ div.w {
 
 div.navbare {
   position: relative;
-  background-color: #666666;
+  background-color: #74c694;
   height: 100px;
 }
