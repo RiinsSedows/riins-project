@@ -1,6 +1,6 @@
 html {
   scroll-behavior: smooth;
-  width: 550px;
+  width: 480px;
   height: 100%;
 }
 
@@ -130,7 +130,7 @@ div.gletch {
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  max-width: 550px;
+  max-width: 480px;
   z-index: -1;
 }
 
@@ -142,8 +142,8 @@ div.visen {
 }
 
 #slidingngelitch {
-  width: 450px;
-  height: 250px;
+  width: 405px;
+  height: 225px;
   border-radius: 20px;
   border-width: 2px;
   border-color: #8bcc94;
@@ -181,7 +181,7 @@ div.a {
   margin-left: auto;
   margin-right: auto;
   display: block;
-  max-width: 550px;
+  max-width: 480px;
   width: 50%;
 }
 
@@ -279,7 +279,7 @@ img.super {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  max-width: 550px;
+  max-width: 480px;
   margin-top: 30px;
 }
 
@@ -288,7 +288,7 @@ img.superR {
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
-  max-width: 550px;
+  max-width: 480px;
 }
 
 img.superw {
@@ -344,19 +344,19 @@ img.supert {
 }
 
 div.slide {
-  max-width: 550px;
+  max-width: 480px;
 }
 
 div.slide-text {
   margin: auto;
-  max-width: 550px;
+  max-width: 480px;
   width: 100%;
 }
 
 div.fp {
   padding: 10px;
   width: 100%;
-  height: 500px;
+  height: 400px;
   position: relative;
   z-index: 1;
   margin-top: 0px;
@@ -364,7 +364,7 @@ div.fp {
 
 div.f {
   width: 48%;
-  height: 470px;
+  height: 370px;
   margin-top: 40px;
   float: left;
   display: block;
@@ -379,7 +379,7 @@ div.f {
 
 div.p {
   width: 48%;
-  height: 470px;
+  height: 370px;
   margin-top: 40px;
   float: right;
   display: block;
@@ -407,7 +407,7 @@ div.link-order {
   margin-left: auto;
   margin-right: auto;
   display: block;
-  max-width: 550px;
+  max-width: 480px;
   width: 50%;
 
 }
@@ -417,7 +417,7 @@ div.link-uk {
   margin-left: auto;
   margin-right: auto;
   display: block;
-  max-width: 550px;
+  max-width: 480px;
   width: 50%
 }
 
@@ -437,7 +437,7 @@ img.tengah {
   margin-right: auto;
   display: block;
   z-index: 3;
-  max-width: 550px;
+  max-width: 480px;
   width: 50%
 }
 
