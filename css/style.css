@@ -587,6 +587,7 @@ div.fp-sub-block {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
 }
 
 h3 {
@@ -611,4 +612,16 @@ h6 {
   color: #077d35;
   font-size: 15px;
   font-style: bold;
+}
+
+div.mid {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+  color: white;
+}
+
+div.13 {
+  font-size: 13px;
 }
