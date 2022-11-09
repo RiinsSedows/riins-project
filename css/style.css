@@ -564,14 +564,14 @@ div.fp-judul {
   color: white;
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
   position: relative;
   width: 90%;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 2px;
+  margin-top: 5px;
   height: 50px;
 }
 
