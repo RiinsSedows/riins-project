@@ -1,0 +1,56 @@
+html {
+    scroll-behavior: smooth;
+    width: 480px;
+    height: 100%;
+  }
+  
+  body.homepg {
+    background-color: #e3f2e7;
+  }
+
+  div.banner1 {
+    display: block;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  div.banner2 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    display: block;
+    height: 100px;
+    background-color: #8bcc94;
+  }
+
+  div.topbar {
+    display: block;
+    margin: 15px 0px 15px 0px;
+    padding: 0px
+  }
+
+  div.topbar-content {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 100px;
+    background-color: #8bcc94;
+  }
+
+  div.content {
+    display: block;
+    margin: 15px;
+    max-width: 100%;
+    height: 600px;
+    background-color: #8bcc94;
+  }
+
+  div.footer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 100px;
+    background-color: #8bcc94;
+  }
