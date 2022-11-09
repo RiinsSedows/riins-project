@@ -465,8 +465,7 @@ div.neck {
 
 div.bigcontainer {
   display: block;
-  margin-top: 30px;
-  margin-bottom: 0px;
+  margin: 40px 0px 0px 0px;
 }
 
 div.rounded {
@@ -616,7 +615,7 @@ h7 {
 
 h4 {
   color: #077d35;
-  font-size: 13px;
+  font-size: 12px;
   font-style: bold;
   font-family: Nunito;
 }
