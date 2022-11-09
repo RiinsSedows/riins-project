@@ -358,7 +358,6 @@ div.fp {
   width: 100%;
   height: 400px;
   position: relative;
-  z-index: 1;
   margin-top: 0px;
 }
 
@@ -658,6 +657,10 @@ div.yt {
   border-width: 2px;
   border-color: #8bcc94;
   border-style: solid;
+  object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 div.yt-cover {
