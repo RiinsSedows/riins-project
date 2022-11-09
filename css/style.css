@@ -650,3 +650,19 @@ div.ddd {
   font-size: 13px;
   font-family: Nunito;
 }
+
+div.yt {
+  width: 400px;
+  height: 225px;
+  border-radius: 20px;
+  border-width: 2px;
+  border-color: #8bcc94;
+  border-style: solid;
+}
+
+div.yt-cover {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  max-width: 480px;
+}
