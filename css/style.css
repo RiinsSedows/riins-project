@@ -9,11 +9,12 @@ body.homepg {
 }
 
 h1.darkblue {
-  font-family: Altmono;
+  font-family: Nunito;
   font-size: 25px;
   color: #3fb760;
   text-align: center;
   margin-top: 50px;
+  font-style: bold;
 }
 
 p.subs {
@@ -31,6 +32,15 @@ Altmono {
   font-family: Altmono;
   font-size: 20px;
   color: #3fb760;
+}
+
+@font-face {
+  font-family: Nunito;
+  src: url('/f/Nunito-Regular.ttf');
+}
+
+Nunito {
+  font-family: Nunito;
 }
 
 .hed {
@@ -562,6 +572,7 @@ div.fp-judul {
   margin-left: auto;
   margin-right: auto;
   margin-top: 2px;
+  height: 50px;
 }
 
 div.batas {
@@ -592,6 +603,7 @@ h3 {
   color: white;
   font-size: 15px;
   font-style: bold;
+  padding-top: 5px;
 }
 
 h4 {
@@ -604,6 +616,11 @@ h5 {
   color: white;
   font-size: 13px;
   font-style: bold;
+  padding-top: 5px;
+}
+
+div.nunito {
+  font-family: Nunito;
 }
 
 h6 {
