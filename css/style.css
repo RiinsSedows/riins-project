@@ -560,7 +560,10 @@ div.fp-judul {
   border-top-right-radius: 5px;
   position: relative;
   width: 90%;
-  margin-top: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2px;
 }
 
 div.batas {
@@ -578,8 +581,12 @@ div.fp-sub-block {
   background-color: #077d35;
   color: white;
   width: 90%;
+  height: 25px;
   border-radius: 5px;
   position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h3 {
