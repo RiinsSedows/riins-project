@@ -13,7 +13,7 @@ h1.darkblue {
   font-size: 25px;
   color: #3fb760;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 p.subs {
@@ -504,6 +504,7 @@ div.inner {
   border-radius: 30px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 10px;
   display: flex;
   justify-content: center;
   max-width: 90%;
@@ -548,4 +549,57 @@ div.navbare {
   position: relative;
   background-color: #74c694;
   height: 100px;
+}
+
+div.fp-judul {
+  background-color: #077d35;
+  padding: 2px;
+  color: white;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  position: relative;
+}
+
+div.batas {
+  display: block;
+  height: 3px;
+  position: relative;
+}
+
+div.fp-sub-text {
+  display: block;
+  position: relative;
+}
+
+div.fp-sub-block {
+  background-color: #077d35;
+  padding: 2px;
+  border-radius: 5px;
+  position: relative;
+}
+
+h3 {
+  color: white;
+  font-size: 15px;
+  font-style: bold;
+}
+
+h4 {
+  color: #077d35;
+  font-size: 13px;
+  font-style: bold;
+}
+
+h5 {
+  color: white;
+  font-size: 13px;
+  font-style: bold;
+}
+
+h6 {
+  color: #077d35;
+  font-size: 15px;
+  font-style: bold;
 }
