@@ -54,3 +54,67 @@ html {
     height: 100px;
     background-color: #8bcc94;
   }
+
+  
+  div.bigbang {
+    display: block;
+    margin: 15px;
+    padding: 10px;
+    background-color: #8bcc94;
+  }
+
+  div.bigbangs {
+    display: block;
+    margin: 15px;
+    padding: 10px;
+    width: 100%;
+    height: 200px;
+    background-color: #8bcc94;
+  }
+
+  h15 {
+    font-size: 20px;
+    font-weight: 400px;
+    color: black;
+  }
+
+  h16 {
+    font-size: 12px;
+    font-style: bold;
+    color: black;
+  }
+
+  h17 {
+    font-size: 30px;
+    font-weight: 400px;
+    color: black;
+  }
+
+  div.bigbang2 {
+    display: block;
+    margin: 5px;
+    padding: 5px;
+    background-color: #aaa;
+    text-align: left;
+  }
+
+  div.bigbang3 {
+    background-color: #e3f2e7;
+    width: 300px;
+    height: 300px;
+  }
+
+  img.preview {
+    margin: 5px 0px 5px 0px;
+    width: 300px;
+    height: 300px;
+  }
+
+  div.judulbigbang {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-color:#aaa;
+    color: darkslategrey;
+  }
