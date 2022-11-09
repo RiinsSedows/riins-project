@@ -364,7 +364,6 @@ div.fp {
 div.f {
   width: 48%;
   height: 370px;
-  margin-top: 40px;
   float: left;
   display: block;
   background-color: #74c694;
@@ -379,7 +378,6 @@ div.f {
 div.p {
   width: 48%;
   height: 370px;
-  margin-top: 40px;
   float: right;
   display: block;
   background-color: #74c694;
@@ -472,7 +470,7 @@ div.bigcontainer {
 
 div.rounded {
   height: 400px;
-  margin: 40px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
   background-color: #74c694;
   border-top-color:#8bcc94;
   border-left-color:#8bcc94;
@@ -668,4 +666,6 @@ div.yt-cover {
   margin-right: auto;
   position: relative;
   max-width: 480px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
