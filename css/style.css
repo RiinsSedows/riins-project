@@ -604,12 +604,14 @@ h3 {
   font-size: 15px;
   font-style: bold;
   padding-top: 5px;
+  font-family: Nunito;
 }
 
 h4 {
   color: #077d35;
   font-size: 13px;
   font-style: bold;
+  font-family: Nunito;
 }
 
 h5 {
@@ -617,9 +619,6 @@ h5 {
   font-size: 13px;
   font-style: bold;
   padding-top: 5px;
-}
-
-div.nunito {
   font-family: Nunito;
 }
 
@@ -627,6 +626,7 @@ h6 {
   color: #077d35;
   font-size: 15px;
   font-style: bold;
+  font-family: Nunito;
 }
 
 div.mid {
@@ -639,4 +639,5 @@ div.mid {
 
 div.ddd {
   font-size: 13px;
+  font-family: Nunito;
 }
