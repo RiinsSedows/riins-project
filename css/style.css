@@ -13,6 +13,7 @@ h1.darkblue {
   font-size: 25px;
   color: #3fb760;
   text-align: center;
+  margin-top: 20px;
 }
 
 p.subs {
@@ -139,18 +140,24 @@ div.visen {
   border-style: solid;
   object-fit: cover;
   object-position: 0% 0%;
-  animation: gaweglitch 20s infinite;
+  animation: gaweglitch 30s infinite;
 }  
 
 @keyframes gaweglitch {
   0% {
     object-position: 0% 0%;
   }
-  30% {
-    object-position: 33% 0%;
+  20% {
+    object-position: 20% 0%;
   }
-  70% {
-    object-position: 66% 0%;
+  40% {
+    object-position: 40% 0%;
+  }
+  60% {
+    object-position: 60% 0%;
+  }
+  80% {
+    object-position: 80% 0%;
   }
   100% {
     object-position: 100% 0%;
@@ -170,7 +177,7 @@ div.a {
 
 .sig {
   background-color: #9bd3ae;
-  color: #3fb760;
+  color: #077d35;
   border-radius: 10px;
   text-align: center;
   z-index: 3;
@@ -287,7 +294,7 @@ img.superb {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 1px;
+  margin-top: 20px;
 }
 
 div.container-blok {
@@ -352,7 +359,7 @@ div.f {
   float: left;
   display: block;
   background-color: #74c694;
-  color: #3fb760;
+  color: #077d35;
   border-radius: 10px;
   border-color: #8bcc94;
   border-width: 2px;
@@ -540,5 +547,5 @@ div.w {
 div.navbare {
   position: relative;
   background-color: #74c694;
-  height: 80px;
+  height: 100px;
 }
