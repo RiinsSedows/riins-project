@@ -156,3 +156,9 @@ html {
     margin-right: auto;
     width: 50%;
   }
+  
+  a.cta {
+    background-color: white;
+    border-radius: 5px;
+    color: darkslategrey;
+  }
