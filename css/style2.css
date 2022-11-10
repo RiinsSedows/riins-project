@@ -7,27 +7,6 @@ html {
   body.homepg {
     background-color: #e3f2e7;
   }
-  
-  /* visited link */
-  a:visited {
-    border-color: green;
-    border-style: solid;
-    border-width: 2px;
-  }
-  
-  /* mouse over link */
-  a:hover {
-    border-color: red;
-    border-style: solid;
-    border-width: 2px;
-  }
-  
-  /* selected link */
-  a:active {
-    border-color: orangered;
-    border-style: solid;
-    border-width: 2px;
-  }
 
   div.banner1 {
     display: block;
@@ -89,7 +68,7 @@ html {
     padding: 10px;
     width: 80%;
     height: 200px;
-    background-color: #8bcc94;
+    background-color: #74c694;
   }
 
   h15 {
@@ -114,12 +93,21 @@ html {
     display: block;
     margin: 5px;
     padding: 5px;
-    background-color: #aaa;
+    background-color: #74c694;
     text-align: left;
   }
 
+  span.judul {
+    background-color: #3fb760;
+    color: white;
+    font-size: 20px;
+    font-style: bold;
+    font-family: Nunito;
+    padding: 5px;
+  }
+
   div.bigbang3 {
-    background-color: #e3f2e7;
+    display: block;
     width: 300px;
     height: 300px;
   }
@@ -135,6 +123,4 @@ html {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    background-color:#aaa;
-    color: darkslategrey;
   }
