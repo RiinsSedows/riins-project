@@ -58,16 +58,20 @@ html {
   
   div.bigbang {
     display: block;
-    margin: 15px;
-    padding: 10px;
+    margin-top: -20px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 5px;
   }
 
   div.bigbangs {
     display: block;
-    margin: 15px;
-    padding: 10px;
-    width: 80%;
-    height: 200px;
+    margin: 0px;
+    padding: 3px;
+    width: 100%;
+    height: 300px;
+    border-radius: 15px;
     background-color: #74c694;
   }
 
@@ -78,7 +82,7 @@ html {
   }
 
   h16 {
-    font-size: 12px;
+    font-size: 15px;
     font-style: bold;
     color: #077d37;
     font-family: Nunito;
@@ -92,7 +96,7 @@ html {
 
   div.bigbang2 {
     display: block;
-    margin-top: -25px;
+    margin-top: 10px;
     margin-bottom: 5px;
     margin-left: 5px;
     margin-right: 5px;
@@ -104,17 +108,17 @@ html {
   span.judul {
     background-color: #3fb760;
     color: white;
-    font-size: 20px;
+    font-size: 25px;
     font-style: bold;
     font-family: Nunito;
     padding: 5px;
-    border-radius: 30px;
+    border-radius: 15px;
   }
 
   div.bigbang3 {
     display: block;
     width: 300px;
-    height: 300px;
+    height: 220px;
     margin-top: 15px;
     margin-bottom: 15px;
   }
@@ -128,6 +132,5 @@ html {
   div.judulbigbang {
     display: block;
     margin: 0px;
-    width: 100%;
     z-index: 2;
   }
