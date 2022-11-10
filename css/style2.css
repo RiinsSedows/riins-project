@@ -80,7 +80,8 @@ html {
   h16 {
     font-size: 12px;
     font-style: bold;
-    color: black;
+    color: #077d37;
+    font-family: Nunito;
   }
 
   h17 {
@@ -91,10 +92,13 @@ html {
 
   div.bigbang2 {
     display: block;
-    margin: 5px;
+    margin-top: -25px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
     padding: 5px;
-    background-color: #74c694;
     text-align: left;
+    z-index: 1;
   }
 
   span.judul {
@@ -104,12 +108,15 @@ html {
     font-style: bold;
     font-family: Nunito;
     padding: 5px;
+    border-radius: 30px;
   }
 
   div.bigbang3 {
     display: block;
     width: 300px;
     height: 300px;
+    margin-top: 15px;
+    margin-bottom: 15px;
   }
 
   img.preview {
@@ -120,7 +127,7 @@ html {
 
   div.judulbigbang {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    margin: 0px;
+    width: 100%;
+    z-index: 2;
   }
