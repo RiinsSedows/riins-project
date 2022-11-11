@@ -65,6 +65,15 @@ html {
     padding: 5px;
   }
 
+  div.bigbangww {
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 5px;
+  }
+
   div.bigbangs {
     display: block;
     width: 100%;
