@@ -89,15 +89,21 @@ html {
   }
 
   h17 {
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 400px;
-    color: black;
+    color: white;
+  }
+
+  h18 {
+    font-size: 15px;
+    font-weight: 400px;
+    color: white;
   }
 
   div.bigbang2 {
     display: block;
-    margin-top: 10px;
-    margin-bottom: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     margin-left: 5px;
     margin-right: 5px;
     padding: 5px;
@@ -108,10 +114,10 @@ html {
   span.judul {
     background-color: #3fb760;
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     font-style: bold;
     font-family: Nunito;
-    padding: 5px;
+    padding: 8px;
     border-radius: 15px;
     margin-top: 10px;
   }
@@ -144,10 +150,16 @@ html {
 
   div.bot-in {
     background-color: #077d37;
-    border-style: solid;
-    border-width: 2px;
     color: white;
-    border-color: #3fb760;
+    padding: 3px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  
+  span.linkk {
+    background-color: darkolivegreen;
+    padding: 3px;
   }
 
   div.bot-center {
@@ -155,10 +167,60 @@ html {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    margin-top: 20px;
+    margin-bottom: 10px;
   }
   
   a.cta {
     background-color: white;
     border-radius: 5px;
     color: darkslategrey;
+  }
+
+  div.cta-tabs {
+    background-color: white;
+    border-radius: 25px;
+    color: #4CAF50;
+    text-align: center;
+  }
+
+  .button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .button-home {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  div.home-center {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }

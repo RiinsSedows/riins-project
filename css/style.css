@@ -239,11 +239,11 @@ h8 {
 }
 
 #loader {
-  border: 16px solid #f3f3f3;
+  border: 10px solid #f3f3f3;
   border-radius: 50%;
-  border-top: 16px solid #077d35;
-  width: 120px;
-  height: 120px;
+  border-top: 10px solid #077d35;
+  width: 50px;
+  height: 50px;
   -webkit-animation: spin 2s linear infinite;
   animation: spin 2s linear infinite;
 }
@@ -369,11 +369,11 @@ div.fp {
   width: 100%;
   height: 400px;
   position: relative;
-  margin: 5px;
+  margin: 0px 15px 0px 15px;
 }
 
 div.f {
-  width: 48%;
+  width: 47%;
   height: 370px;
   float: left;
   display: block;
@@ -387,7 +387,7 @@ div.f {
 }
 
 div.p {
-  width: 48%;
+  width: 47%;
   height: 370px;
   float: right;
   display: block;
@@ -662,9 +662,6 @@ div.ddd {
 div.yt {
   width: 400px;
   height: 225px;
-  border-width: 4px;
-  border-color: #8bcc94;
-  border-style: solid;
   object-fit: cover;
   margin-left: auto;
   margin-right: auto;
