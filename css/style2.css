@@ -146,7 +146,7 @@ html {
   }
 
   div.bot-in {
-    background-color: #077d37;
+    background-color: #3fb760;
     color: white;
     padding: 3px;
     border-radius: 10px;
@@ -156,7 +156,7 @@ html {
   }
 
   div.bot-inL {
-    background-color: #077d37;
+    background-color: #3fb760;
     color: white;
     padding: 5px;
     border-radius: 10px;
@@ -172,7 +172,7 @@ html {
   }
 
   span.linkk2 {
-    background-color: red;
+    background-color: orangered;
     padding: 2px 4px 2px 4px;
     border-radius: 5px;
   }
@@ -188,13 +188,13 @@ html {
   }
 
   div.cta-tabs {
-    background-color: white;
-    border-radius: 25px;
     color: #4CAF50;
-    text-align: left;
     margin-top: 20px;
     margin-bottom: 20px;
-    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 50%;
   }
 
 
