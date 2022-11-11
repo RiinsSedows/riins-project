@@ -26,3 +26,19 @@ document.onreadystatechange = function() {
         "body").style.visibility = "visible";
   }
 };
+
+function myClock() {         
+  setTimeout(function() {   
+    const d = new Date();
+    const n = d.toLocaleTimeString();
+    document.getElementById("demo").innerHTML = n; 
+    myClock();             
+  }, 1000)
+}
+myClock(); 
+
+n =  new Date();
+y = n.getFullYear();
+m = n.getMonth() + 1;
+d = n.getDate();
+document.getElementById("date").innerHTML = m + "/" + d + "/" + y;
