@@ -574,7 +574,7 @@ div.fp-judul {
 
 div.batas {
   display: block;
-  height: 3px;
+  height: 8px;
   position: relative;
 }
 
@@ -673,6 +673,6 @@ div.yt-cover {
 
 h11 {
   font-color: #077d35;
-  font-size: 11px;
+  font-size: 13px;
   font-family: Nunito;
 }
