@@ -68,8 +68,6 @@ html {
   div.bigbangs {
     display: block;
     width: 100%;
-    border-radius: 15px;
-    background-color: #74c694;
   }
 
   h15 {
@@ -156,11 +154,21 @@ html {
     margin-bottom: 5px;
     text-align: center;
   }
+
+  div.bot-inL {
+    background-color: #077d37;
+    color: white;
+    padding: 3px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: left;
+  }
   
   span.linkk {
-    background-color: darkolivegreen;
-    padding: 3px;
-    border-radius: 12px;
+    background-color: #3fb760;
+    padding: 2px 4px 2px 4px;
+    border-radius: 5px;
   }
 
   div.bot-center {
@@ -173,25 +181,13 @@ html {
     text-align: center;
   }
 
-  a:link, a:visited {
-    background-color: #4CAF50;
-    color: white;
-    padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    border-radius: 12px;
-  }
-  
-  a:hover, a:active {
-    background-color: #4CAF50;
-  }
-
   div.cta-tabs {
     background-color: white;
     border-radius: 25px;
     color: #4CAF50;
-    text-align: center;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
 
