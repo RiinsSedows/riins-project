@@ -174,11 +174,11 @@ div.visen {
 div.a {
   border-radius: 30px;
   z-index: 2;
-  margin-top: -20px;
+  margin-top: -10px;
   margin-left: auto;
   margin-right: auto;
   display: block;
-  max-width: 480px;
+  max-width: 520px;
   width: 50%;
 }
 
@@ -189,6 +189,7 @@ div.a {
   text-align: center;
   z-index: 3;
   padding: 10px 5px 10px 5px;
+  margin: 2px;
 }
 
 img.leftw {
@@ -365,13 +366,14 @@ div.fp {
   width: 100%;
   height: 400px;
   position: relative;
-  margin: 5px;
+  margin: 0px;
 }
 
 div.f {
   width: 45%;
   height: 350px;
   float: left;
+  margin-left: 10px;
   display: block;
   background-color: #74c694;
   color: #077d35;
@@ -384,6 +386,7 @@ div.p {
   width: 45%;
   height: 350px;
   float: right;
+  margin-right: 10px;
   display: block;
   background-color: #74c694;
   color: #077d35;
@@ -575,8 +578,14 @@ div.batas {
 }
 
 div.fp-sub-text {
-  display: block;
+  color: #077d35;
+  width: 80%;
+  height: 25px;
   position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 div.fp-sub-block {
@@ -610,8 +619,6 @@ h7 {
 
 h4 {
   color: #077d35;
-  font-size: 10px;
-  font-style: bold;
   font-family: Nunito;
 }
 
