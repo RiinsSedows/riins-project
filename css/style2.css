@@ -67,10 +67,7 @@ html {
 
   div.bigbangs {
     display: block;
-    margin: 0px;
-    padding: 3px;
     width: 100%;
-    height: 300px;
     border-radius: 15px;
     background-color: #74c694;
   }
@@ -92,12 +89,14 @@ html {
     font-size: 20px;
     font-weight: 400px;
     color: white;
+    font-family: Nunito;
   }
 
   h18 {
     font-size: 15px;
     font-weight: 400px;
     color: white;
+    font-family: Nunito;
   }
 
   div.bigbang2 {
@@ -155,26 +154,37 @@ html {
     border-radius: 10px;
     margin-top: 5px;
     margin-bottom: 5px;
+    text-align: center;
   }
   
   span.linkk {
     background-color: darkolivegreen;
     padding: 3px;
+    border-radius: 12px;
   }
 
   div.bot-center {
     display:block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 90%;
     margin-top: 20px;
     margin-bottom: 10px;
+    text-align: center;
+  }
+
+  a:link, a:visited {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 12px;
   }
   
-  a.cta {
-    background-color: white;
-    border-radius: 5px;
-    color: darkslategrey;
+  a:hover, a:active {
+    background-color: #4CAF50;
   }
 
   div.cta-tabs {
@@ -184,21 +194,6 @@ html {
     text-align: center;
   }
 
-  .button {
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 12px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-  }
 
   .button-home {
     background-color: #4CAF50;
@@ -216,11 +211,8 @@ html {
     margin-bottom: 30px;
   }
 
-  div.home-center {
+  div.back {
     display:block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 15px;
+    padding: 10px;
   }
