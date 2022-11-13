@@ -48,7 +48,7 @@ function myFunction() {
   element.classList.toggle("dark-mode");
 }
 
-function openTabs(evt, nameTabs) {
+function openTabs(evt, tabsName) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
   for (i = 0; i < tabcontent.length; i++) {
@@ -58,6 +58,6 @@ function openTabs(evt, nameTabs) {
   for (i = 0; i < tablinks.length; i++) {
     tablinks[i].className = tablinks[i].className.replace(" active", "");
   }
-  document.getElementById(cityName).style.display = "block";
+  document.getElementById(tabsName).style.display = "block";
   evt.currentTarget.className += " active";
 }
