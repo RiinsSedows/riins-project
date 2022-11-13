@@ -48,7 +48,7 @@ function myFunction() {
   element.classList.toggle("dark-mode");
 }
 
-function openCity(evt, cityName) {
+function openTabs(evt, nameTabs) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
   for (i = 0; i < tabcontent.length; i++) {
