@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Jasa pembuatan website termurah</title>
+        <meta name="description" content="Murah - Simpel - Terpercaya. Penyedia website toko katalog produk dan konten media" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="tetew.ico" sizes="32x32">
+        <meta name="katalogku.web.id" content="Jasa Website Toko desain Simpel Terpercaya">
+        <meta name="keywords" content="katalogku.web.id jasa buat website toko katalog">
+        <style>
+            p {
+            text-align: center;
+            font-size: 60px;
+            margin-top: 0px;
+            }
+
+            div {
+            height: 700px;
+            width: 440px;
+            margin: 0px;
+            padding: 0px;
+            display: block;
+            }
+
+            div.spiece {
+            height: 300px;
+            width: 440px;
+            margin: 0px;
+            padding: 0px;
+            display: block;
+            }
+
+            span {
+                background-color: white;
+                color: gray;
+                height: 30px;
+                font-size: 20px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                text-align: center;
+                font-family: Nunito;
+                display: flex;
+                justify-content: center
+            }
+
+            body.this {
+                background-color: white;
+                background-size: cover;
+                width: 440px;
+                height: 50%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            @font-face {
+                font-family: Nunito;
+                src: url('/f/Nunito.ttf');
+            }
+
+            Nunito {
+                font-family: Nunito;
+            }
+        </style>
+    </head>
+    <body class="this">
+        <div>
+            <div class="spiece">
+                <img src="/d/b/asset2.png" width="440" height="300">
+            </div>
+            <span>Pendaftaran dibuka dalam : </span>
+            <span>Silahkan ditunggu..</span>
+            <div class="spiece">
+                <img src="/d/b/asset1.png" width="440" height="300">
+            </div>
+        </div>
+
+        <script>
+            // Set the date we're counting down to
+            var countDownDate = new Date("Nov 14, 2022 09:00:00").getTime();
+            
+            // Update the count down every 1 second
+            var x = setInterval(function() {
+            
+              // Get today's date and time
+              var now = new Date().getTime();
+                
+              // Find the distance between now and the count down date
+              var distance = countDownDate - now;
+                
+              // Time calculations for days, hours, minutes and seconds
+              var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+              var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+              var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+              var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                
+              // Output the result in an element with id="demo"
+              document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+              + minutes + "m " + seconds + "s ";
+                
+              // If the count down is over, write some text 
+              if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("demo").innerHTML = "EXPIRED";
+              }
+            }, 1000);
+        </script>
+    </body>
+</html>
