@@ -294,11 +294,10 @@ img.superR {
 }
 
 img.superw {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 70%;
-  padding-top: 20px;
+  width: 480px;
+  height: 150px;
+  padding: 0px;
+  margin: 0px;
   z-index: 5;
 }
 
