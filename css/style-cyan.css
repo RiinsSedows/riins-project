@@ -94,7 +94,7 @@
             text-align: left;
         }
         
-        h2.center {
+        .center {
             margin-top: auto;
             margin-bottom: auto;
             text-align: center;
@@ -131,9 +131,6 @@
         h6 {
             font-family: Albert500;
             font-size: 10px;
-            text-align: center;
-            display: flex;
-            justify-content: center;
         }
         
         
@@ -327,7 +324,7 @@
         }
         
         div.box1 {
-            width: 80%;
+            width: 70%;
             text-align: left;
         }
         
