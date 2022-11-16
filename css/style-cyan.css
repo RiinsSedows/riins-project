@@ -132,6 +132,11 @@
             font-family: Albert500;
             font-size: 10px;
         }
+
+        h6.margin10 {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
         
         
         /* animate */
