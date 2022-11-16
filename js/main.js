@@ -65,7 +65,7 @@ function openTabs(evt, tabsName) {
 var counterContainer = document.querySelector(".website-counter");
 var visitCount = localStorage.getItem("page_view");
 
-// Check if page_view entry is present
+// simple visitors
 if (visitCount) {
   visitCount = Number(visitCount) + 1;
   localStorage.setItem("page_view", visitCount);
@@ -74,3 +74,11 @@ if (visitCount) {
   localStorage.setItem("page_view", 1);
 }
 counterContainer.innerHTML = visitCount;
+
+//form order
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
