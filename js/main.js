@@ -12,7 +12,7 @@ function carousel() {
   x[myIndex-1].style.display = "block";  
   setTimeout(carousel, 2500);    
 }
-
+    //hello-exploiter//
 document.onreadystatechange = function() {
   if (document.readyState !== "complete") {
       document.querySelector(
