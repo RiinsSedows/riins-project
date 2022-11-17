@@ -502,10 +502,8 @@
             .modal-content{
             margin: auto;
             display: block;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
+            width: 440px;
+            max-width: 440px;
             }
             
             
@@ -533,9 +531,9 @@
             .modal-content, #caption {   
               
             -webkit-animation-name: zoom;
-            -webkit-animation-duration: 0.6s;
+            -webkit-animation-duration: 0.3s;
             animation-name: zoom;
-            animation-duration: 0.6s;
+            animation-duration: 0.3s;
             }
             
             
