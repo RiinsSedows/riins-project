@@ -562,20 +562,11 @@
             
             /* slidecolour */
 
-            div.gradings {
-                display: inline-block;
-                position: relative;
-                width:100%;
-                max-width: 380px;
-                height: 50px;
-                border-radius: 15px;
-                animation: grads 10s infinite;
+            span.gradings {
+                animation: grads 4s infinite;
               }
               
               @keyframes grads {
-                0%   {background-color: #323232; width: 0%; left:0px; top:0px;}
-                25%  {background-color: #06aab7; width: 100%; left:0px; top:0px;}
-                50%  {background-color:#323232; width: 0%; left: 100%; top: 0px;}
-                75%  {background-color:#06aab7; width: 100%; left: 0px; top:0px;}
-                100% {background-color:#323232; width: 0%; left:0px;top:0px;}
+                from {background-color: #06aab7;}
+                to {background-color: #323232;}
               }
