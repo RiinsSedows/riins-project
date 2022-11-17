@@ -549,3 +549,18 @@
                 to {transform:scale(1)}
             }
             
+            /* slidecolour */
+
+            span.gradings {
+                width: 100%;
+                position: relative;
+                animation: grads 10s infinite;
+              }
+              
+              @keyframes grads {
+                0%   {background-color: #323232; width: 0%; left:0px; top:0px;}
+                25%  {background-color: #06aab7; width: 100%; left:0px; top:0px;}
+                50%  {background-color:#323232; width: 0%; left: 100%; top: 0px;}
+                75%  {background-color:#06aab7; width: 100%; left: 0px; top:0px;}
+                100% {background-color:#323232; width: 0%; left:0px;top:0px;}
+              }
