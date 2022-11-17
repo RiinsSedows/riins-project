@@ -287,6 +287,17 @@
             margin-top: 10px;
             margin-bottom: 10px;
         }
+
+        span.share2 {
+            font-size: 14px;
+            font-family: Albert900;
+            font-style: normal;
+            padding: 5px;
+            border-radius: 10px;
+            color: #dae6e9;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
         
         div.navbar {
             width: 440px;
@@ -490,7 +501,7 @@
           .modal {
             z-index:1;
             display:none;
-            padding-top:10px;
+            padding-top:100px;
             position:fixed;
             left:0;
             top:0;
@@ -551,9 +562,13 @@
             
             /* slidecolour */
 
-            span.gradings {
-                width: 100%;
+            div.gradings {
+                display: inline-block;
                 position: relative;
+                width:100%;
+                max-width: 380px;
+                height: 50px;
+                border-radius: 15px;
                 animation: grads 10s infinite;
               }
               
