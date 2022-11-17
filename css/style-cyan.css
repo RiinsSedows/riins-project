@@ -271,7 +271,6 @@
             color:#dae6e9;
             background-color: #06aab7;
             border-radius: 10px;
-            border-style: solid;
             font-family: Albert900;
             font-size: 18px;
             padding: 7px;
@@ -282,8 +281,11 @@
             font-family: Albert900;
             font-style: normal;
             padding: 5px;
-            border-style: solid;
             border-radius: 10px;
+            color: #dae6e9;
+            background-color: #06aab7;
+            margin-top: 10px;
+            margin-bottom: 10px;
         }
         
         div.navbar {
