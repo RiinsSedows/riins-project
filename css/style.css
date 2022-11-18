@@ -610,6 +610,13 @@ div.mitra {
   max-width: 440px;
 }
 
+div.mitra2 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 440px;
+}
+
 div.fp-judul {
   background-color: #077d35;
   color: white;
