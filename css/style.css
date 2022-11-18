@@ -601,6 +601,15 @@ div.navbare {
   height: 120px;
 }
 
+div.mitra {
+  margin-top: 0px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  width: 440px;
+  max-width: 440px;
+}
+
 div.fp-judul {
   background-color: #077d35;
   color: white;
