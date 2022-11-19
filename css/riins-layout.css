@@ -1,11 +1,11 @@
 /* this layout is optimized for mobile devices */
-body {background-size:cover;margin-left:auto;margin-right:auto;width:360px;height:50%;}
-.container100 {width:100%;max-width:360px;margin:auto;}
-.container80 {width:80%;max-width:360px;margin:auto;}
-.container60 {width:60%;max-width:360px;margin:auto;}
-.banner {width:360px;height:250px;margin:0px;padding:0px;}
-.header {width:360px;margin:15px;padding:0px;}
-.footer {width:360px;margin:0px;padding:0px;}
+body {background-size:cover;margin-left:auto;margin-right:auto;width:400px;height:50%;}
+.container100 {width:100%;max-width:400px;margin:auto;}
+.container80 {width:80%;max-width:400px;margin:auto;}
+.container60 {width:60%;max-width:400px;margin:auto;}
+.banner {width:400px;height:250px;margin:0px;padding:0px;}
+.header {width:400px;margin:15px;padding:0px;}
+.footer {width:400px;margin:0px;padding:0px;}
 .left {position:relative;float:left;}
 .right {position:relative;float:right;}
 .center-image {position:relative;display:flex;justify-content:center;margin-left:auto;margin-right:auto;}
