@@ -5,7 +5,7 @@ html {
 body.homepg {
   background-color: #e3f2e7;
   background-size: cover;
-  width: 440px;
+  width: 400px;
   height: 50%;
   margin-left: auto;
   margin-right: auto;
@@ -178,8 +178,8 @@ div.visen {
 }
 
 #slidingngelitch {
-  width: 405px;
-  height: 225px;
+  width: 380px;
+  height: 215px;
   border-radius: 20px;
   -o-object-fit: cover;
      object-fit: cover;
@@ -274,7 +274,7 @@ h8 {
   right: 0;
   margin-left: auto;
   margin-right: auto;
-  max-width: 440px;
+  max-width: 400px;
 }
 
 #loader {
@@ -335,7 +335,7 @@ img.super {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  max-width: 440px;
+  max-width: 400px;
   margin-top: 30px;
 }
 
@@ -344,11 +344,11 @@ img.superR {
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
-  max-width: 440px;
+  max-width: 400px;
 }
 
 img.superw {
-  width: 480px;
+  width: 400px;
   height: 150px;
   padding: 0px;
   margin: 0px;
@@ -399,12 +399,12 @@ img.supert {
 }
 
 div.slide {
-  max-width: 440px;
+  max-width: 400px;
 }
 
 div.slide-text {
   margin: auto;
-  max-width: 440px;
+  max-width: 400px;
   width: 100%;
 }
 
@@ -455,7 +455,7 @@ div.link-order {
   margin-left: auto;
   margin-right: auto;
   display: block;
-  max-width: 440px;
+  max-width: 400px;
   width: 50%;
 }
 
@@ -464,7 +464,7 @@ div.link-uk {
   margin-left: auto;
   margin-right: auto;
   display: block;
-  max-width: 440px;
+  max-width: 400px;
   width: 50%;
 }
 
@@ -484,7 +484,7 @@ img.tengah {
   margin-right: auto;
   display: block;
   z-index: 3;
-  max-width: 440px;
+  max-width: 400px;
   width: 50%;
 }
 
@@ -603,8 +603,8 @@ div.mitra {
   margin-top: 15px;
     margin-bottom: 15px;
     display: inline-block;
-    width: 440px;
-    max-width: 440px;
+    width: 400px;
+    max-width: 400px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -670,7 +670,7 @@ h3 {
 
 h7 {
   color: white;
-  font-size: 25px;
+  font-size: 20px;
   font-style: bold;
   padding-top: 3px;
   font-family: Nunito;
@@ -712,8 +712,8 @@ div.ddd {
 }
 
 div.yt {
-  width: 400px;
-  height: 225px;
+  width: 380px;
+  height: 215px;
   -o-object-fit: cover;
      object-fit: cover;
   margin-left: auto;
@@ -725,7 +725,7 @@ div.yt-cover {
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  max-width: 440px;
+  max-width: 400px;
   margin-top: 0px;
   margin-bottom: 20px;
 }
