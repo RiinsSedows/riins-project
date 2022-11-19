@@ -883,10 +883,3 @@ h1 {
   -webkit-transition: all 0.3s 0.6s ease-out;
           transition: all 0.3s 0.6s ease-out;
 }
-
-.no-js #loader-wrapper {
-  display: none;
-}
-.no-js h1 {
-  color: #222222;
-}
