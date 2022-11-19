@@ -630,7 +630,6 @@ div.fp-judul {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 15px;
   height: 50px;
   padding-top: 5px;
 }
@@ -643,7 +642,7 @@ div.batas {
 
 div.fp-sub-text {
   color: #077d35;
-  width: 90%;
+  width: 50%;
   display: flex;
   justify-content: center;
   text-align: center;
