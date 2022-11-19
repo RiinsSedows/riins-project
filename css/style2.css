@@ -186,11 +186,11 @@ html {
   }
 
   span.linkk2 {
-    background-color: palevioletred;
+    background-color: darkseagreen;
     padding: 2px 4px 2px 4px;
     border-radius: 5px;
     margin: 2px;
-    color: white;
+    color: rgb(3, 110, 21);
   }
 
   div.bot-center {
@@ -246,4 +246,66 @@ html {
     padding: 7px;
     color: #077d35;
     font-family: Nunito;
+  }
+
+  .button {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #c9571d;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    text-decoration: none;
+  }
+  
+  .button:hover {background-color: #b0624a}
+  
+  .button:active {
+    background-color: #64432b;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  .button-mitra {
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #007d0f;
+    border: none;
+    border-radius: 15px;
+    text-decoration: none;
+  }
+  
+  .button-mitra:hover {background-color: #406042}
+  
+  .button-mitra:active {
+    background-color: #121c14;
+  }
+
+  .button-bikinweb {
+  background-color: #4CAF50; /* Green */
+  width: 100%;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  }
+
+  .button-bikinweb:hover {
+    background-color: #7a7d1b;
+  }
+
+  .button-bikinweb:active {
+    background-color: #343514;
   }
