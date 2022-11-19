@@ -493,7 +493,7 @@ div.bigcontainer {
 }
 
 div.rounded {
-  height: 400px;
+  height: 350px;
   margin: 0px 0px 0px 0px;
   background-color: #74c694;
   border-top-left-radius: 50px;
@@ -830,6 +830,15 @@ h11 {
 }
 h1 {
   color: #1bdf3c;
+}
+
+h2.darkblue {
+  font-family: Nunito;
+  font-size: 20px;
+  color: #3fb760;
+  text-align: center;
+  margin-top: 50px;
+  font-style: bold;
 }
 
 #content {

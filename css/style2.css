@@ -265,12 +265,11 @@ html {
   
   .button:active {
     background-color: #64432b;
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
   }
 
   .button-mitra {
     padding: 10px 20px;
+    margin: 14px;
     font-size: 16px;
     text-align: center;
     cursor: pointer;
@@ -289,7 +288,7 @@ html {
   }
 
   .button-bikinweb {
-  background-color: #4CAF50; /* Green */
+  background-color: #b30922;
   width: 100%;
   border: none;
   color: white;
@@ -307,4 +306,10 @@ html {
 
   .button-bikinweb:active {
     background-color: #343514;
+  }
+
+  .nuni {
+    color: white;
+    font-size: 13px;
+    font-family: Nunito;
   }
