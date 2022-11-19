@@ -644,11 +644,9 @@ div.batas {
 div.fp-sub-text {
   color: #077d35;
   width: 90%;
-  height: 25px;
   display: flex;
   justify-content: center;
   text-align: center;
-  margin: 5px;
 }
 
 div.fp-sub-block {
