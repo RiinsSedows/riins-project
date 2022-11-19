@@ -389,6 +389,14 @@
             border-radius: 30px;
             margin: 20px;
           }
+          
+          .img.bonus {
+            width: 85%;
+            max-width: 380px;
+            border-radius: 30px;
+            margin: 10px;
+          }
+
         .ngezoom {
             animation:animatezoom 0.6s
         }
