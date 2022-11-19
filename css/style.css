@@ -411,14 +411,14 @@ div.slide-text {
 div.fp {
   padding: 0px;
   width: 100%;
-  height: 350px;
+  height: 300px;
   position: relative;
   margin: 0px;
 }
 
 div.f {
   width: 45%;
-  height: 350px;
+  height: 300px;
   float: left;
   margin-left: 10px;
   display: block;
@@ -430,7 +430,7 @@ div.f {
 
 div.p {
   width: 45%;
-  height: 350px;
+  height: 300px;
   float: right;
   margin-right: 10px;
   display: block;
@@ -630,8 +630,8 @@ div.fp-judul {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  height: 50px;
   padding-top: 5px;
+  margin-top: 15px;
 }
 
 div.batas {
@@ -642,7 +642,6 @@ div.batas {
 
 div.fp-sub-text {
   color: #077d35;
-  width: 50%;
   display: flex;
   justify-content: center;
   text-align: center;
