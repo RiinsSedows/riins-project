@@ -8,6 +8,13 @@
 .pink {background-color:pink;border-radius:8px;padding:6px;color:white;}
 .spesial {background-color:rgb(52, 15, 198);border-radius:8px;padding:6px;color:white;}
 .darkorange {background-color:darkorange;border-radius:8px;padding:6px;color:white;}
+.demon {
+  background-color: #159747;
+  border-radius: 5px;
+  padding: 4px;
+  color: white;
+  font-family: Nunito;
+}
 
 /* width project */
 width30 {width:30%;}
