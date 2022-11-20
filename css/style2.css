@@ -248,16 +248,15 @@ html {
   }
 
   .button {
-    padding: 15px 25px;
-    font-size: 24px;
+    padding: 7px 10px;
+    font-size:18px;
     text-align: center;
     cursor: pointer;
     outline: none;
     color: #fff;
     background-color: #c9571d;
     border: none;
-    border-radius: 15px;
-    box-shadow: 0 9px #999;
+    border-radius: 10px;
     text-decoration: none;
   }
   
@@ -268,8 +267,8 @@ html {
   }
 
   .button-mitra {
-    padding: 10px 20px;
-    margin: 14px;
+    padding: 4px 6px;
+    margin: 8px;
     font-size: 16px;
     text-align: center;
     cursor: pointer;
@@ -277,7 +276,7 @@ html {
     color: #fff;
     background-color: #007d0f;
     border: none;
-    border-radius: 15px;
+    border-radius: 10px;
     text-decoration: none;
   }
   
@@ -310,6 +309,6 @@ html {
 
   .nuni {
     color: white;
-    font-size: 13px;
+    font-size: 12px;
     font-family: Nunito;
   }
