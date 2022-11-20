@@ -1,12 +1,19 @@
 /*span color project*/
-.red {background-color:red;border-radius:15px;padding:6px;}
-.cyan {background-color:cyan;border-radius:15px;padding:6px;}
-.green {background-color:green;border-radius:15px;padding:6px;}
-.orange {background-color:orange;border-radius:15px;padding:6px;}
-.violet {background-color:violet;border-radius:15px;padding:6px;}
-.chocolate {background-color:chocolate;border-radius:15px;padding:6px;}
-.pink {background-color:pink;border-radius:15px;padding:6px;}
-.spesial {background-color:rgb(52, 15, 198);border-radius:15px;padding:6px;}
+.red {background-color:red;border-radius:8px;padding:6px;color:white;}
+.cyan {background-color:cyan;border-radius:8px;padding:6px;color:white;}
+.green {background-color:green;border-radius:8px;padding:6px;color:white;}
+.orange {background-color:orange;border-radius:8px;padding:7px;color:white;text-decoration:none;border:solid 2px darkorange;}
+.violet {background-color:violet;border-radius:8px;padding:6px;color:white;}
+.chocolate {background-color:chocolate;border-radius:8px;padding:6px;color:white}
+.pink {background-color:pink;border-radius:8px;padding:6px;color:white;}
+.spesial {background-color:rgb(52, 15, 198);border-radius:8px;padding:6px;color:white;}
+.darkorange {background-color:darkorange;border-radius:8px;padding:6px;color:white;}
+
+/* width project */
+width30 {width:30%;}
+width50 {width:50%;}
+width70 {width:70%;}
+width100 {width:100%;}
 
 /* heading */
 
@@ -23,15 +30,15 @@ h10 {font-size:4px}
 
 /* install font */
 @font-face {font-family:Acme;src:url('/f/Acme.ttf');}
-Acme {font-family:Acme;}
+.Acme {font-family:Acme;}
 @font-face {font-family:Albert500;src:url('/f/Albert500.ttf');}
-Albert500 {font-family:Albert500;}
+.Albert500 {font-family:Albert500;}
 @font-face {font-family:Albert900;src:url('/f/Albert900.ttf');}
-Albert900 {font-family:Albert900;}
+.Albert900 {font-family:Albert900;}
 @font-face {font-family:Nunito;src:url('/f/Nunito.ttf');}
-Nunito {font-family:Nunito;}
+.Nunito {font-family:Nunito;}
 @font-face {font-family:Fredoka;src:url('/f/Fredoka.ttf');}
-Fredoka {font-family:Fredoka;}
+.Fredoka {font-family:Fredoka;}
 
 /* when dark mode enabled, change it */
 body {background-color:darkslategray;color:snow}
@@ -47,6 +54,25 @@ body.chocolate {background-color:rgb(252, 237, 235);color:rgb(171, 103, 30)}
 body.spesial {background-color:rgb(240, 235, 252);color:rgb(22, 45, 178)}
 
 /* button */
-button.green {background-color:rgb(47, 168, 47);color:rgb(232, 241, 219);padding:6px;margin:auto;font-style:bold;font-size:15px;}
-button.cyan {background-color:rgb(47, 138, 168);color:rgb(232, 241, 219);padding:6px;margin:auto;font-style:bold;font-size:15px;}
-button.orange {background-color:rgb(185, 101, 6);color:rgb(232, 241, 219);padding:6px;margin:auto;font-style:bold;font-size:15px;}
+.button-green {background-color:rgb(47, 168, 47);color:rgb(232, 241, 219);padding:6px;font-size:15px;text-decoration:none;width:100%;}
+.button-cyan {background-color:rgb(47, 138, 168);color:rgb(232, 241, 219);padding:6px;margin:auto;font-style:bold;font-size:15px;}
+.button-orange {background-color:rgb(185, 101, 6);color:rgb(232, 241, 219);padding:6px;margin:auto;font-style:bold;font-size:15px;}
+.blockbutton {
+  display: block;
+  width: 100%;
+  padding: 7px;
+  border: none;
+  text-decoration:none;
+  background-color: #04AA6D;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.orange:hover {border-color:yellow;border-radius:8px;border-width:2px;border-style:solid;}
+
+.blockbutton:hover {
+  background-color:darkslategrey;
+  color:white;
+}

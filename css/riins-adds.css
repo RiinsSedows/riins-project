@@ -1,6 +1,6 @@
-/* additional */
+   /* additional */
 
-#loader {
+   #loader {
     border: 10px solid #f3f3f3;
     border-radius: 50%;
     border-top: 10px solid #077d35;
@@ -27,7 +27,7 @@
     }
   }
 
-/* modal image pop up */
+  /* modal image pop up */
 .modal {
     z-index:1;
     display:none;
