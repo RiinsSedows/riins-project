@@ -14,6 +14,7 @@
 
 /*color-text*/
 .slate {color: rgb(110, 151, 151);}
+.white {color:white;}
 
 /*blok*/
 .blokgrey {width:100%;display:block;background-color:#5c6379;color:#d5daec;box-shadow:none;padding:10px;}
@@ -86,10 +87,10 @@ body.spesial {background-color:rgb(240, 235, 252);color:rgb(22, 45, 178)}
 .blockbutton {
   display: block;
   width: 100%;
-  padding: 7px;
+  padding: 7px; 
   border: none;
   text-decoration:none;
-  background-color: #04AA6D;
+  background-color: #0fa06b;
   color: white;
   font-size: 15px;
   cursor: pointer;

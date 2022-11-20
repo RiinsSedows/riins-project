@@ -54,7 +54,7 @@ body {background-size:cover;margin-left:auto;margin-right:auto;width:360px;heigh
   margin-right:5px;
   display: block;
   background-color: #74c694;
-  color: #077d35;
+  color: hsl(143, 89%, 26%);
   border-radius: 30px;
   padding:4px;
 }
