@@ -1,3 +1,5 @@
+
+
 /*span color project*/
 .red {background-color:red;border-radius:8px;padding:6px;color:white;}
 .cyan {background-color:cyan;border-radius:8px;padding:6px;color:white;}
@@ -8,6 +10,22 @@
 .pink {background-color:pink;border-radius:8px;padding:6px;color:white;}
 .spesial {background-color:rgb(52, 15, 198);border-radius:8px;padding:6px;color:white;}
 .darkorange {background-color:darkorange;border-radius:8px;padding:6px;color:white;}
+.orangenobtn {background-color:orange;border-radius:8px;padding:6px;color:white;}
+
+/*color-text*/
+.slate {color: rgb(110, 151, 151);}
+
+/*blok*/
+.blokgrey {width:100%;display:block;background-color:#5c6379;color:#d5daec;box-shadow:none;padding:10px;}
+.blokgrey:hover {display: block;border-width: 0px;}
+.buttonr1 {background-color:rgb(34, 145, 0);color:#e7f5f0;padding:8px;border-radius:8px;border:#41d606 2px solid;text-decoration:none;}
+.buttonr1:hover {background-color:#3ff71a;color:#17382c;border:#9dfc06 2px solid;border-radius:8px;}
+.buttonr2 {background-color:rgb(145, 0, 12);color:#e7f5f0;padding:8px;border-radius:8px;border:#4e1010 2px solid;text-decoration:none;}
+.buttonr2:hover {background-color:#aa3c3c;color:#e8f8f2;border:#794848 2px solid;border-radius:8px;}
+.buttonr3 {background-color:rgb(35, 67, 80);color:#e7f5f0;padding:8px;border-radius:8px;border:#002629 2px solid;text-decoration:none;}
+.blokaddons {display:block;border-radius:8px;padding:7px;background-color:#4a4d57;color:#e4e7f1;border:#1a1429 1px solid;}
+
+
 .demon {
   background-color: #159747;
   border-radius: 5px;
@@ -17,10 +35,11 @@
 }
 
 /* width project */
-width30 {width:30%;}
-width50 {width:50%;}
-width70 {width:70%;}
-width100 {width:100%;}
+.width30 {width:30%;}
+.width40 {width:40%;}
+.width50 {width:50%;}
+.width70 {width:70%;}
+.width100 {width:100%;}
 
 /* heading */
 

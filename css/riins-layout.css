@@ -1,5 +1,6 @@
+/* test mode */
 /* this layout is optimized for mobile devices */
-body {background-size:cover;margin-left:auto;margin-right:auto;width:360px;height:640px;margin-top:opx;margin-bottom:0px;font-family:Nunito;}
+body {background-size:cover;margin-left:auto;margin-right:auto;width:360px;height:100%;margin-top:opx;margin-bottom:0px;font-family:Nunito;}
 .container100 {width:100%;max-width:360px;margin:auto;}
 .container80 {width:80%;max-width:360px;margin:auto;}
 .container60 {width:60%;max-width:360px;margin:auto;}
@@ -13,13 +14,28 @@ body {background-size:cover;margin-left:auto;margin-right:auto;width:360px;heigh
 .center-text {text-align:center;align-items:center;}
 .left-text {text-align:left;align-items:center;}
 .right-text {text-align:right;align-items:center;}
+.justify-text {text-align:justify;align-items:center;}
+.align-last-center {text-align-last: center;}
+.align-last-justify {text-align-last: justify;}
 .margin1 {margin:10px;}
 .margin2 {margin:20px;}
 .margin3 {margin:30px;}
 .margin4 {margin:40px;}
 .marginspesial {margin-top:15px;}
+.marginspesial2 {margin-top:30px;}
+.marginspesialleft {margin-left:10px;}
 .margin-50 {margin-top:-50px;}
 .margin-30 {margin-top:-30px;}
+.margin-15 {margin-top:-15px;}
+.marginplus20 {margin-bottom:20px;}
+.width50 {width:50%}
+.width100 {width:100%}
+.marginrl {margin-left:10px;margin-right:10px;}
+.z1 {position:relative;z-index: 1;}
+.z0 {position:relative;z-index: 0;}
+
+
+.blokade15 {width:100%;height:15px;display:block;}
 
 .f {
   width: 45%;
