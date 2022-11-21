@@ -1,5 +1,3 @@
-
-
 /*span color project*/
 .red {background-color:red;border-radius:8px;padding:6px;color:white;}
 .cyan {background-color:cyan;border-radius:8px;padding:6px;color:white;}
@@ -25,6 +23,10 @@
 .buttonr2:hover {background-color:#aa3c3c;color:#e8f8f2;border:#794848 2px solid;border-radius:8px;}
 .buttonr3 {background-color:rgb(35, 67, 80);color:#e7f5f0;padding:8px;border-radius:8px;border:#002629 2px solid;text-decoration:none;}
 .blokaddons {display:block;border-radius:8px;padding:7px;background-color:#4a4d57;color:#e4e7f1;border:#1a1429 1px solid;}
+.sedow3 {box-shadow: 5px 8px 15px 5px rgba(0,0,0,0.3);}
+.sedow2 {box-shadow: 5px 8px 15px 5px rgba(0,0,0,0.2);}
+.sedow1 {box-shadow: 5px 8px 15px 5px rgba(0,0,0,0.1);}
+.sedowbt {box-shadow: 1px 3px 7px 2px rgba(0,0,0,0.1);}
 
 
 .demon {
@@ -36,24 +38,25 @@
 }
 
 /* width project */
+.width20 {width:20%;}
+.width25 {width:25%;}
 .width30 {width:30%;}
 .width40 {width:40%;}
 .width50 {width:50%;}
 .width70 {width:70%;}
+.width80 {width:80%;}
 .width100 {width:100%;}
 
 /* heading */
 
-h1 {font-size:40px}
-h2 {font-size:36px}
-h3 {font-size:32px}
-h4 {font-size:28px}
-h5 {font-size:24px}
-h6 {font-size:20px}
-h7 {font-size:16px}
-h8 {font-size:12px}
-h9 {font-size:8px}
-h10 {font-size:4px}
+h1 {font-size:22px}
+h2 {font-size:18px}
+h3 {font-size:16px}
+h4 {font-size:12px}
+h5 {font-size:10px}
+h6 {font-size:8px}
+h7 {font-size:6px}
+h8 {font-size:4px}
 
 /* install font */
 @font-face {font-family:Acme;src:url('/f/Acme.ttf');}
@@ -67,6 +70,7 @@ h10 {font-size:4px}
 @font-face {font-family:Fredoka;src:url('/f/Fredoka.ttf');}
 .Fredoka {font-family:Fredoka;}
 
+
 /* when dark mode enabled, change it */
 body {background-color:darkslategray;color:snow}
 
@@ -79,6 +83,7 @@ body.pink {background-color:rgb(252, 235, 244);color:rgb(192, 37, 112)}
 body.violet {background-color:rgb(247, 235, 252);color:rgb(133, 30, 171)}
 body.chocolate {background-color:rgb(252, 237, 235);color:rgb(171, 103, 30)}
 body.spesial {background-color:rgb(240, 235, 252);color:rgb(22, 45, 178)}
+body.basic {background-color:rgb(65, 23, 190);color:rgb(212, 215, 234)}
 
 /* button */
 .button-green {background-color:rgb(47, 168, 47);color:rgb(232, 241, 219);padding:6px;font-size:15px;text-decoration:none;width:100%;}
@@ -102,4 +107,139 @@ body.spesial {background-color:rgb(240, 235, 252);color:rgb(22, 45, 178)}
 .blockbutton:hover {
   background-color:darkslategrey;
   color:white;
+}
+
+
+/*tabbing*/
+
+.topright {
+  float: right;
+  cursor: pointer;
+  color:grey;
+  font-size:30px;
+}
+
+.topright:hover {color: red;}
+
+.tabz {display:none;padding:15px;border-radius:10px;background-color:snow;color:rgb(65, 23, 190);}
+.normal {width:50%;padding:5px;display:inline-block;background-color:grey;color:#0515a5;text-align:center;border:none;outline:none;cursor:pointer;}
+.normal1 {border-top-left-radius:20px;}
+.normal2 {border-top-right-radius:20px;}
+.normal3 {border-bottom-left-radius:20px;border-bottom-right-radius:20px;}
+.r1 {border-radius:20px;}
+
+.tablinkz:hover {
+  background-color: #777;
+}
+.tablinkz {cursor:pointer;}
+.cursor {cursor:pointer;}
+
+/* Style the tab content */
+.tabharga {
+  color: #0515a5;
+  display: none;
+  padding: 10px;
+}
+
+#basiccc {background-color:cyan;}
+#premium {background-color:cyan;}
+
+
+/*slideshow project*/
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.prev,
+.next {
+  cursor: pointer;
+  width: 40%;
+  color: rgb(65, 23, 190);
+  font-weight: bold;
+  font-size: 30px;
+  border-radius: 30px;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.mySlides {
+  display: none;
+}
+
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+  z-index: 1;
+}
+
+
+/* cool fade */
+.fade {
+  animation-name:faded;
+  animation-duration:1.3s
+}
+
+@keyframes faded {
+  from {opacity:0.0;}
+  to {opacity:1;}
+}
+
+.top {position:relative;animation:animatetop 1.3s}
+@keyframes animatetop{from{top:-30px;opacity:0} to{top:0;opacity:1}}
+
+a {text-decoration:none;}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius:20px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-whatsapp {
+  background: #44ae1e;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
 }
