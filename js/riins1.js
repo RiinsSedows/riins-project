@@ -83,7 +83,7 @@ var walink = 'https://web.whatsapp.com/send',
 
 /* Smartphone Support */
 if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-var walink = 'whatsapp://send';
+var walink = 'https://api.whatsapp.com/send?phone=';
 }
 
 if("" != input_blanter.value){
