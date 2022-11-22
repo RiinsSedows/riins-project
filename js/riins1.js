@@ -71,7 +71,7 @@ function showSlides(n) {
 }
 
 
-		$(document).on('click','.send', function(){
+		$(document).on('click','.kerembos', function(){
 			var input_name 			= $("#name").val(),
 			    input_email 		= $("#email").val(),
 			    input_phone 		= $("#phone").val(),
