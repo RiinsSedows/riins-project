@@ -69,30 +69,3 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
-
-
-		$(document).on('click','.send', function(){
-			var input_name 			= $("#name").val(),
-			    input_email 		= $("#email").val(),
-			    input_phone 		= $("#phone").val(),
-			    input_product 		= $("#product").val(),
-			    input_description 	= $("#description").val();
-			var walink 		= 'https://web.whatsapp.com/send',
-			    phone 		= '62882006014023',
-			    text 		= 'Saya ingin membuat website : ',
-			    text_yes	= 'Pesanan Anda berhasil terkirim.',
-			    text_no 	= 'Isilah formulir terlebih dahulu.';
-			if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-				var walink = 'whatsapp://send';
-			}
-			if(input_name != "" && input_phone != "" && input_email != ""){
-				var checkout_whatsapp = walink + '?phone=' + phone + '&text=' + text + '%0A%0A' +
-				    '*Nama* : ' + input_name + '%0A' +
-				    '*Nama Toko* : ' + input_email + '%0A' +
-				    '*Link* : ' + input_description + '%0A';
-				window.open(checkout_whatsapp,'_blank');
-				document.getElementById("text-info").innerHTML = '<div class="alert alert-success">'+text_yes+'</div>';
-			} else {
-				document.getElementById("text-info").innerHTML = '<div class="alert alert-danger">'+text_no+'</div>';
-			}
-		});
