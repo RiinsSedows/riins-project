@@ -75,7 +75,7 @@ $(document).on('click','.send_form', function(){
 var input_blanter = document.getElementById('wa_email');
 
 /* Whatsapp Settings */
-var walink = 'https://web.whatsapp.com/send',
+var walink = 'https://api.whatsapp.com/send',
     phone = '62882006014023',
     walink2 = 'Order website ',
     text_yes = 'Terkirim.',
@@ -83,7 +83,7 @@ var walink = 'https://web.whatsapp.com/send',
 
 /* Smartphone Support */
 if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-var walink = 'https://api.whatsapp.com/send?phone=';
+var walink = 'https://api.whatsapp.com/send';
 }
 
 if("" != input_blanter.value){
