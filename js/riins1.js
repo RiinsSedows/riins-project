@@ -75,9 +75,9 @@ $(document).on('click','.send_form', function(){
 var input_blanter = document.getElementById('wa_email');
 
 /* Whatsapp Settings */
-var walink = 'https://api.whatsapp.com/send',
-    phone = '62882006014023',
-    walink2 = 'Order website ',
+var walink = 'https://web.whatsapp.com/send',
+    phone = '6287825322716',
+    walink2 = 'Saya ingin bikin website ',
     text_yes = 'Terkirim.',
     text_no = 'Isi semua Formulir lalu klik Send.';
 
@@ -97,10 +97,10 @@ var input_select1 = $("#wa_select :selected").text(),
 
 /* Final Whatsapp URL */
 var blanter_whatsapp = walink + '?phone=' + phone + '&text=' + walink2 + '%0A%0A' +
-    '*Name* : ' + input_name1 + '%0A' +
-    '*Email Address* : ' + input_email1 + '%0A' +
-    '*URL/Link* : ' + input_url1 + '%0A' +
-    '*Description* : ' + input_textarea1 + '%0A';
+    '*Nama* : ' + input_name1 + '%0A' +
+    '*Nama Toko* : ' + input_email1 + '%0A' +
+    '*Link Toko* : ' + input_url1 + '%0A' +
+    '*Tambahan* : ' + input_textarea1 + '%0A';
 
 /* Whatsapp Window Open */
 window.open(blanter_whatsapp,'_blank');
