@@ -104,8 +104,8 @@ var blanter_whatsapp = walink + '?phone=' + phone + '&text=' + walink2 + '%0A%0A
 
 /* Whatsapp Window Open */
 window.open(blanter_whatsapp,'_blank');
-document.getElementById("text-info").innerHTML = '<span class="yes">'+text_yes+'<</span>';
+document.getElementById("text-info").innerHTML = '<span class="yes">'+text_yes+'</span>';
 } else {
-document.getElementById("text-info").innerHTML = '<span class="no">'+text_no+'<</span>';
+document.getElementById("text-info").innerHTML = '<span class="no">'+text_no+'</span>';
 }
 });
