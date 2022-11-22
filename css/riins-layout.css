@@ -30,6 +30,7 @@ body {background-size:cover;margin-left:auto;margin-right:auto;width:100%;max-wi
 .margin-50 {margin-top:-50px;}
 .margin-30 {margin-top:-30px;}
 .margin-15 {margin-top:-15px;}
+.margin-10 {margin-top:-10px;}
 .marginplus20 {margin-bottom:20px;}
 .width50 {width:50%}
 .width100 {width:100%}
@@ -39,8 +40,9 @@ body {background-size:cover;margin-left:auto;margin-right:auto;width:100%;max-wi
 .rounded1 {background-color:azure;color:#0515a5;border-radius:35px;box-shadow: #d4d5d7;padding:10px;}
 .rounded2 {background-color:azure;color:#0515a5;border-radius:20px;box-shadow: #d4d5d7;padding:10px;}
 .navigasi {width:100%;max-width:420px;position:fixed;bottom:0;overflow:hidden;}
-.navbutton {background-color:rgb(80, 80, 195);border-radius:20px 20px 0px 0px;border-width:2px 1px;border:snow solid;}
-
+.navbutton {background-color:snow;border-radius:20px 20px 0px 0px;color:#0515a5;}
+.navbutton:hover {background-color:darkslategrey;color:snow;}
+.area-play {width:300px;height:500px;}
 
 .blokade15 {width:100%;height:15px;display:block;}
 .blokade70 {width:100%;height:70px;display:block;}
