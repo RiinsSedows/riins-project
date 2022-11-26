@@ -18,7 +18,7 @@ body {background-size:cover;margin-left:auto;margin-right:auto;width:100%;max-wi
 .justify-text {text-align:justify;align-items:center;}
 .align-last-center {text-align-last: center;}
 .align-last-justify {text-align-last: justify;}
-.padding40 {padding:40px;}
+.padding40 {padding:40px;} 
 .margin1 {margin:10px;}
 .margin2 {margin:20px;} 
 .margin3 {margin:30px;}
