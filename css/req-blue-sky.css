@@ -1,0 +1,72 @@
+ html{scroll-behavior: smooth;}
+ *{box-sizing: content-box;}
+ body{background-color: white;font-family:patrickhand;margin-left:auto;margin-right:auto;margin-top: 0px;margin-bottom: 0px;width:100%;max-width:440px;height:100%;}
+ /* --------------------------- ###########
+ /*block*/
+ .container-in-ctr{display:flexbox;justify-content: center;justify-items: center;margin-top: 10px;margin-bottom: 10px;}
+ .container-name{background-color: darkblue;display: flexbox;flex-direction: column;width:100%;}
+ .container-logo{display: flex;justify-content: center;justify-items:center;width:33.3333333%;}
+ .container-col{display: flexbox;flex-direction: column;justify-content: center;justify-items: center;}
+ .container-row{display: flexbox;flex-direction: row;justify-content: center;justify-items: center;}
+ .container{display:block;margin-top: 0px;margin-bottom: 0px;padding: 0%;}
+ .pagecover{display:block;background-color:white;width:inherit;height:800px;}
+ .page1{display:block;background-color:white;width:inherit;height:800px;}
+ .page2{background-image: url(https://www.katalogku.web.id/client/paperbg.svg);width:inherit;height:800px;}
+ .page3{background-image: url(https://www.katalogku.web.id/client/paperbg.svg);width:inherit;height:800px;}
+ .page4{background-image: url(https://www.katalogku.web.id/client/paperbg.svg);width:inherit;height:800px;}
+ .margin1{display:block;position:relative;margin:10px;}
+ .topbg{background-image: url(https://www.katalogku.web.id/client/topbg.svg);width:80%;}
+ .bottombg{background-image: url(https://www.katalogku.web.id/client/topbg.svg);width:80%;}
+ .topbg-2{background-image: url(https://www.katalogku.web.id/client/page3-1.svg);width:80%;}
+ .bottombg-2{background-image: url(https://www.katalogku.web.id/client/page3-2.svg);width:80%;}
+ .border20{display:block;width:100%;height:40px;} 
+ .container-80{display:block;width:80%;max-width:440px;}
+ .container-70{display:block;width:70%;max-width:440px;}
+ .container-30{display:block;width:30%;max-width:440px;}
+ .center-item{display:flex;justify-content: center;justify-items: center;text-align: center;}
+ .image-content{position: relative;}
+ .position-this{margin: left -100px;}
+ .left{position: relative;display: block;float: left;}
+ .right{position: relative;display: block;float: right;}
+ .z0{z-index: 0;}
+ .z1{z-index: 1;}
+ .z2{z-index: 2;}
+ .z3{z-index: 3;}
+ /* --------------------------- ###########
+ /* Font */
+ .miracle{font-family: Miracle}
+ @font-face{font-family: Miracle;src: url(/f/miracle.otf);}
+ .patrick{font-family: Patrick}
+ @font-face{font-family: Patrick;src: url(/f/patrick.ttf);}
+ .grat-vibes{font-family: Greatvibes}
+ @font-face{font-family: Greatvibes;src: url(/f/greatvibes.ttf);}
+ .Albert500{font-family: Albert500}
+ @font-face{font-family: Albert500;src: url(/f/Albert500.ttf);}
+ .Albert900{font-family: Albert900}
+ @font-face{font-family: Albert900;src: url(/f/Albert900.ttf);}
+ .Dosis{font-family: Dosis}
+ @font-face{font-family: Dosis;src: url(/f/dosis.ttf);}
+ .lily{font-family: Lily}
+ @font-face{font-family: Lily;src: url(/f/lily.ttf);}
+ .ohchewy{font-family: Ohchewy}
+ @font-face{font-family: Ohchewy;src: url(/fohchewy.ttf);}
+ .sizeA{font-size: 30px;}
+ .sizeB{font-size: 23px;}
+ .sizeC{font-size: 18px;}
+ .sizeD{font-size: 14px;}
+ .sizeE{font-size: 11px;}
+ /* --------------------------- ###########
+ /* animate*/
+ .scale-animate{}
+
+ 
+ /* --------------------------- ###########
+ /* coloring */
+ .cyan{color:cyan;}
+ .white{color:white;}
+ .blue{color:blue;}
+ .gradiant{background-color: blueviolet;}
+ .span-darkblue{background-color: darkcyan;color:white;border-style: none;border-radius: 20px;}
+ .rounded1 {border-style: none;border-radius: 20px;}
+ .bgcol1{background-color: aquamarine;color:darkblue;}
+ .bgcol2{background-color: blue;color:aliceblue;}
