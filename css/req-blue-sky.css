@@ -1,20 +1,21 @@
 html{scroll-behavior: smooth;}
-div{border: 1px orange solid;}
-body{border:red 1px solid;background-color: white;font-family:patrickhand;margin-left:auto;margin-right:auto;margin-top: 0px;margin-bottom: 0px;width:100%;max-width:440px;height:100%;}
+body{background-color: white;font-family:patrickhand;margin-left:auto;margin-right:auto;margin-top: 0px;margin-bottom: 0px;width:100%;max-width:440px;height:100%;}
 /* --------------------------- ###########
 /*block*/
-.container-in-ctr{border:red 1px solid;display:flex;justify-content: center;justify-items: center;}
+.container-in-ctr{display:flex;justify-content: center;}
 .container-name{display: flex;flex-direction: column;width:100%;}
 .container-logo{display: flex;justify-content: center;justify-items:center;width:33.3333333%;}
 .container-col{display: flex;flex-direction: column;justify-content: center;justify-items: center;}
 .container-row{display: flex;flex-direction: row;justify-content: center;justify-items: center;}
 .container{padding:0px;margin:0px;}
-.pagecover{border:green 2px solid;display:block;background-color:white;width:inherit;height:780px;}
-.page1{border:green 2px solid;display:block;background-color:white;width:100%;height:100%;padding:0px;margin:0px;}
-.page2{border:green 2px solid;background-image: url(https://www.katalogku.web.id/client/paperbg.svg);padding:0px;margin:0px;margin-left:-18px;margin-right:-18px;height:100%;background-size:cover;}
-.page3{border:green 2px solid;background-image: url(https://www.katalogku.web.id/client/paperbg.svg);padding:0px;margin:0px;margin-left:-18px;margin-right:-18px;height:100%;background-size:cover;}
-.date1{background: url(https://www.katalogku.web.id/client/page3-1.svg);background-size:cover;background-repeat:no-repeat;margin-left:auto;margin-right:auto;position:relative;top:-180px;width:370px;display:flex;height:280px;border: 2px green solid;}
-.margin1{position:relative;margin:10px;}
+.pagecover{display:block;background-color:white;width:inherit;height:780px;}
+.page1{display:block;background-color:white;width:100%;height:100%;padding:0px;margin:0px;}
+.page2{background-image: url(https://www.katalogku.web.id/client/paperbg.svg);padding:0px;margin:0px;margin-left:-18px;margin-right:-18px;height:100%;background-size:cover;}
+.page3{background-image: url(https://www.katalogku.web.id/client/paperbg.svg);padding:0px;margin:0px;margin-left:-18px;margin-right:-18px;height:950px;;background-size:cover;}
+.page4{bbackground-image: url(https://www.katalogku.web.id/client/paperbg.svg);padding:0px;margin:0px;margin-left:-18px;margin-right:-18px;height:100%;background-size:cover;}
+.date1{background: url(https://www.katalogku.web.id/client/page3-1.svg);background-size:cover;background-repeat:no-repeat;margin-left:auto;margin-right:auto;position:relative;top:-180px;width:370px;display:flex;height:280px;}
+.margin1{margin:10px;}
+.margin2{margin:20px;}
 .margintop5{margin-top:50px;}
 .margin-20{position:relative;margin:-20px;}
 .margin2{position:relative;margin:20px;}
@@ -23,7 +24,6 @@ body{border:red 1px solid;background-color: white;font-family:patrickhand;margin
 .h100{height:100px;}
 .h200{height:40px;}
 .w6{width:60%;}
-
 .w10{width:100%;}
 .padding2{position:relative;padding:20px;}
 .padding1{position:relative;padding:10px;}
@@ -47,15 +47,21 @@ body{border:red 1px solid;background-color: white;font-family:patrickhand;margin
 .pos1{position:relative;left:-100px;top:0px;}
 .pos2{position:relative;top:-100px;}
 .pos3{position:relative;top:-180px;}
-.left{position: relative;display: block;float: left;}
+.pos4{position:relative;top:-80px;}
+.pos5{position:relative;top:50px;}
+.left{position: relative;float: left;}
 .right{position: relative;display: block;float: right;}
 .left1{left:10px;}
 .center-text{text-align:center;}
 .flip{transform: scaleY(-1) scaleX(-1);}
 .flip2{transform: scaleX(-1);}
+.flip3{transform: scaleY(-1);}
+
 .height100{height:100px}
 .col1{display:flex;flex-direction:column;justify-content:center;}
+.col2{display:flex;flex-direction:column;width:80%; justify-content:center;position: relative;top:50px;}
 .row1{display:flex;flex-direction:row;justify-content: center;}
+.row2{display:flex;flex-direction:row;width:80%; justify-content:center;position: relative;top:50px;}
 .z0{z-index: 0;}
 .z1{z-index: 1;}
 .z2{z-index: 2;}
@@ -93,8 +99,9 @@ body{border:red 1px solid;background-color: white;font-family:patrickhand;margin
 .cyan{color:cyan;}
 .white{color:white;}
 .blue{color:blue;}
-.gradiant{background-color: blueviolet;}
-.span-darkblue{background-color: darkcyan;color:white;border-style: none;border-radius: 20px;}
+.gradiant{background-color: blueviolet; width:440px;}
+.span-darkblue{background-color: darkcyan;color:white;border-style: none;border-radius: 12px;padding:7px;}
 .rounded1 {border-style: none;border-radius: 20px;}
 .bgcol1{background-color: aquamarine;color:darkblue;}
 .bgcol2{background-color: blue;color:aliceblue;}
+.fixed{position:fixed}
