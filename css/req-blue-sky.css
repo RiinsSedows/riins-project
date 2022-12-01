@@ -1,5 +1,5 @@
 html{scroll-behavior: smooth;}
-body{background-color: powderblue;font-family:patrickhand;margin-left:auto;margin-right:auto;margin-top: 0px;margin-bottom: 0px;width:360px;max-width:360px;height:100%;padding:0px;border:red 2px solid;}
+body{background-color: powderblue;font-family:patrickhand;margin-left:auto;margin-right:auto;margin-top: 10px;margin-bottom: 10px;width:385px;max-width:385px;height:100%;padding:0px;}
 /* --------------------------- ###########
 /*block*/
 .container-in-ctr{display:flex;justify-content: center;}
@@ -7,11 +7,11 @@ body{background-color: powderblue;font-family:patrickhand;margin-left:auto;margi
 .container-logo{display: flex;justify-content: center;justify-items:center;width:33.3333333%;}
 .container-col{display: flex;flex-direction: column;justify-content: center;justify-items: center;}
 .container-row{display: flex;flex-direction: row;justify-content: center;justify-items: center;}
-.pagecover{background-color:white;height:640px;border-radius:50px;margin:10px;}
-.page1{background-color:white;height:640px;border-radius:50px;margin:10px;}
-.page2{background-image: url(https://www.katalogku.web.id/client/newpage.svg);height:640px;border-radius:50px;margin:10px;background-size:cover;background-repeat:no-repeat;}
-.page3{background-image: url(https://www.katalogku.web.id/client/newpage.svg);height:640px;border-radius:50px;margin:10px;background-size:cover;background-repeat:no-repeat;}
-.page4{background-image: url(https://www.katalogku.web.id/client/newpage.svg);height:640px;border-radius:50px;margin:10px;background-size:cover;background-repeat:no-repeat;}
+.pagecover{background-color:white;height:640px;width:385px;border-radius:50px;margin:10px;}
+.page1{background-color:white;height:640px;width:385px;border-radius:50px;margin:10px;}
+.page2{background-image: url(https://www.katalogku.web.id/client/newpage.svg);height:640px;width:385px;border-radius:50px;margin:10px;background-size:cover;background-repeat:no-repeat;}
+.page3{background-image: url(https://www.katalogku.web.id/client/newpage.svg);height:640px;width:385px;border-radius:50px;margin:10px;background-size:cover;background-repeat:no-repeat;}
+.page4{background-image: url(https://www.katalogku.web.id/client/newpage.svg);height:640px;width:385px;border-radius:50px;margin:10px;background-size:cover;background-repeat:no-repeat;}
 .date1{background: url(https://www.katalogku.web.id/client/newtopbg.svg);background-size:cover;background-repeat:no-repeat;margin-left:auto;margin-right:auto;position:relative;top:-180px;width:340px;display:flex;height:280px;}
 .date2{background: url(https://www.katalogku.web.id/client/newbotbg.svg);background-size:cover;background-repeat:no-repeat;margin-left:auto;margin-right:auto;position:relative;top:-250px;width:340px;display:flex;height:280px;}
 .margin1{margin:10px;}
