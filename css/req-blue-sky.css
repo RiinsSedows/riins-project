@@ -1,5 +1,5 @@
 html{scroll-behavior: smooth;}
-body{font-family:patrickhand;display:block;margin-left:auto;margin-right:auto;margin-top: 10px;margin-bottom: 10px;width:400px;max-width:400px;height:100%;background: linear-gradient(#ee7752, #e73c7e, #23a6d5, #23d5ab);animation: grad 5s ease infinite;}
+body{font-family:patrickhand;display:block;margin-left:auto;margin-right:auto;margin-top: 10px;margin-bottom: 10px;width:400px;max-width:400px;height:100%;animation: grad 10s ease infinite;}
 /* --------------------------- ###########
 /*block*/
 .container-in-ctr{display:flex;justify-content: center;}
@@ -9,11 +9,11 @@ body{font-family:patrickhand;display:block;margin-left:auto;margin-right:auto;ma
 .container-row{display: flex;flex-direction: row;justify-content: center;justify-items: center;}
 .pagecover{background-color:white;height:700px;width:400px;border-radius:50px;margin:10px;box-shadow:0px 0px 25px rgba(20,20,20,0.5);}
 .page1{background-color:white;height:700px;width:400px;border-radius:50px;margin:10px;box-shadow:0px 0px 25px rgba(20,20,20,0.5);}
-.page2{background-image: url(https://www.katalogku.web.id/client/newpage.svg);height:700px;width:400px;border-radius:50px;margin:10px;background-size:cover;background-repeat:no-repeat;box-shadow:0px 0px 25px rgba(20,20,20,0.5);}
-.page3{background-image: url(https://www.katalogku.web.id/client/newpage.svg);height:700px;width:400px;border-radius:50px;margin:10px;background-size:cover;background-repeat:no-repeat;box-shadow:0px 0px 25px rgba(20,20,20,0.5);}
-.page4{background-image: url(https://www.katalogku.web.id/client/newpage.svg);height:700px;width:400px;border-radius:50px;margin:10px;background-size:cover;background-repeat:no-repeat;box-shadow:0px 0px 25px rgba(20,20,20,0.5);}
-.date1{background: url(https://www.katalogku.web.id/client/newtopbg.svg);background-size:cover;background-repeat:no-repeat;margin-left:auto;margin-right:auto;position:relative;top:-180px;width:380px;display:flex;height:280px;}
-.date2{background: url(https://www.katalogku.web.id/client/newbotbg.svg);background-size:cover;background-repeat:no-repeat;margin-left:auto;margin-right:auto;position:relative;top:-250px;width:380px;display:flex;height:280px;}
+.page2{background-image: url(https://www.katalogku.web.id/client/newpage.png);height:700px;width:400px;border-radius:50px;margin:10px;background-size:cover;background-repeat:no-repeat;box-shadow:0px 0px 25px rgba(20,20,20,0.5);}
+.page3{background-image: url(https://www.katalogku.web.id/client/newpage.png);height:700px;width:400px;border-radius:50px;margin:10px;background-size:cover;background-repeat:no-repeat;box-shadow:0px 0px 25px rgba(20,20,20,0.5);}
+.page4{background-image: url(https://www.katalogku.web.id/client/newpage.png);height:700px;width:400px;border-radius:50px;margin:10px;background-size:cover;background-repeat:no-repeat;box-shadow:0px 0px 25px rgba(20,20,20,0.5);}
+.date1{background: url(https://www.katalogku.web.id/client/newtopbg.png);background-size:cover;background-repeat:no-repeat;margin-left:auto;margin-right:auto;position:relative;top:-180px;width:380px;display:flex;height:280px;}
+.date2{background: url(https://www.katalogku.web.id/client/newbotbg.png);background-size:cover;background-repeat:no-repeat;margin-left:auto;margin-right:auto;position:relative;top:-250px;width:380px;display:flex;height:280px;}
 .margin1{margin:10px;}
 .margin2{margin:20px;}
 .margintop5{margin-top:50px;}
@@ -31,12 +31,12 @@ body{font-family:patrickhand;display:block;margin-left:auto;margin-right:auto;ma
 .posname2{position:relative;top:-3px}
 .posname3{position:relative;top:-15px;}
 .posname4{position:relative;left:-15px;}
-.topbg{background-image: url(https://www.katalogku.web.id/client/topbg.svg);min-width:380px;display:flex;justify-content:center;}
- .bgatas{background-image: url(https://www.katalogku.web.id/client/topbg.svg);background-size:contain;background-repeat:no-repeat;width:85%;z-index:0;position:relative;right:-15px;}
-.bgbawah{background-image: url(https://www.katalogku.web.id/client/topbg.svg);background-size:contain;background-repeat:no-repeat;width:85%;z-index:0;position:relative;right:-15px;}
-.bottombg{background-image: url(https://www.katalogku.web.id/client/topbg.svg);width:80%;}
-.topbg-2{background-image: url(https://www.katalogku.web.id/client/page3-1.svg);width:80%;}
-.bottombg-2{background-image: url(https://www.katalogku.web.id/client/page3-2.svg);width:80%;}
+.topbg{background-image: url(https://www.katalogku.web.id/client/topbg.png);min-width:380px;display:flex;justify-content:center;}
+ .bgatas{background-image: url(https://www.katalogku.web.id/client/topbg.png);background-size:contain;background-repeat:no-repeat;width:85%;z-index:0;position:relative;right:-15px;}
+.bgbawah{background-image: url(https://www.katalogku.web.id/client/topbg.png);background-size:contain;background-repeat:no-repeat;width:85%;z-index:0;position:relative;right:-15px;}
+.bottombg{background-image: url(https://www.katalogku.web.id/client/topbg.png);width:80%;}
+.topbg-2{background-image: url(https://www.katalogku.web.id/client/page3-1.png);width:80%;}
+.bottombg-2{background-image: url(https://www.katalogku.web.id/client/page3-2.png);width:80%;}
 .border20{display:block;width:100%;height:40px;} 
 .container-80{width:80%;max-width:400px;}
 .container-70{width:70%;max-width:400px;}
@@ -131,15 +131,8 @@ body{font-family:patrickhand;display:block;margin-left:auto;margin-right:auto;ma
 .scale{position:relative;animation:myscalestd 6s ease;}
 @keyframes myscalestd{from{transform:scale(0.3);opacity:0;}to{transform:scale(1);opacity:1;}}
 @keyframes grad {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+	from{background-color:#23a6d5;}
+	to{background-color:#23d5ab;}
 }
 
 /* --------------------------- ###########
