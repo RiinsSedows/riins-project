@@ -1,5 +1,5 @@
 html{scroll-behavior: smooth;}
-body{font-family:patrickhand;display:block;margin-left:auto;margin-right:auto;margin-top: 10px;margin-bottom: 10px;width:400px;max-width:400px;height:100%;animation: grad 10s ease infinite;}
+body{font-family:patrickhand;display:block;margin-left:auto;margin-right:auto;margin-top: 10px;margin-bottom: 10px;width:400px;max-width:400px;height:700px;animation: grad 10s ease infinite;}
 /* --------------------------- ###########
 /*block*/
 .container-in-ctr{display:flex;justify-content: center;}
@@ -32,8 +32,8 @@ body{font-family:patrickhand;display:block;margin-left:auto;margin-right:auto;ma
 .posname3{position:relative;top:-15px;}
 .posname4{position:relative;left:-15px;}
 .topbg{background-image: url(https://www.katalogku.web.id/client/topbg.png);min-width:380px;display:flex;justify-content:center;}
- .bgatas{background-image: url(https://www.katalogku.web.id/client/topbg.png);background-size:contain;background-repeat:no-repeat;width:85%;z-index:0;position:relative;right:-15px;}
-.bgbawah{background-image: url(https://www.katalogku.web.id/client/topbg.png);background-size:contain;background-repeat:no-repeat;width:85%;z-index:0;position:relative;right:-15px;}
+ .bgatas{background-image: url(https://www.katalogku.web.id/client/topbg.svg);background-size:contain;background-repeat:no-repeat;width:85%;z-index:0;position:relative;right:-15px;}
+.bgbawah{background-image: url(https://www.katalogku.web.id/client/topbg.svg);background-size:contain;background-repeat:no-repeat;width:85%;z-index:0;position:relative;right:-15px;}
 .bottombg{background-image: url(https://www.katalogku.web.id/client/topbg.png);width:80%;}
 .topbg-2{background-image: url(https://www.katalogku.web.id/client/page3-1.png);width:80%;}
 .bottombg-2{background-image: url(https://www.katalogku.web.id/client/page3-2.png);width:80%;}
@@ -78,6 +78,10 @@ body{font-family:patrickhand;display:block;margin-left:auto;margin-right:auto;ma
 .z1{z-index: 1;}
 .z2{z-index: 2;}
 .z3{z-index: 3;}
+.z10{z-index: 10;}
+.z20{z-index: 20;}
+.z21{z-index: 21;}
+.cur{cursor:pointer;}
 /* --------------------------- ###########
 /* Font */
 .miracle{font-family: Miracle}
@@ -105,12 +109,13 @@ body{font-family:patrickhand;display:block;margin-left:auto;margin-right:auto;ma
 /* animate*/
 .reveal{
   position: relative;
-  transform: translateY(150px);
+  transform: translateY(-150px)scale(1.4);
   opacity: 0;
   transition: 2s all ease;
 }
+
 .reveal.active{
-  transform: translateY(0);
+  transform: translateY(0)scale(1);
   opacity: 1;
 }
 
@@ -129,7 +134,7 @@ body{font-family:patrickhand;display:block;margin-left:auto;margin-right:auto;ma
 .sfade{position:relative;animation:mysfade 10s infinite;animation-delay:4s;}
 @keyframes mysfade{from{background-blend-mode:screen;}to{background-blend-mode:normal;}}
 .scale{position:relative;animation:myscalestd 6s ease;}
-@keyframes myscalestd{from{transform:scale(0.3);opacity:0;}to{transform:scale(1);opacity:1;}}
+@keyframes myscalestd{from{transform:scale(0.3)rotate(90deg);opacity:0;}to{transform:scale(1)rotate(0deg);opacity:1;}}
 @keyframes grad {
 	from{background-color:#23a6d5;}
 	to{background-color:#23d5ab;}
@@ -146,7 +151,7 @@ body{font-family:patrickhand;display:block;margin-left:auto;margin-right:auto;ma
 img.rounded-img {border-style: none;border-radius: 50px 50px 0px 0px;}
 .bgcol1{background-color: aquamarine;color:darkblue;}
 .bgcol2{background-color: blue;color:aliceblue;}
-.fixed{position:fixed}
+.sticky{position: sticky;bottom:10px;}
 .main{color:#1789c5;}
 .sec{color:#0d5377;}
 .sec2{color:#0f75bc;}

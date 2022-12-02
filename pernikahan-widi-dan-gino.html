@@ -13,8 +13,11 @@
   </head>
   <body>
     <!--pagecover-->
+  <audio id="sound">
+  <source src="https://www.katalogku.web.id/terlalusempurna.mp3" type="audio/mpeg">
+  </audio>
   <div class="container-in-ctr">
-    <div class="pagecover" id="cover">
+    <div class="pagecover z21" id="cover">
       <div class="border20"></div>
       <div class="border20"></div>
         <div class="container-in-ctr">
@@ -41,7 +44,7 @@
         <div class="border20"></div>
         <div class="container-in-ctr">
             <div class="bgsec soft container-30 center-item sedowbox3 rounded1 patrick ">
-            <botton class="sizeD dosis padding1" onclick="enableScroll()">Buka Undangan</botton>
+            <botton class="sizeD dosis padding1 cur" type="button" onclick="enableScroll(); playAudio();">Buka Undangan</botton>
             </div>
         </div>
         <div class="border20"></div>
@@ -49,7 +52,7 @@
   </div>
     <!---->
     <!--page1-->
-  <div class="container-in-ctr reveal">
+  <div class="container-in-ctr z20 reveal">
     <div class="page1" id="pagefirst">
       </br>
         <div class="container-in-ctr scale margin1">
@@ -65,11 +68,11 @@
         </div>
         <div class="container-in-ctr margin2">
             <div class="container-row">
-                <div class="image-content z0 fade1">
+                <div class="image-content fade1">
                     <img src="https://www.katalogku.web.id/client/page1-2.png" height="350" class="position-this2">
                 </div>
-                <div class="image-content fade1 z2">
-                    <img src="https://www.katalogku.web.id/client/page1-3.png"  height="140" class="z2 position-this">
+                <div class="image-content fade1">
+                    <img src="https://www.katalogku.web.id/client/page1-3.png"  height="140" class="position-this">
                 </div>
             </div>
         </div>
@@ -87,7 +90,7 @@
     <!---->
     <!--page2-->
   <div class="container-in-ctr reveal">
-    <div class="page2" id="pagesecond">
+    <div class="page2 z3" id="pagesecond">
         <div class="container-in-ctr">
             <img src="https://www.katalogku.web.id/client/flower1.png" class="z0 pos1 scale1" height="200">
         </div>
@@ -134,7 +137,7 @@
     <!---->
     <!--page3-->
   <div class="container-in-ctr reveal">
-    <div class="page3" id="pagethird">
+    <div class="page3 z2" id="pagethird">
       <div class="pos9 scale">
       <div class="col1 date1 sedowtext">
         <div class="row2">
@@ -179,11 +182,11 @@
         </div>
         <div class="container-in-ctr pos11 z2 sedowtext row1">
             <div class="container-30 col1 center-item z2">
-                <img class="center-item" src="https://www.katalogku.web.id/client/navigasi.png" height="60">
+                <img class="center-item" src="https://www.katalogku.web.id/client/navigasi.svg" height="60">
                 <a class="sizeC main Albert500">Navigasi</a>
             </div>
             <div class="container-30 col1 center-item z2">
-                <img class="center-item" src="https://www.katalogku.web.id/client/reminder.png" height="60">
+                <img class="center-item" src="https://www.katalogku.web.id/client/reminder.svg" height="60">
                 <a class="sizeC main Albert500">Pengingat</a>
             </div>
         </div>
@@ -194,7 +197,7 @@
   </div>
     <!---->
     <!--page4-->
-  <div class="container-in-ctr reveal">
+  <div class="container-in-ctr reveal z1">
     <div class="page4 sedowtext" id="pagefourth">
         <div class="container-in-ctr">
             <img class="rounded-img margin1" src="https://www.katalogku.web.id/client/page4-1.png" width="90%">
@@ -241,6 +244,10 @@
         </div>
       </div>
     </div>
+  </div>
+  <div class="sticky center-item z10">
+      <button onclick="pauseAudio()" type="button">Mute</button> 
+      <button onclick="playAudio()" type="button">Play</button>
   </div>
     <!---->
     <!---->
