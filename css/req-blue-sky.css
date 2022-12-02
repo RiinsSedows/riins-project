@@ -1,5 +1,5 @@
 html{scroll-behavior: smooth;}
-body{background-color: powderblue;font-family:patrickhand;margin-left:auto;margin-right:auto;margin-top: 10px;margin-bottom: 10px;width:400px;max-width:400px;height:100%;padding:0px;border:red 2px solid;}
+body{background-color: #1fa4dd;font-family:patrickhand;display:block;margin-left:auto;margin-right:auto;margin-top: 10px;margin-bottom: 10px;width:400px;max-width:400px;height:100%;}
 /* --------------------------- ###########
 /*block*/
 .container-in-ctr{display:flex;justify-content: center;}
@@ -30,9 +30,10 @@ body{background-color: powderblue;font-family:patrickhand;margin-left:auto;margi
 .posname{position:relative;top:15px;}
 .posname2{position:relative;top:-3px}
 .posname3{position:relative;top:-15px;}
+.posname4{position:relative;left:-15px;}
 .topbg{background-image: url(https://www.katalogku.web.id/client/topbg.svg);min-width:380px;display:flex;justify-content:center;}
- .bgatas{background-image: url(https://www.katalogku.web.id/client/topbg.svg);background-size:contain;background-repeat:no-repeat;width:85%;z-index:0;}
-.bgbawah{background-image: url(https://www.katalogku.web.id/client/topbg.svg);background-size:contain;background-repeat:no-repeat;width:85%;z-index:0;}
+ .bgatas{background-image: url(https://www.katalogku.web.id/client/topbg.svg);background-size:contain;background-repeat:no-repeat;width:85%;z-index:0;position:relative;right:-15px;}
+.bgbawah{background-image: url(https://www.katalogku.web.id/client/topbg.svg);background-size:contain;background-repeat:no-repeat;width:85%;z-index:0;position:relative;right:-15px;}
 .bottombg{background-image: url(https://www.katalogku.web.id/client/topbg.svg);width:80%;}
 .topbg-2{background-image: url(https://www.katalogku.web.id/client/page3-1.svg);width:80%;}
 .bottombg-2{background-image: url(https://www.katalogku.web.id/client/page3-2.svg);width:80%;}
@@ -43,21 +44,22 @@ body{background-color: powderblue;font-family:patrickhand;margin-left:auto;margi
 .container-30{width:30%;max-width:400px;}
 .center-item{display:flex;justify-content: center;justify-items: center;text-align: center;}
 .image-content{position: relative;}
-.position-this{margin-left: -150px;margin-top:50px;}
+.position-this{margin-left: -170px;margin-top:54px;}
 .position-this2{right:90px;}
-.pos1{position:relative;left:-50px;top:-20px;}
+.pos1{position:relative;left:-65px;top:-20px;}
 .pos2{position:relative;top:-150px;}
-.pos3{position:relative;top:-190px;right:-90px;}
+.pos3{position:relative;top:-190px;right:-120px;}
 .pos4{position:relative;top:-80px;}
 .pos5{position:relative;top:50px;}
 .pos6{position:relative;top:-170px;}
-.pos7{position:relative;top:-190px;}
+.pos7{position:relative;top:-130px;}
 .pos8{position:relative;top:50px;}
 .pos9{position:relative;top:160px;}
-.pos10{position:relative;top:-90px;}
-.pos11{position:relative;top:-70px;}
+.pos10{position:relative;top:-80px;}
+.pos11{position:relative;top:-60px;}
 .pos12{position:relative;top:20px;}
 .pos13{position:relative;top:10px;}
+.pos14{position:relative;top:-190px;}
 .left{position: relative;float: left;}
 .right{position: relative;display: block;float: right;}
 .left1{left:10px;}
@@ -68,10 +70,10 @@ body{background-color: powderblue;font-family:patrickhand;margin-left:auto;margi
 
 .height100{height:100px}
 .col1{display:flex;flex-direction:column;justify-content:center;}
-.col2{display:flex;flex-direction:column;width:100%; justify-content:center;position: relative;top:-35px;right:-37px;}
+.col2{display:flex;flex-direction:column;width:100%; justify-content:center;position: relative;top:-28px;right:-28px;}
 .row1{display:flex;flex-direction:row;justify-content: center;}
-.row2{display:flex;flex-direction:row;width:80%; justify-content:center;position: relative;top:35px;}
-.row3{display:flex;flex-direction:row;width:95%; justify-content:center;position: relative;top:45px;}
+.row2{display:flex;flex-direction:row;width:75%; justify-content:center;position: relative;top:35px;}
+.row3{display:flex;flex-direction:row;width:90%; justify-content:center;position: relative;top:45px;}
 .z0{z-index: 0;}
 .z1{z-index: 1;}
 .z2{z-index: 2;}
@@ -116,3 +118,10 @@ img.rounded-img {border-style: none;border-radius: 50px 50px 0px 0px;}
 .bgcol1{background-color: aquamarine;color:darkblue;}
 .bgcol2{background-color: blue;color:aliceblue;}
 .fixed{position:fixed}
+.main{color:#1789c5;}
+.sec{color:#0d5377;}
+.sec2{color:#0f75bc;}
+.sec3{color:#465a65;}
+.soft{color:#cfe5ec;}
+.bgmain{background-color:#cfe5ec;}
+.bgsec{background-color:#465a65;}
