@@ -7,20 +7,29 @@
     <link rel="icon" href="undangan.ico" sizes="64x64">
     <link rel="icon" href="undangan.ico" sizes="32x32">
     <link rel="icon" href="undangan.ico" sizes="16x16">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <meta name="katalogku.web.id" content="Jasa Desain Murah Simpel Terpercaya">
     <meta name="keywords" content="katalogku web id katalog desain logo undangan digital">
+    <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">-->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script>
+	$(document).ready(function(){
+		$("#myModal").modal('show');
+	});
+</script>
   </head>
-  <body>
-    <!--pagecover-->
-  <audio id="sound">
-  <source src="https://www.katalogku.web.id/terlalusempurna.mp3" type="audio/mpeg">
-  </audio>
-  <div class="container-in-ctr">
-    <div class="pagecover z21" id="cover">
-      <div class="border20"></div>
-      <div class="border20"></div>
-        <div class="container-in-ctr">
+<body>
+  
+  
+<div id="myModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+          
+          
+            <div class="container-in-ctr">
             <img class="margin2 scale" src="https://www.katalogku.web.id/client/cover1.png" height="250">
         </div>
         <div class="container-in-ctr main margin1">
@@ -44,15 +53,17 @@
         <div class="border20"></div>
         <div class="container-in-ctr">
             <div class="bgsec soft container-30 center-item sedowbox3 rounded1 patrick ">
-            <botton class="sizeD dosis padding1 cur" type="button" onclick="enableScroll(); playAudio();">Buka Undangan</botton>
+            <botton class="sizeD dosis padding1 cur close" data-dismiss="modal" type="button" onclick="enableScroll(); playAudio();">Buka Undangan</botton>
             </div>
         </div>
-        <div class="border20"></div>
+
+          
+        </div>
     </div>
-  </div>
-    <!---->
-    <!--page1-->
-  <div class="container-in-ctr z20 reveal">
+</div>
+  
+  
+  <div class="container-in-ctr">
     <div class="page1" id="pagefirst">
       </br>
         <div class="container-in-ctr scale margin1">
@@ -87,9 +98,10 @@
         </div>
     </div>
   </div>
-    <!---->
+  
+  <!---->
     <!--page2-->
-  <div class="container-in-ctr reveal">
+  <div class="container-in-ctr">
     <div class="page2 z3" id="pagesecond">
         <div class="container-in-ctr">
             <img src="https://www.katalogku.web.id/client/flower1.png" class="z0 pos1 scale1" height="200">
@@ -136,7 +148,7 @@
   </div>
     <!---->
     <!--page3-->
-  <div class="container-in-ctr reveal">
+  <div class="container-in-ctr">
     <div class="page3 z2" id="pagethird">
       <div class="pos9 scale">
       <div class="col1 date1 sedowtext">
@@ -197,7 +209,7 @@
   </div>
     <!---->
     <!--page4-->
-  <div class="container-in-ctr reveal z1">
+  <div class="container-in-ctr">
     <div class="page4 sedowtext" id="pagefourth">
         <div class="container-in-ctr">
             <img class="rounded-img margin1" src="https://www.katalogku.web.id/client/page4-1.png" width="90%">
@@ -245,12 +257,8 @@
       </div>
     </div>
   </div>
-  <div class="sticky center-item z10">
-      <button onclick="pauseAudio()" type="button">Mute</button> 
-      <button onclick="playAudio()" type="button">Play</button>
-  </div>
     <!---->
     <!---->
-  <script async="true" src="/js/scroll.js"></script>
+  <script async="true" src="https://www.katalogku.web.id/js/scroll.js"></script>
   </body>
   </html>

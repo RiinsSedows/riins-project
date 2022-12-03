@@ -18,7 +18,7 @@ window.addEventListener("scroll", reveal);
 
 //ss
 
-function disableScroll() {
+/* function disableScroll() {
   // Get the current page scroll position
   scrollTop =
   window.pageYOffset || document.documentElement.scrollTop;
@@ -36,8 +36,8 @@ function enableScroll() {
   window.onscroll = function() {};
 }
 
-document.onload = disableScroll();{}
-
+document.onload = disableScroll();{} 
+*/
 //
 
 var snd = document.getElementById("sound"); {
