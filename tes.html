@@ -2,74 +2,272 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Example of Auto Loading Bootstrap Modal on Page Load</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0">
     <meta name="mobile-web-app-capable" content="yes">
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-<title>Example of Auto Loading Bootstrap Modal on Page Load</title>
-  
-<style>
+<style type='text/css'>
+  html, body, *{box-sizing:border-box;}
   p{margin:0px;}
- html{scroll-behavior:smooth;height:-webkit-fill-available;}
-body{display:flex;flex-direction:column;margin:0px;height:100vh;height:-webkit-fill-available;border:1px red solid;max-width:430px;}
-.container{margin:0px;width:430px;border:1px green solid;}
-#modalf{width:100%;height:100vh;justify-content:center;position:absolute;top:0;left:0;display:none;transition:all 3s ease;}
-#modalf-2{box-sizing:border-box;width:100%;height:100vh;background-color:blue;padding:20px;text-align:center;margin:0;}
+ html{scroll-behavior:smooth;height:-webkit-fill-available;} 
+body{display:flex;flex-direction:column;margin:0px;height:100vh;width:400px;height:-webkit-fill-available;border:1px red solid;}
+.container{margin:0px;width:400px;border:1px green solid;}
+#modalf{width:100vw;height:100vw;justify-content:center;position:absolute;top:0;left:0;display:none;background-color:rgb(33,33,33);transform:opacity(1);z-index:1;animation: myfade3 0.5s;}
+#modalf-2{box-sizing:border-box;width:100%;height:100vw;background-color:rgba(33,33,33,0.9);text-align:center;margin:0;animation:unfoldIn 1.5s;}
   
   div{border: blue 1px solid;}
   img{border: yellow 1px solid;}
   a{border: magenta 1px solid;}
-  .row{display:flex;flex-direction:row;justify-content:center;justify-align:center;}
-  .col{display:flex;flex-direction:column;justify-content:center;justify-align:center;}
+  .row{display:flex;flex-direction:row;justify-content:center;align-items:center;}
+  .col{display:flex;flex-direction:column;justify-content:center;align-items:center;}
+  .cover{background-color:white;margin:50px;border-radius:20px;box-shadow:0px 0px 12px grey;transform:scale(1);transition:3s ease-in-out;} 
+	.cover-in{padding:50px;display:flex;justify-content:center;flex-direction:column;}
+  .none{display:none;}
+  
+  
+  /* coloring */
+.cyan{color:cyan;}
+.white{color:white;}
+.blue{color:blue;}
+.gradiant{background-color: blueviolet; width:80%;border-radius:15px;padding:5px;}
+.span-darkblue{background-color: darkcyan;color:white;border-style: none;border-radius: 12px;padding:7px;}
+.rounded1 {border-style: none;border-radius: 8px;}
+img.rounded-img {border-style: none;border-radius: 50px 50px 0px 0px;}
+.bgcol1{background-color: aquamarine;color:darkblue;}
+.bgcol2{background-color: blue;color:aliceblue;}
+.sticky{position: sticky;bottom:10px;}
+.main{color:#1789c5;}
+.sec{color:#0d5377;}
+.sec2{color:#0f75bc;}
+.sec3{color:#465a65;}
+.soft{color:#cfe5ec;}
+.bgmain{background-color:#cfe5ec;}
+.bgsec{background-color:#465a65;}
+.sedowtext{text-shadow:0px 0px 5px rgba(100,100,255,0.4);} /*cyan*/
+.sedowtext2{text-shadow:0px 0px 5px rgba(255,255,255,0.4);} /*white*/
+.sedowbox6{box-shadow:2px 2px 6px rgba(0,0,38,0.5);} /*darkblue*/
+.sedowbox3{box-shadow:0px 0px 7px rgba(0,0,38,0.3);} /*darkblue*/
+  span{padding:10px 16px;}
+  .mid{padding:3px 10px;}
+  button{padding:10px 16px;}
+  .invite{transform:scale(1)opacity(1);}
+  .invite:hover{transform:scale(1.2);border:2px solid rgba(00,255,220,0.7);transition:ease-in 0.1s;}
+  .invite:active{transform:opacity(0);transition:ease-in 0.1s;}
+  .margin1{margin:10px;}
+  .margin2{margin:15px;}
+  
+  
+  /* fonts */
+  .miracle{font-family: Miracle}
+@font-face{font-family: Miracle;src: url(https://www.katalogku.web.id/f/miracle.otf);}
+.patrick{font-family: Patrick}
+@font-face{font-family: Patrick;src: url(https://www.katalogku.web.id/f/patrick.ttf);}
+.great-vibes{font-family: Greatvibes}
+@font-face{font-family: Greatvibes;src: url(https://www.katalogku.web.id/f/greatvibes.ttf);}
+.Albert500{font-family: Albert500}
+@font-face{font-family: Albert500;src: url(https://www.katalogku.web.id/f/Albert500.ttf);}
+.Albert900{font-family: Albert900}
+@font-face{font-family: Albert900;src: url(https://www.katalogku.web.id/f/Albert900.ttf);}
+.Dosis{font-family: Dosis}
+@font-face{font-family: Dosis;src: url(https://www.katalogku.web.id/f/dosis.ttf);}
+.lily{font-family: Lily}
+@font-face{font-family: Lily;src: url(https://www.katalogku.web.id/f/lily.ttf);}
+.ohchewy{font-family: Ohchewy}
+@font-face{font-family: Ohchewy;src: url(https://www.katalogku.web.id/f/ohchewy.ttf);}
+  
+  /* size */
+  .sizeA{font-size: 50px;}
+  .sizeB{font-size: 40px;}
+  .sizeC{font-size: 30px;}
+  .sizeD{font-size: 20px;}
+  .sizeE{font-size: 13px;}
+  
+  
+  /* animate */
+  .scale{position:relative;animation:myfade 4s;}
+  .fade{position:relative;animation:myfade2 3s;}
+  .fade2s{position:relative;animation:myfade2 5s;}
+  .fade3{position:relative;animation:myfade3 4s;}
+  .idle{position:relative;animation:idle 9s infinite ease-in-out;}
+  .outlines{position:relative;animation:myoutlines 4s infinite;}
+  .highlight{position:relative;animation:highlight 4s infinite;}
+  @keyframes myfade {
+    from{opacity:0;transform:scale(0);}
+    to{opacity:1;transform:scale(1);}}
+  .outlines{position:relative;animation:myoutlines 4s;}
+  @keyframes myfade2 {
+    from{opacity:0;transform:scaleX(0)scaleY(-1)scale(0);}
+    to{opacity:1;transform:scaleX(1)scaleY(1);}} 
+  .outlines{position:relative;animation:myoutlines 2s infinite;}
+  @keyframes myfade3 {
+    from{opacity:0;}
+    to{opacity:1;}}
+  @keyframes myoutlines{
+    0%{text-shadow:0px 5px 10px rgba(00,99,00,0.7);}
+    50%{text-shadow:0px 5px 10px rgba(00,99,99,0.7);}
+    100%{text-shadow:0px 5px 10px rgba(00,99,00,0.7);}}
+  @keyframes idle {
+    0%{transform:scaleX(1)scaleY(1)skewX(0deg)skewY(0deg)rotate(0deg);}
+    50%{transform:scaleX(0.9)scaleY(1)skewX(1deg)skewY(-5deg)rotate(1deg)scale(1.1);}}
+  	100%{transform:scaleX(1)scaleY(1)skewX(0deg)skewY(0deg)rotate(0deg);}
+  @keyframes highlight{
+    0%{color:rgba(00,59,100,1);}
+    50%{color:rgba(00,79,159,1);}
+    100%{color:rgba(00,59,100,1);}}
+  
+  @keyframes unfoldIn {
+  0% {
+    transform:scaleY(.005) scaleX(0);
+  }
+  50% {
+    transform:scaleY(.005) scaleX(1);
+  }
+  100% {
+    transform:scaleY(1) scaleX(1);
+  }
+}
 
-</style>
+@keyframes unfoldOut {
+  0% {
+    transform:scaleY(1) scaleX(1);
+  }
+  50% {
+    transform:scaleY(.005) scaleX(1);
+  }
+  100% {
+    transform:scaleY(.005) scaleX(0);
+  }
+}
+
+@keyframes zoomIn {
+  0% {
+    transform:scale(0);
+  }
+  100% {
+    transform:scale(1);
+  }
+}
+
+@keyframes zoomOut {
+  0% {
+    transform:scale(1);
+  }
+  100% {
+    transform:scale(0);
+  }
+}
+  
+    
+  
+  /* grading */
+  .css-selector {
+    background: linear-gradient(125deg, #17fdc2, #1c919d, #17fdea);
+    background-size: 100% 100%;
+
+    -webkit-animation: bgcover 6s ease infinite;
+    -moz-animation: bgcover 6s ease infinite;
+    animation: bgcover 6s ease infinite;
+}
+
+@-webkit-keyframes bgcover {
+    0%{background-position:0% 88%}
+    50%{background-position:100% 13%}
+    100%{background-position:0% 88%}
+}
+@-moz-keyframes bgcover {
+    0%{background-position:0% 88%}
+    50%{background-position:100% 13%}
+    100%{background-position:0% 88%}
+}
+@keyframes bgcover {
+    0%{background-position:0% 88%}
+    50%{background-position:100% 13%}
+    100%{background-position:0% 88%}
+}
+  
+  
+  .fixing{position:relative;top:-340px;right:-85px;}
+  .fixing2{position:relative;top:-170px;}
+  .border2{display:block;width:100%;height:2rem;}
+  .fixing3{position:relative;top:-100px;}
+  .ctr{text-align:center;}
+  .flip1{display:flex;position:relative;transform:translateX(130%)rotate(180deg);}
+  .bg{background: url(https://www.katalogku.web.id/client/topbg.svg);background-size:contain;;background-position:center;background-repeat:no-repeat;width:400px;height:160px;object-fit:contain;}
+  .fixing4{position:relative;top:16px;}
+  .fixing5{position:relative;top:-125px;left:-23px;}
+  .fixing6{position:relative;top:-110px;}
+  .fixing7{position:relative;top:-39px;right:-30px;}
+  .fixing8{position:relative;top:-110px;}
+  .fixing9{position:relative;top:-70px;}
+  .bg2{background: url(https://www.katalogku.web.id/client/newtopbg.png);background-size:contain;background-position:center;background-repeat:no-repeat;height:310px;object-fit:contain;}
+  .bg3{background: url(https://www.katalogku.web.id/client/newbotbg.png);background-size:contain;background-position:center;background-repeat:no-repeat;height:310px;object-fit:contain;}
+  .date{position:relative;bottom:-27px;left:-25px;}
+  .marg{margin:5px;}
+  .flip2{position:relative;transform:rotateX(180deg);top:-50px;}
+  
+</style>-
   
 </head>
 <body>
 <audio id='myMusic'>
-	<source src="https://www.katalogku.web.id/terlalusempurna.mp3" type="audio/mpeg">
+	<source src="https://www.katalogku.web.id/udin.mp3" type="audio/mpeg">
 </audio>
 
 <!--cover-->
-<div id='modalf'>
+<div id='modalf'>      /////// disini
 	<div id='modalf-2'>
 	<div class='cover'>
-      <div class='image'>
-        <img src="https://www.katalogku.web.id/client/cover1.png" height="250">
+      <div class='cover-in'>
+        <div class='image scale'> 
+          <img class='idle' src="https://www.katalogku.web.id/client/cover1.png" height="250">
+        </div>
+        <div class='inv miracle sec2 highlight outlines'>
+          <a class='fade3 sizeA'> You Are Invited!</a>
+        </div>
+        <div class='image fade2s'>
+          <img src="https://www.katalogku.web.id/client/cover2.png" width="60%">
+        </div>
+        <div class='to'>
+          <div>
+            <div class='margin1 sec Albert500'>Kepada Yth.</div>
+            <span class='bgmain sec rounded1 Albert900 sedowbox6'>MR. SUPRIYADI</span>
+            </div>
+        </div>
+        <div class='margin2'>
+          <button class='invite bgsec soft rounded1 Albert500 sedowbox6' id="release" onclick="togglePlay()">BUKA UNDANGAN</button>
+        </div>
       </div>
-      <div class='inv'>
-        <a> You Are Invinted!</a>
-      </div>
-	  <div class='image'>
-		<img src="https://www.katalogku.web.id/client/cover2.png" width="100%">
-   	  </div>
-      <div class='to'>
-        <span>Kepada Yth.</span>
-        <span>MR. SUPRIYADI</span>
-      </div>
-		<button id="release" onclick="togglePlay()">Buka Undangan</button>
 	</div>
 	</div>
   </div>
   
   <!--page1-->
-  <div class='container'>
+  <div class='container col'>
+    <div class='border2'></div>
     <div class='image'>
       <img src="https://www.katalogku.web.id/client/page1-1.png">
     </div>
-    <div class='text'>
-      <a>Save The Date</a>
-      <a>FOR THE WEDDING OF</a>
+    <div class='border2'></div>
+    <div class='col margin2'>
+      <div>
+      	<a class='margin1 sizeB great-vibes sedowtext main'>Save The Date</a>
+      </div>
+      <div>
+      	<a class='Albert900 sec sizeE'>FOR THE WEDDING OF</a>
+      </div>
     </div>
-    <div class='image'>
-      <img src="https://www.katalogku.web.id/client/page1-2.png" width="200px">
-      <img src="https://www.katalogku.web.id/client/page1-3.png" width='100px'>
+    <div class='image col'>
+      <img src="https://www.katalogku.web.id/client/page1-2.png" width="400px">
     </div>
-    <div class='text'>
-      <a>04 | 01 | 2023</a>
-      <a>GERDUREN, PURWOJATI</a>
+    <div class='fixing'>
+      <img src="https://www.katalogku.web.id/client/page1-3.png" width='200px'>
     </div>
-    <div class='image'>
-      <img src="https://www.katalogku.web.id/client/page1-4.png">
+    <div class='col fixing2'>
+      <a class='margin1 sizeA sec sedowtext'>04 | 01 | 2023</a>
+      <span class='sizeD Dosis bgmain sec rounded1'>GERDUREN, PURWOJATI</span>
+    </div>
+    <div class='col fixing3'>
+      <img src="https://www.katalogku.web.id/client/page1-4.png" width='90%'>
     </div>
   </div>
   
@@ -78,32 +276,35 @@ body{display:flex;flex-direction:column;margin:0px;height:100vh;height:-webkit-f
     <div class='page2'>
     	<div class='border'>
       		<div class='image'>
-              <img src="https://www.katalogku.web.id/client/flower1.png" width='100px'>
+              <img src="https://www.katalogku.web.id/client/flower1.png" width='170px'>
             </div>
-          	<div class='text'>
-              <div class='par'>
+          	<div class='text col ctr sedowtext'>
+              <div class='par sizeD sec Dosis'>
               	<a>
                   <p>Maha Suci Allah SWT</p>
                   <p>yang telah menciptakan makhluk-Nya berpasangan-pasangan. Ya Allah perkenanlah kami menikahkan putra putri kami :</p>
               	</a>
               </div>
-              <div class='par'>
-              	<a>
-                  <p>HEkA WIDIANI</p>
+              <div class='bg margin2 sizeD sec Dosis'>
+              	<a class='fixing4'>
+                  <p class='sizeC main lily sedowtext2'>Heka Widiani</p>
                   <p>Putri dari Bapak Sahidin - Ibu Tursini</p>
                   <p>Gerduren, Purwojati</p>
               	</a>
               </div>
-              <div class='par'>
-              	<a>
-              	  <p>SUGINO</p>
+              <div class='image'>
+                <img src="https://www.katalogku.web.id/client/loveyou.png" width='150px'>
+              </div>
+              <div class='bg margin2 sizeD sec Dosis'>
+              	<a class='fixing4'>
+              	  <p class='sizeC main lily sedowtext2'>Sugino</p>
                   <p>Putra dari Bapak Sukiran(Alm) - Ibu Karsiti</p>
                   <p>Kracak, Ajibarang</p>
               	</a>
               </div>
             </div>
           <div class='image'>
-            <img src="https://www.katalogku.web.id/client/flower1.png" width='100px'>
+            <img class='flip1' src="https://www.katalogku.web.id/client/flower1.png" width='170px'>
           </div>
       	</div>
     </div>
@@ -113,56 +314,59 @@ body{display:flex;flex-direction:column;margin:0px;height:100vh;height:-webkit-f
   <div class='container'>
     <div class='page2'>
    	  <div class='border'>
-        <div class='row'>
-          <div class='col'>
-            <div>
+        <div class='row bg2'>
+          <div class='col date'>
+            <div class='sizeB lily bgsec soft rounded1 mid margin2'>
               03
             </div>
-            <div>
+            <div class='event sizeD Dosis bgmain sec mid rounded1'>
               Resepsi
             </div>
           </div>
-          <div class='col'>
-            <div>
+          <div class='col date'>
+            <div class='sizeB lily bgsec soft rounded1 mid margin2'>
               04
             </div>
-            <div>
+            <div class='sizeD Dosis bgmain sec mid rounded1'>
               Akad
             </div>
           </div>
         </div>
         <div class='row'>
-          Januari 2023
+          <span class='sizeE bgmain sec2 Dosis rounded1 mid fixing5'>Januari 2023</span>
         </div>
-        <div class='col'>
-          <div>Kalipandan RT 01 RW 04</div>
-          <div>Desa Gerduren</div>
-          <div>Kec. Purwojati</div>
-          <div>Kab. Banyumas</div>
+        <div class='col bg3 fixing6'>
+          <div class='fixing7 sizeE Albert500'>
+            <div class='marg bgsec soft rounded1 mid'>Kalipandan RT 01 RW 04</div>
+            <div class='marg bgmain sec3 rounded1 mid'>Desa Gerduren</div>
+            <div class='marg bgsec soft rounded1 mid'>Kec. Purwojati</div>
+            <div class='marg bgmain sec3 rounded1 mid'>Kab. Banyumas</div>
+          </div>
         </div>
-        <div class='row'>
-          Penghitung mundur
+        <div class='col fixing8'>
+          <span class='bgmain margin1 sec rounded1 Albert900 sizeD'>Penghitung mundur :</span>
+          <span class='bgmain margin1 sec rounded1 Albert900 sizeD'>DAY | DATE | HOUR</span>
         </div>
-        <div class='row'>
-          <div class='col'>
+        <div class='row fixing9'>
+          <div class='col bgsec rounded1 marg'>
             <div class='row'>
-              image
+              <img src="https://www.katalogku.web.id/client/navigasi.svg" width='70px'>
             </div>
-            <div class='row'>
+            <div class='row bgmain sec Albert500 rounded1 mid margin1'>
               Navigasi
             </div>
           </div>
-          <div class='col'>
+          <div class='col bgsec rounded1 marg'>
            	<div class='row'>
-              image
+              <img src="https://www.katalogku.web.id/client/reminder.svg" width='70px'>
             </div>
-            <div class='row'>
+            <div class='row bgmain sec Albert500 rounded1 mid margin1'>
               Pengingat
             </div>
           </div>
         </div>
-        <div class='image'>
-          <img src="https://www.katalogku.web.id/client/flower1.png" width='100px'>
+        <div class='image flip2'>
+          <img src="https://www.katalogku.web.id/client/flower1.png" width='180px'>
         </div>
       </div>
     </div>
@@ -173,12 +377,12 @@ body{display:flex;flex-direction:column;margin:0px;height:100vh;height:-webkit-f
     <div class='page2'>
    	  <div class='border'>
         <div class='image'>
-          <img class="rounded-img margin1" src="https://www.katalogku.web.id/client/page4-1.png" width='100%'>
+          <img src="https://www.katalogku.web.id/client/page4-1.png" width='100%'>
         </div>
         <div class='text'>
           Tanpa mengurangi rasa hormat, kami sediakan E-Wallet dan alamat bagi anda yang ingin mengirim hadiah
         </div>
-        <div class='text'>
+        <div class='text'> 
           <span>Gift</span>
         </div>
         <div class='image'>
@@ -224,11 +428,12 @@ body{display:flex;flex-direction:column;margin:0px;height:100vh;height:-webkit-f
 
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script>
+  
   $(document).ready(function(){
 	
-	function showWindow(){
+	//function showWindow(){   // dsini
 	$('#modalf').show();
-	$('html body').css('overflow','hidden');
+	$('html body').css('overflow','hidden'); 
 	}
 						showWindow()
 	
@@ -242,13 +447,16 @@ body{display:flex;flex-direction:column;margin:0px;height:100vh;height:-webkit-f
 	$('#release').click(function(){
 							  hideWindow();
 	})
-})
+}) 
+ 
 
   var myMusic =
       document.getElementById('myMusic');
   function togglePlay() {
     return myMusic.paused ? myMusic.play() : myMusic.pause();
   };
+  
+  
   </script>
   
 </body>
