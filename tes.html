@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" translate='no'>
 <head>
 <meta charset="utf-8">
-<title>Example of Auto Loading Bootstrap Modal on Page Load</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0">
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+<title>Example tes</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 <style type='text/css'>
   html, body, *{box-sizing:border-box;}
   p{margin:0px;}
  html{scroll-behavior:smooth;height:-webkit-fill-available;} 
-body{display:flex;flex-direction:column;margin:0px;height:100vh;width:400px;height:-webkit-fill-available;border:1px red solid;}
-.container{margin:0px;width:400px;border:1px green solid;}
+body{display:flex;flex-direction:column;margin:0px;height:100vw;width:430px;height:-webkit-fill-available;border:1px red solid;}
+.container{margin:0px;width:430px;border:1px green solid;}
 #modalf{width:100vw;height:100vw;justify-content:center;position:absolute;top:0;left:0;display:none;background-color:rgb(33,33,33);transform:opacity(1);z-index:1;animation: myfade3 0.5s;}
 #modalf-2{box-sizing:border-box;width:100%;height:100vw;background-color:rgba(33,33,33,0.9);text-align:center;margin:0;animation:unfoldIn 1.5s;}
   
@@ -431,7 +431,7 @@ img.rounded-img {border-style: none;border-radius: 50px 50px 0px 0px;}
   
   $(document).ready(function(){
 	
-	//function showWindow(){   // dsini
+	function showWindow(){   // dsini
 	$('#modalf').show();
 	$('html body').css('overflow','hidden'); 
 	}
