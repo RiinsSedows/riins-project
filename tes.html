@@ -6,206 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="mobile-web-app-capable" content="yes">
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-<style type='text/css'>
-  html, body, *{box-sizing:border-box;}
-  p{margin:0px;}
- html{scroll-behavior:smooth;height:-webkit-fill-available;} 
-body{display:flex;flex-direction:column;margin:0px;height:100%;width:430px;height:-webkit-fill-available;border:1px red solid;}
-.container{margin:0px;width:430px;border:1px green solid;}
-#modalf{width:100%;height:100%;justify-content:center;position:absolute;top:0;left:0;display:none;background-color:rgb(33,33,33);transform:opacity(1);z-index:1;animation: myfade3 0.5s;}
-#modalf-2{box-sizing:border-box;width:100%;height:100%;background-color:rgba(33,33,33,0.9);text-align:center;margin:0;animation:unfoldIn 1.5s;}
-  
-  div{border: blue 1px solid;}
-  img{border: yellow 1px solid;}
-  a{border: magenta 1px solid;}
-  .row{display:flex;flex-direction:row;justify-content:center;align-items:center;}
-  .col{display:flex;flex-direction:column;justify-content:center;align-items:center;}
-  .cover{background-color:white;margin:50px;border-radius:20px;box-shadow:0px 0px 12px grey;transform:scale(1);transition:3s ease-in-out;} 
-	.cover-in{padding:50px;display:flex;justify-content:center;flex-direction:column;}
-  .none{display:none;}
-  
-  
-  /* coloring */
-.cyan{color:cyan;}
-.white{color:white;}
-.blue{color:blue;}
-.gradiant{background-color: blueviolet; width:80%;border-radius:15px;padding:5px;}
-.span-darkblue{background-color: darkcyan;color:white;border-style: none;border-radius: 12px;padding:7px;}
-.rounded1 {border-style: none;border-radius: 8px;}
-img.rounded-img {border-style: none;border-radius: 50px 50px 0px 0px;}
-.bgcol1{background-color: aquamarine;color:darkblue;}
-.bgcol2{background-color: blue;color:aliceblue;}
-.sticky{position: sticky;bottom:10px;}
-.main{color:#1789c5;}
-.sec{color:#0d5377;}
-.sec2{color:#0f75bc;}
-.sec3{color:#465a65;}
-.soft{color:#cfe5ec;}
-.bgmain{background-color:#cfe5ec;}
-.bgsec{background-color:#465a65;}
-.sedowtext{text-shadow:0px 0px 5px rgba(100,100,255,0.4);} /*cyan*/
-.sedowtext2{text-shadow:0px 0px 5px rgba(255,255,255,0.4);} /*white*/
-.sedowbox6{box-shadow:2px 2px 6px rgba(0,0,38,0.5);} /*darkblue*/
-.sedowbox3{box-shadow:0px 0px 7px rgba(0,0,38,0.3);} /*darkblue*/
-  span{padding:10px 16px;}
-  .mid{padding:3px 10px;}
-  button{padding:10px 16px;}
-  .invite{transform:scale(1)opacity(1);}
-  .invite:hover{transform:scale(1.2);border:2px solid rgba(00,255,220,0.7);transition:ease-in 0.1s;}
-  .invite:active{transform:opacity(0);transition:ease-in 0.1s;}
-  .margin1{margin:10px;}
-  .margin2{margin:15px;}
-  
-  
-  /* fonts */
-  .miracle{font-family: Miracle}
-@font-face{font-family: Miracle;src: url(https://www.katalogku.web.id/f/miracle.otf);}
-.patrick{font-family: Patrick}
-@font-face{font-family: Patrick;src: url(https://www.katalogku.web.id/f/patrick.ttf);}
-.great-vibes{font-family: Greatvibes}
-@font-face{font-family: Greatvibes;src: url(https://www.katalogku.web.id/f/greatvibes.ttf);}
-.Albert500{font-family: Albert500}
-@font-face{font-family: Albert500;src: url(https://www.katalogku.web.id/f/Albert500.ttf);}
-.Albert900{font-family: Albert900}
-@font-face{font-family: Albert900;src: url(https://www.katalogku.web.id/f/Albert900.ttf);}
-.Dosis{font-family: Dosis}
-@font-face{font-family: Dosis;src: url(https://www.katalogku.web.id/f/dosis.ttf);}
-.lily{font-family: Lily}
-@font-face{font-family: Lily;src: url(https://www.katalogku.web.id/f/lily.ttf);}
-.ohchewy{font-family: Ohchewy}
-@font-face{font-family: Ohchewy;src: url(https://www.katalogku.web.id/f/ohchewy.ttf);}
-  
-  /* size */
-  .sizeA{font-size: 50px;}
-  .sizeB{font-size: 40px;}
-  .sizeC{font-size: 30px;}
-  .sizeD{font-size: 20px;}
-  .sizeE{font-size: 13px;}
-  
-  
-  /* animate */
-  .scale{position:relative;animation:myfade 4s;}
-  .fade{position:relative;animation:myfade2 3s;}
-  .fade2s{position:relative;animation:myfade2 5s;}
-  .fade3{position:relative;animation:myfade3 4s;}
-  .idle{position:relative;animation:idle 9s infinite ease-in-out;}
-  .outlines{position:relative;animation:myoutlines 4s infinite;}
-  .highlight{position:relative;animation:highlight 4s infinite;}
-  @keyframes myfade {
-    from{opacity:0;transform:scale(0);}
-    to{opacity:1;transform:scale(1);}}
-  .outlines{position:relative;animation:myoutlines 4s;}
-  @keyframes myfade2 {
-    from{opacity:0;transform:scaleX(0)scaleY(-1)scale(0);}
-    to{opacity:1;transform:scaleX(1)scaleY(1);}} 
-  .outlines{position:relative;animation:myoutlines 2s infinite;}
-  @keyframes myfade3 {
-    from{opacity:0;}
-    to{opacity:1;}}
-  @keyframes myoutlines{
-    0%{text-shadow:0px 5px 10px rgba(00,99,00,0.7);}
-    50%{text-shadow:0px 5px 10px rgba(00,99,99,0.7);}
-    100%{text-shadow:0px 5px 10px rgba(00,99,00,0.7);}}
-  @keyframes idle {
-    0%{transform:scaleX(1)scaleY(1)skewX(0deg)skewY(0deg)rotate(0deg);}
-    50%{transform:scaleX(0.9)scaleY(1)skewX(1deg)skewY(-5deg)rotate(1deg)scale(1.1);}}
-  	100%{transform:scaleX(1)scaleY(1)skewX(0deg)skewY(0deg)rotate(0deg);}
-  @keyframes highlight{
-    0%{color:rgba(00,59,100,1);}
-    50%{color:rgba(00,79,159,1);}
-    100%{color:rgba(00,59,100,1);}}
-  
-  @keyframes unfoldIn {
-  0% {
-    transform:scaleY(.005) scaleX(0);
-  }
-  50% {
-    transform:scaleY(.005) scaleX(1);
-  }
-  100% {
-    transform:scaleY(1) scaleX(1);
-  }
-}
-
-@keyframes unfoldOut {
-  0% {
-    transform:scaleY(1) scaleX(1);
-  }
-  50% {
-    transform:scaleY(.005) scaleX(1);
-  }
-  100% {
-    transform:scaleY(.005) scaleX(0);
-  }
-}
-
-@keyframes zoomIn {
-  0% {
-    transform:scale(0);
-  }
-  100% {
-    transform:scale(1);
-  }
-}
-
-@keyframes zoomOut {
-  0% {
-    transform:scale(1);
-  }
-  100% {
-    transform:scale(0);
-  }
-}
-  
-    
-  
-  /* grading */
-  .css-selector {
-    background: linear-gradient(125deg, #17fdc2, #1c919d, #17fdea);
-    background-size: 100% 100%;
-
-    -webkit-animation: bgcover 6s ease infinite;
-    -moz-animation: bgcover 6s ease infinite;
-    animation: bgcover 6s ease infinite;
-}
-
-@-webkit-keyframes bgcover {
-    0%{background-position:0% 88%}
-    50%{background-position:100% 13%}
-    100%{background-position:0% 88%}
-}
-@-moz-keyframes bgcover {
-    0%{background-position:0% 88%}
-    50%{background-position:100% 13%}
-    100%{background-position:0% 88%}
-}
-@keyframes bgcover {
-    0%{background-position:0% 88%}
-    50%{background-position:100% 13%}
-    100%{background-position:0% 88%}
-}
-  
-  
-  .fixing{position:relative;top:-340px;right:-85px;}
-  .fixing2{position:relative;top:-170px;}
-  .border2{display:block;width:100%;height:2rem;}
-  .fixing3{position:relative;top:-100px;}
-  .ctr{text-align:center;}
-  .flip1{display:flex;position:relative;transform:translateX(130%)rotate(180deg);}
-  .bg{background: url(https://www.katalogku.web.id/client/topbg.svg);background-size:contain;;background-position:center;background-repeat:no-repeat;width:400px;height:160px;object-fit:contain;}
-  .fixing4{position:relative;top:16px;}
-  .fixing5{position:relative;top:-125px;left:-23px;}
-  .fixing6{position:relative;top:-110px;}
-  .fixing7{position:relative;top:-39px;right:-30px;}
-  .fixing8{position:relative;top:-110px;}
-  .fixing9{position:relative;top:-70px;}
-  .bg2{background: url(https://www.katalogku.web.id/client/newtopbg.png);background-size:contain;background-position:center;background-repeat:no-repeat;height:310px;object-fit:contain;}
-  .bg3{background: url(https://www.katalogku.web.id/client/newbotbg.png);background-size:contain;background-position:center;background-repeat:no-repeat;height:310px;object-fit:contain;}
-  .date{position:relative;bottom:-27px;left:-25px;}
-  .marg{margin:5px;}
-  .flip2{position:relative;transform:rotateX(180deg);top:-50px;}
-  
-</style>-
+  <link rel="stylesheet" type="text/css" href="./css/req-blue-sky.css">
   
 </head>
 <body>
@@ -214,7 +15,7 @@ img.rounded-img {border-style: none;border-radius: 50px 50px 0px 0px;}
 </audio>
 
 <!--cover-->
-<div id='modalf'>      /////// disini
+<div id='modalf'>
 	<div id='modalf-2'>
 	<div class='cover'>
       <div class='cover-in'>
@@ -242,42 +43,65 @@ img.rounded-img {border-style: none;border-radius: 50px 50px 0px 0px;}
   </div>
   
   <!--page1-->
-  <div class='container col'>
+  <div class='container'>
+    <div class="inline1">
+      <div class="page">
+        <div class="cont1 col">
+          <div class="border">
     <div class='border2'></div>
-    <div class='image'>
-      <img src="https://www.katalogku.web.id/client/page1-1.png">
+    <div class='col'>
+      <img src="https://www.katalogku.web.id/client/page1-1.svg" width="60%">
     </div>
     <div class='border2'></div>
     <div class='col margin2'>
       <div>
-      	<a class='margin1 sizeB great-vibes sedowtext main'>Save The Date</a>
+      	<a class='margin1 sizeA great-vibes sedowtext main'>Save The Date</a>
       </div>
       <div>
       	<a class='Albert900 sec sizeE'>FOR THE WEDDING OF</a>
       </div>
     </div>
     <div class='image col'>
-      <img src="https://www.katalogku.web.id/client/page1-2.png" width="400px">
+      <img class='z1 idle'src="https://www.katalogku.web.id/client/page1-2.svg" width="400px">
     </div>
-    <div class='fixing'>
-      <img src="https://www.katalogku.web.id/client/page1-3.png" width='200px'>
+    <div class='fixing row'>
+      <img class='idle' src="https://www.katalogku.web.id/client/page1-3.svg" width='200px'>
     </div>
-    <div class='col fixing2'>
-      <a class='margin1 sizeA sec sedowtext'>04 | 01 | 2023</a>
-      <span class='sizeD Dosis bgmain sec rounded1'>GERDUREN, PURWOJATI</span>
+    <div class="col">
+    <div class='birdbox'>
+      <video autoplay muted loop type="video/mp4">
+        <source src="./client/bird.mp4">
+      </video>
+        <div class="bird col">
+        <a class='margin1 sizeB sec sedowtext Albert900'>04 | 01 | 2023</a>
+      <span class='sizeD margin2 Dosis bgmain sec rounded1 sedowbox6'>GERDUREN, PURWOJATI</span>
+        </div>
+        <div class='col'>
+        <span class="bgsec soft rounded2 mid sizeC">
+          Atur pengingat disini
+        </span>
+      </div>
+    </div> 
     </div>
-    <div class='col fixing3'>
-      <img src="https://www.katalogku.web.id/client/page1-4.png" width='90%'>
     </div>
+    </div>
+    </div>
+    <div class='col'>
+      <img src="https://www.katalogku.web.id/client/page1-4.svg" width='90%'>
+    </div>
+    </div>
+  </div>
   </div>
   
   <!--page2-->
   <div class='container'>
+  <div class="inline2">
+    <div>
+    <img class="br idleflower" src="https://www.katalogku.web.id/client/flower1.png">
+    </div>
     <div class='page2'>
-    	<div class='border'>
-      		<div class='image'>
-              <img src="https://www.katalogku.web.id/client/flower1.png" width='170px'>
-            </div>
+      <div class="cont z1">
+    	  <div class='border'>
           	<div class='text col ctr sedowtext'>
               <div class='par sizeD sec Dosis'>
               	<a>
@@ -293,7 +117,7 @@ img.rounded-img {border-style: none;border-radius: 50px 50px 0px 0px;}
               	</a>
               </div>
               <div class='image'>
-                <img src="https://www.katalogku.web.id/client/loveyou.png" width='150px'>
+                <img class='idle' src="https://www.katalogku.web.id/client/loveyou.svg" width='150px'>
               </div>
               <div class='bg margin2 sizeD sec Dosis'>
               	<a class='fixing4'>
@@ -303,16 +127,20 @@ img.rounded-img {border-style: none;border-radius: 50px 50px 0px 0px;}
               	</a>
               </div>
             </div>
-          <div class='image'>
-            <img class='flip1' src="https://www.katalogku.web.id/client/flower1.png" width='170px'>
-          </div>
       	</div>
+      </div>
+      <div class='forflip'>
+        <img class='flip1 idle2' src="https://www.katalogku.web.id/client/flower1.png" width='220px'>
+      </div>
     </div>
+  </div>
   </div>
   
   <!--page3-->
   <div class='container'>
-    <div class='page2'>
+    <div class='inline3'>
+      <div class="page">
+        <div class="cont3 z1">
    	  <div class='border'>
         <div class='row bg2'>
           <div class='col date'>
@@ -365,40 +193,44 @@ img.rounded-img {border-style: none;border-radius: 50px 50px 0px 0px;}
             </div>
           </div>
         </div>
-        <div class='image flip2'>
-          <img src="https://www.katalogku.web.id/client/flower1.png" width='180px'>
-        </div>
+      </div>
+      </div>
+      <div class='image flip3'>
+        <img class='idle3' src="https://www.katalogku.web.id/client/flower1.png" width='180px'>
+      </div>
       </div>
     </div>
   </div>
   
   <!--page3-->
   <div class='container'>
-    <div class='page2'>
-   	  <div class='border'>
-        <div class='image'>
-          <img src="https://www.katalogku.web.id/client/page4-1.png" width='100%'>
+    <div class='inline'>
+      <div class='page'>
+        <div class='cont1 col'>
+   	  <div class='border col'>
+        <div>
+          <img class='belt' src="https://www.katalogku.web.id/client/page4-1.svg" width='100%'>
         </div>
-        <div class='text'>
+        <div class='text sizeE margin1 patrick sec sedowtext'>
           Tanpa mengurangi rasa hormat, kami sediakan E-Wallet dan alamat bagi anda yang ingin mengirim hadiah
         </div>
         <div class='text'> 
-          <span>Gift</span>
+          <span class="bgmain sec margin2 Albert500 mid rounded1 sedowbox6"> KLIK DISINI </span>
         </div>
-        <div class='image'>
-          <img class="scale" src="https://www.katalogku.web.id/client/page4-2.png" width='100%'>
+        <div class='margin2 col'>
+          <img class="" src="https://www.katalogku.web.id/client/page4-2.svg" width='80%'>
         </div>
-        <div class='text'>
-          Tanpa mengurangi rasa hormat, kami sediakan E-Wallet dan alamat bagi anda yang ingin mengirim hadiah
+        <div class='text sizeE margin1 patrick sec sedowtext'>
+          Merupakan suatu kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir dan memberikan do'a restu pada kami
         </div>
-		<div class='text'>
+		<div class='text lily sizeD sec sedowtext margin2'>
           Terima Kasih
         </div>
-        <div class='text'>
+        <div class='text great-vibes sizeB main sedowtext margin2'>
           Gino & Widi
         </div>
-        <div class='image'>
-          <img src="https://www.katalogku.web.id/client/page4-3.png" width='100%'>
+        <div class='col margin1'>
+          <img src="https://www.katalogku.web.id/client/page4-3.svg" width='70%'>
         </div>
         <div class='row'>
           <div class='image'>
@@ -414,9 +246,11 @@ img.rounded-img {border-style: none;border-radius: 50px 50px 0px 0px;}
             <img src="https://www.katalogku.web.id/client/flower2.png" width='40px'>
           </div>
         </div>
-        <div class='text'>
-          Bikin link undangan simpel? cek disini
+        <div class='col'>
+          <span class='myw Dosis'>Bikin link undangan simpel? cek disini</span>
         </div>
+      </div>
+      </div>
       </div>
     </div>
   </div>
@@ -431,7 +265,7 @@ img.rounded-img {border-style: none;border-radius: 50px 50px 0px 0px;}
   
   $(document).ready(function(){
 	
-	function showWindow(){   // dsini
+	//function showWindow(){   // dsini
 	$('#modalf').show();
 	$('html body').css('overflow','hidden'); 
 	}
