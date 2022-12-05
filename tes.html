@@ -15,7 +15,7 @@
 </audio>
 
 <!--cover-->
-<div id='modalf'>
+<div id='modalf z2'>
 	<div id='modalf-2'>
 	<div class='cover'>
       <div class='cover-in'>
@@ -41,7 +41,7 @@
 	</div>
 	</div>
   </div>
-  
+  <div id='progress-bar'></div>
   <!--page1-->
   <div class='container'>
     <div class="inline1">
@@ -138,8 +138,8 @@
   
   <!--page3-->
   <div class='container'>
-    <div class='inline3'>
-      <div class="page">
+    <div class='inline4'>
+      <div class="page2">
         <div class="cont3 z1">
    	  <div class='border'>
         <div class='row bg2'>
@@ -165,36 +165,52 @@
         </div>
         <div class='col bg3 fixing6'>
           <div class='fixing7 sizeE Albert500'>
-            <div class='marg bgsec soft rounded1 mid'>Kalipandan RT 01 RW 04</div>
-            <div class='marg bgmain sec3 rounded1 mid'>Desa Gerduren</div>
-            <div class='marg bgsec soft rounded1 mid'>Kec. Purwojati</div>
-            <div class='marg bgmain sec3 rounded1 mid'>Kab. Banyumas</div>
+            <div class='marg bgsec soft rounded1 mid change1'>Kalipandan RT 01 RW 04</div>
+            <div class='marg bgmain sec3 rounded1 mid change2'>Desa Gerduren</div>
+            <div class='marg bgsec soft rounded1 mid change3'>Kec. Purwojati</div>
+            <div class='marg bgmain sec3 rounded1 mid change4'>Kab. Banyumas</div>
           </div>
         </div>
         <div class='col fixing8'>
           <span class='bgmain margin1 sec rounded1 Albert900 sizeD'>Penghitung mundur :</span>
-          <span class='bgmain margin1 sec rounded1 Albert900 sizeD'>DAY | DATE | HOUR</span>
+          <div class='col margin1'>
+            <div class='datex row'>
+              <div class='col margin1'>
+              <div class="datetable Albert900 sizeC" id="tanggal"></div>
+              <span class="bgmain sec rounded1 sedowbox3 Albert500 sizeE">HARI</span>
+              </div>
+              <div class='col margin1'>
+              <div class="datetable Albert900 sizeC" id="jam"></div>
+              <span class="bgmain sec rounded1 sedowbox3 Albert500 sizeE">JAM</span>
+              </div>
+              <div class='col margin1'>
+              <div class="datetable Albert900 sizeC" id="menit"></div>
+              <span class="bgmain sec rounded1 sedowbox3 Albert500 sizeE">MENIT</span>
+              </div>
+              <div class='col margin1'>
+              <div class="datetable Albert900 sizeC" id="detik"></div>
+              <span class="bgmain sec rounded1 sedowbox3 Albert500 sizeE">DETIK</span>
+              </div>
+            </div>
+          </div>
         </div>
         <div class='row fixing9'>
-          <div class='col bgsec rounded1 marg'>
-            <div class='row'>
-              <img src="https://www.katalogku.web.id/client/navigasi.svg" width='70px'>
-            </div>
-            <div class='row bgmain sec Albert500 rounded1 mid margin1'>
+          <div class='col rounded1'>
+            <div class='row bgmain sec Albert500 rounded1 mid margin2 sedowbox6'>
               Navigasi
             </div>
-          </div>
-          <div class='col bgsec rounded1 marg'>
-           	<div class='row'>
-              <img src="https://www.katalogku.web.id/client/reminder.svg" width='70px'>
-            </div>
-            <div class='row bgmain sec Albert500 rounded1 mid margin1'>
-              Pengingat
+            <div class="mapouter sedowbox6"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=370&amp;height=250&amp;hl=en&amp;q=-7.519257, 109.081250&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://formatjson.org/word-counter"></a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:250px;border-radius:25px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:250px;border-radius:25px;}.gmap_iframe {border-radius:25px;height:250px!important;}</style></div>
+            <div class='row'>
+              <div class="margin1 row">
+                  <a href="https://www.google.co.id/maps/dir//Gerduren,+Kec.+Purwojati,+Kabupaten+Banyumas,+Jawa+Tengah/@-7.51139,109.0168892,12z/data=!4m9!4m8!1m0!1m5!1m1!1s0x2e6565e3e01b386d:0x5027a76e3550030!2m2!1d109.0869316!2d-7.5113955!3e0"><button class="bgmain margin1 sec mid Albert500 rounded1 sedowbox6">Mobil</button></a>
+                  <a href="https://www.google.co.id/maps/dir//Gerduren,+Kec.+Purwojati,+Kabupaten+Banyumas,+Jawa+Tengah/@-7.51139,109.0168892,12z/data=!3m1!4b1!4m9!4m8!1m0!1m5!1m1!1s0x2e6565e3e01b386d:0x5027a76e3550030!2m2!1d109.0869316!2d-7.5113955!3e1"><button class="bgmain margin1 sec mid Albert500 rounded1 sedowbox6">Motor</button></a>
+                  <a href="https://www.google.co.id/maps/dir//Gerduren,+Kec.+Purwojati,+Kabupaten+Banyumas,+Jawa+Tengah/@-7.51139,109.0168892,12z/data=!3m1!4b1!4m9!4m8!1m0!1m5!1m1!1s0x2e6565e3e01b386d:0x5027a76e3550030!2m2!1d109.0869316!2d-7.5113955!3e2"><button class="bgmain margin1 sec mid Albert500 rounded1 sedowbox6">Jalan Kaki</button></a>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      </div>
+    </div>
       <div class='image flip3'>
         <img class='idle3' src="https://www.katalogku.web.id/client/flower1.png" width='180px'>
       </div>
@@ -265,7 +281,7 @@
   
   $(document).ready(function(){
 	
-	//function showWindow(){   // dsini
+	function showWindow(){   // dsini
 	$('#modalf').show();
 	$('html body').css('overflow','hidden'); 
 	}
@@ -289,7 +305,42 @@
   function togglePlay() {
     return myMusic.paused ? myMusic.play() : myMusic.pause();
   };
+
+var countDownDate = new Date("Jan 3, 2023 00:00:00").getTime();
+var x = setInterval(function() {
+  var now = new Date().getTime();
+  var distance = countDownDate - now;
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
   
+  document.getElementById("tanggal").innerHTML = days + "";
+  document.getElementById("jam").innerHTML = hours + "";
+  document.getElementById("menit").innerHTML = minutes + "";
+  document.getElementById("detik").innerHTML = seconds + "";
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("tanggal").innerHTML = "EXPIRED";
+    document.getElementById("jam").innerHTML = "EXPIRED";
+    document.getElementById("menit").innerHTML = "EXPIRED";
+    document.getElementById("detik").innerHTML = "EXPIRED";
+  }
+}, 1000);
+
+let processScroll = () => {
+  let docElem = document.documentElement, 
+    docBody = document.body,
+    scrollTop = docElem['scrollTop'] || docBody['scrollTop'],
+      scrollBottom = (docElem['scrollHeight'] || docBody['scrollHeight']) - window.innerHeight,
+    scrollPercent = scrollTop / scrollBottom * 100 + '%';
+  
+  // console.log(scrollTop + ' / ' + scrollBottom + ' / ' + scrollPercent);
+  
+    document.getElementById("progress-bar").style.setProperty("--scrollAmount", scrollPercent); 
+}
+
+document.addEventListener('scroll', processScroll);
   
   </script>
   
