@@ -2,7 +2,7 @@ html, body, *{box-sizing:border-box;}
   p{margin:0px;}
  html{scroll-behavior:smooth;} 
  div{border: 2px yellow solid;}
-body{background-image: url(https://www.katalogku.web.id/client/newpage.png);background-size:cover;padding:0;margin:0;height:100vh;}
+body{background-image: url(https://www.katalogku.web.id/client/newpage.png);background-size:cover;width:430px;padding:0;margin:0;height:100vh;}
 .container{margin:0;background-color:rgba(10,50,90,0.3);width:430px;border:red 2px solid;}
 #modalf{position:absolute;top:0;left:0;background-image: url(https://www.katalogku.web.id/client/newpage.png);background-size:cover;transform:opacity(1);height:100%;animation: myfade3 0.5s;}
 #modalf-2{text-align:center;margin:0;padding:0;animation:unfoldIn 1.5s;}
