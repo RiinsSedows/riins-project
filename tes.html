@@ -16,6 +16,7 @@
 
 <!--cover-->
   <div class='z99' id='progress-bar'></div>
+  <div id='overlay' class='loader'></div>
   <!--page1-->
   <div>
       <div class='container'>
@@ -252,6 +253,10 @@
 
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script>
+  $(window).load(function(){
+    $('#overlay').fadeOut();
+  });
+
   var x = document.getElementById("myMusic").autoplay = true;
 
   var myMusic =
