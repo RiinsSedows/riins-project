@@ -15,35 +15,10 @@
 </audio>
 
 <!--cover-->
-<div id='modalf z2'>
-	<div id='modalf-2'>
-	<div class='cover'>
-      <div class='cover-in'>
-        <div class='image scale'> 
-          <img class='idle' src="https://www.katalogku.web.id/client/cover1.png" height="250">
-        </div>
-        <div class='inv miracle sec2 highlight outlines'>
-          <a class='fade3 sizeA'> You Are Invited!</a>
-        </div>
-        <div class='image fade2s'>
-          <img src="https://www.katalogku.web.id/client/cover2.png" width="60%">
-        </div>
-        <div class='to'>
-          <div>
-            <div class='margin1 sec Albert500'>Kepada Yth.</div>
-            <span class='bgmain sec rounded1 Albert900 sedowbox6'>MR. SUPRIYADI</span>
-            </div>
-        </div>
-        <div class='margin2'>
-          <button class='invite bgsec soft rounded1 Albert500 sedowbox6' id="release" onclick="togglePlay()">BUKA UNDANGAN</button>
-        </div>
-      </div>
-	</div>
-	</div>
-  </div>
   <div id='progress-bar'></div>
   <!--page1-->
-  <div class='container'>
+  <div>
+      <div class='container'>
     <div class="inline1">
       <div class="page">
         <div class="cont1 col">
@@ -270,6 +245,7 @@
       </div>
     </div>
   </div>
+</div>
   
   
   
@@ -278,28 +254,6 @@
 
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script>
-  
-  $(document).ready(function(){
-	
-	function showWindow(){   // dsini
-	$('#modalf').show();
-	$('html body').css('overflow','hidden'); 
-	}
-						showWindow()
-	
-	function hideWindow(){
-		$('#modalf').hide();
-		$('html body').css('overflow','scroll');
-		
-		
-	}
-	
-	$('#release').click(function(){
-							  hideWindow();
-	})
-}) 
- 
-
   var myMusic =
       document.getElementById('myMusic');
   function togglePlay() {

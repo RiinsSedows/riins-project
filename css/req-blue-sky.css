@@ -1,10 +1,10 @@
 html, body, *{box-sizing:border-box;} 
   p{margin:0px;}
  html{scroll-behavior:smooth;} 
-body{background-image: url(https://www.katalogku.web.id/client/newpage.png);background-size:contain;justify-content: center;padding: 0%; display:flex;flex-direction:column;margin:0px 0px;height:100%;width:430px;top:0;left:0;}
-.container{display:flex;justify-content: center;margin:0px;width:430px;background-color:rgba(10,50,90,0.3)}
-#modalf{width:100%;height:100%;justify-content:center;position:absolute;top:0;left:0;display:none;background-color:rgb(33,33,33);transform:opacity(1);z-index:1;animation: myfade3 0.5s;}
-#modalf-2{box-sizing:border-box;width:100%;height:100%;background-color:rgba(33,33,33,0.9);text-align:center;margin:0;animation:unfoldIn 1.5s;}
+body{background-image: url(https://www.katalogku.web.id/client/newpage.png);background-size:cover;padding:0;margin:0;height:100vh;}
+.container{margin:0;background-color:rgba(10,50,90,0.3);}
+#modalf{position:absolute;top:0;left:0;background-image: url(https://www.katalogku.web.id/client/newpage.png);background-size:cover;transform:opacity(1);animation: myfade3 0.5s;}
+#modalf-2{text-align:center;margin:0;padding:0;animation:unfoldIn 1.5s;}
 .inline{background-image: url(https://www.katalogku.web.id/client/newpage.png);background-size:cover;border-radius: 100px;box-shadow: 0px 0px 15px rgba(0,0,38,0.3);}
 .inline1{background-image: url(https://www.katalogku.web.id/client/newpage.png);background-size:cover;border-radius: 100px;box-shadow: 0px 0px 15px rgba(0,0,38,0.3);position:relative;height:970px}
 .inline2{background-image: url(https://www.katalogku.web.id/client/newpage.png);background-size:cover;border-radius: 100px;box-shadow: 0px 0px 15px rgba(0,0,38,0.3);position:relative;height:800px}
@@ -20,7 +20,7 @@ body{background-image: url(https://www.katalogku.web.id/client/newpage.png);back
   /*  background: linear-gradient(to right, #F24E1E var(--scrollAmount), transparent 0);
   width: 100%; */
   
-  height: 2px;
+  height: 5px;
   position: fixed;
   top: 0;
 }
@@ -47,7 +47,7 @@ body{background-image: url(https://www.katalogku.web.id/client/newpage.png);back
   .row{display:flex;flex-direction:row;justify-content:center;align-items:center;}
   .col{display:flex;flex-direction:column;justify-content:center;align-items:center;}
   .cover{background-color:white;margin:50px;border-radius:20px;box-shadow:0px 0px 12px grey;transform:scale(1);transition:3s ease-in-out;} 
-	.cover-in{padding:50px;display:flex;justify-content:center;flex-direction:column;}
+	.cover-in{padding:20px;display:flex;justify-content:center;flex-direction:column;}
   .none{display:none;}
   
   
