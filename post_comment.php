@@ -1,7 +1,7 @@
 <?php
 require('Persistence.php');
 
-$ajax = ($_SERVER[ 'HTTP_X_REQUESTED_WITH' ] === 'XMLHttpRequest');
+$ajax = ($_SERVER[ 'HTTPS_X_REQUESTED_WITH' ] === 'XMLHttpsRequest');
 
 $db = new Persistence();
 $added = $db->add_comment($_POST);
