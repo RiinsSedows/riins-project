@@ -6,7 +6,9 @@
   <meta name="viewport" content='width=device-width'>
   <meta name="mobile-web-app-capable" content="yes">
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="stylesheet" type="text/css" href="./css/req-blue-sky.css">
+  <link rel="stylesheet" type="text/css" href="/lib/Interact_PHP/css/creative.css">
   
 </head>
 <body>
@@ -244,12 +246,40 @@
       </div>
       </div>
   </div>
-    <?php
-    include_once($_SERVER['DOCUMENT_ROOT'].'/lib/Interact_PHP/Interact_PHP.php');
-    \Interact_PHP\Interact_PHP();
-    ?>
+  <div style="width: 100%">
+    <div class="comment-box">
+    
+    <p class="comment-title">What is on your mind?</p>
+    
+        
+      <noscript>
+      <style>#commentForm {display:none;}</style>
+      <p class="text-muted text-center">Please enable javascript to comment.</p>
+      </noscript>
+      
+      <form class="comment-form" method="post" action="/lib/Interact_PHP/postComment.php" id="commentForm" onsubmit="return interactphpSubmit()">
+      <div id="interactphp-alert" class="hidden" role="alert">Error sending comment...</div>
+      
+      <label class="sr-only" for="interactphp-message">Comment</label>
+      <textarea id="interactphp-message" class="input" name="message" rows="3" required maxlength="2000" placeholder="Enter your comment..." onblur="recaptchaDisplay()"></textarea>
+      
+      <div class="input-group">
+      <div class="interactphp-nickname">
+      <label class="sr-only" for="interactphp-name">Nickname</label>
+      <input id="interactphp-name" class="input" type="text" name="name" placeholder="Nickname" maxlength="30" required onblur="recaptchaDisplay()">
+      </div>
+      
+      <div class="interactphp-submit">
+      <button class="input" type="submit"><span class="fa fa-comment"></span> Submit</button>
+      </div>
+      </div>
+      
+      <input type="text" class="hidden" name="page" value="interact-php-comment-system">
+    </form>
 
-
+    <ul class="comment-list"></ul>
+    </div>
+  </div>
   <div class='navbar col'>
     <div class='contentnavbar row'>
       <div>
@@ -266,6 +296,7 @@
 
   
 </div>
+<script src="/lib/Interact_PHP/js/interact.min.js"></script>
 <script async="true" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script async="true">
   $(window).load(function(){
