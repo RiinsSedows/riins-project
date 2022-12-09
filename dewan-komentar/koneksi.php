@@ -1,7 +1,7 @@
 <?php
 define('HOST','localhost');
-define('USER','root');
-define('PASS','');
+define('USER','riins');
+define('PASS','infinity6699');
 define('DB1', 'db_dewankomputer');
 
 // Buat Koneksinya
