@@ -23,7 +23,7 @@ class DataSource
 
     const PASSWORD = '';
 
-    const DATABASENAME = 'comments_system';
+    const DATABASENAME = 'tbl_komentar';
 
     private $conn;
 
