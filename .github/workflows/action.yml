@@ -1,0 +1,6 @@
+steps:
+- uses: actions/checkout@v3
+- uses: nanasess/setup-php@v3
+  with:
+    php-version: '7.4'
+- run: php my_script.php
