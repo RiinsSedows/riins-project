@@ -1,9 +1,0 @@
-<IfModule mod_rewrite.c>
-RewriteEngine on
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^(.*)$ $1.html
-RewriteCond %{HTTP_HOST} ^katalogku\.web.id [NC]
-RewriteCond %{SERVER_PORT} 80
-RewriteRule ^(.*)$ https://www.katalogku.web.id/$1 [R,L]
-</IfModule>    
